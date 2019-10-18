@@ -1,0 +1,361 @@
+.front {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #666;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  transition: 2s;
+  overflow: hidden;
+}
+
+.front .gatsby-image-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.front img {
+  filter: brightness(90%);
+  z-index: 0;
+  overflow: hidden;
+}
+
+.first {
+  animation: cycle 25s linear infinite;
+}
+
+.second {
+  animation: cycletwo 25s linear infinite;
+}
+
+.third {
+  animation: cyclethree 25s linear infinite;
+}
+
+.forth {
+  animation: cyclefour 25s linear infinite;
+}
+
+.fifth {
+  animation: cyclefive 25s linear infinite;
+}
+@keyframes cycle {
+  0%  { left: 0px; } /* When you start the slide, the first image is already visible */
+  4%  { left: 0px; } /* Original Position */
+  16% { left: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
+  20% { left: 325px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+  21% { left: -325px; opacity: 0; z-index: -1; } /* Return to Original Position */
+  92% { left: -325px; opacity: 0; z-index: 0; }
+  96% { left: -325px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+  100%{ left: 0px; opacity: 1; }
+}
+
+@keyframes cycletwo {
+  0%  { left: 0px; opacity: 0; } /* Original Position */
+  16% { left: 0px; opacity: 0; }/* Starts moving after 16% to this position */
+  20% { left: 0px; opacity: 1; }
+  24% { left: 0px; opacity: 1; }  /* From 20% to 24% = for 1 second enter image*/
+  36% { left: 0px; opacity: 1; z-index: 0; }   /* From 24% to 36 % = for 3 seconds the image is visible */
+  40% { left: 325px; opacity: 0; z-index: 0; } /* From 36% to 40% = for 1 second exit image */
+  41% { left: -325px; opacity: 0; z-index: -1; }   /* Return to Original Position */
+  100%{ left: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclethree {
+  0%  { left: 0px; opacity: 0; }
+  36% { left: 0px; opacity: 0; }
+  40% { left: 0px; opacity: 1; }
+  44% { left: 0px; opacity: 1; }
+  56% { left: 0px; opacity: 1; }
+  60% { left: 325px; opacity: 0; z-index: 0; }
+  61% { left: -325px; opacity: 0; z-index: -1; }
+  100%{ left: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefour {
+  0%  { left: 0px; opacity: 0; }
+  56% { left: 0px; opacity: 0; }
+  60% { left: 0px; opacity: 1; }
+  64% { left: 0px; opacity: 1; }
+  76% { left: 0px; opacity: 1; z-index: 0; }
+  80% { left: 325px; opacity: 0; z-index: 0; }
+  81% { left: -325px; opacity: 0; z-index: -1; }
+  100%{ left: -325px; opacity: 0; z-index: -1; }
+}
+@keyframes cyclefive {
+  0%  { left: -325px; opacity: 0; }
+  76% { left: -325px; opacity: 0; }
+  80% { left: 0px; opacity: 1; }
+  84% { left: 0px; opacity: 1; }
+  96% { left: 0px; opacity: 1; z-index: 0; }
+  100%{ left: 325px; opacity: 0; z-index: 0; }
+}
+
+
+
+
+.front h1 {
+  position: absolute;
+  font-size: 50px;
+  bottom: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 15px;
+  color: #F7F4F2;
+  z-index: 10;
+}
+
+.timer {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #fa9200;
+  z-index: 5;
+  animation-name: pulsate;
+  animation-delay: 0;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: #F7F4F2;
+  z-index: 2;
+  text-align: center;
+}
+
+.lead h1 {
+  font-size: 50px;
+  margin: 50px 0;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 15px;
+}
+
+.lead p {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 20px;
+}
+
+.lead a, .info a {
+  margin-top: 50px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+}
+
+.info {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F7F4F2;
+  z-index: 2;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+.infoLeft, .infoRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80vh;
+  width: 50%;
+}
+
+.infoLeft {
+  border-right: 2px solid #222; 
+}
+
+.infoTitle {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.infoHeader {
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  letter-spacing: 10px;
+  margin: 50px;
+}
+
+.infoPicture {
+  flex-grow: 1;
+  min-height: 100%;
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoDescription {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  width: 80%;
+  line-height: 45px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.news {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fa9200;
+  z-index: 2;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+.newsMap {
+  min-height: 40vh;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsMap h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-top: 50px;
+}
+
+.newsMiddle, .newsRight {
+  min-height: 0vh;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 2px solid black;
+}
+
+.newsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.newsItem h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.newsItem p {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .front {
+    height: 100vh;
+  }
+  
+  a {
+    font-size: 1.2rem;
+  }
+  
+  .info {
+    flex-direction: column;
+  }
+
+  .infoLeft, .infoRight {
+    min-height: 50vh;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .infoLeft {
+    border-right: 0px solid #222; 
+    border-bottom: 2px solid #222;
+  }
+
+  .infoTitle {
+    font-size: 1.2rem;
+  }
+  .infoHeader {
+    width: 100%;
+  }
+
+  .news {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .newsMap {
+    width: 100%;
+    border-bottom: 2px solid #222;
+  }
+  .newsMap iframe {
+    height: 80%;
+    width: auto;
+  }
+
+  .newsMap h4 {
+    position: relative;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0 0 20px 0;
+  }
+
+
+  .newsMiddle, .newsRight {
+
+    width: 80%;
+    border-left: 0px solid black;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .newsItem {
+    padding: 20px 0;
+  }
+  .newsItem h4 {
+    font-size: 2rem;
+  }
+
+  .newsItem p {
+    font-size: 1.2rem;
+
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}

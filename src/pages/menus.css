@@ -1,0 +1,41 @@
+.containerMenu {
+  margin-top: 50px;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+  padding: 10px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
+}
+
+.containerMenu h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+div.menuPhoto.gatsby-image-wrapper {
+  max-height: 200px;
+}
+
+.menuLead {
+  font-size: 0.8em;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.menuFood {
+  line-height: 45px;
+}
+
+.menuTitle {
+  font-size: 1.2em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.menuFood p {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.6em;
+  margin: 20px;
+}
+

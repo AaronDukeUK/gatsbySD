@@ -1,0 +1,41 @@
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: #F7F4F2;
+  z-index: 3;
+  padding: 10px 0;
+}
+
+.menu div {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  font-family: 'Anton', sans-serif;
+  margin: 20px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .menuItem {
+    margin: 30px;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
