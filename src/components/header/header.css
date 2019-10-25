@@ -17,17 +17,24 @@
   flex-direction: column;
 }
 
+.hiddenNav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .menuItem {
   font-family: 'Anton', sans-serif;
-  margin: 20px;
-  font-size: 18px;
+  font-size:1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
 
   .menuItem {
-    margin: 30px;
-    font-size: 1.5rem;
+
+
   }
 }
 

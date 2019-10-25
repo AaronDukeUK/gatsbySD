@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
+import {StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/layout/layout';
 
@@ -20,7 +20,6 @@ const Menus = () => (
   `}
   render={(data) => (
   <Layout>
-    <Img className="menuPhoto" fluid={data.main.childImageSharp.fluid} />
     <div className="containerMenu">
       <h1>MENU</h1>
       <p className="menuLead">

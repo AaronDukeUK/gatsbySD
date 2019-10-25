@@ -1,23 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
-import { Spring } from 'react-spring/renderprops'
-import styled from 'styled-components'
+import Footer from '../footer/footer';
 import { StaticQuery, graphql } from 'gatsby'
-
+import Head from '../head/head';
 import Header from '../header/header'
 
 import './layout.css'
 
-const MainLayout = styled.main`
-  max-width: 90%;
-  margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 40px;
-`
 
-const RecipiesLayout = ({ children, location }) => (
+const RecipiesLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -36,22 +27,12 @@ const RecipiesLayout = ({ children, location }) => (
         }
       }
     `}
-    render={data => (
+    render={() => (
       <>
+        <Head />
         <Header/>
-        <Spring
-          from={{ height: location.pathname === '/' ? 100 : 200 }}
-          to={{ height: location.pathname === '/' ? 200 : 100 }}
-        >
-          {styles => (
-            <div style={{ overflow: 'hidden', ...styles }}>
-              <Img fluid={data.file.childImageSharp.fluid} />
-            </div>
-          )}
-        </Spring>
-        <MainLayout>
-          <div>{children}</div>
-        </MainLayout>
+        <div>{children}</div>
+        <Footer />
       </>
     )}
   />

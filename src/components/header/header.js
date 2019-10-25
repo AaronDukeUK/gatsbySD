@@ -43,13 +43,14 @@ class Header extends React.Component {
             isOpen={this.state.menuOpen}
             closeCallback={this.closeMenu.bind(this)}
           >
+            <div className="hiddenNav">
+              <Link to="/" className="menuItem" activeClassName="active">HOME</Link>
 
-            <Link to="/" className="menuItem" activeClassName="active">HOME</Link>
-
-            <Link to="/menus" className="menuItem" activeClassName="active">MENUS</Link>
-            <Link to="/recipies" className="menuItem" activeClassName="active">RECIPIES</Link>
-            <Link to="/about" className="menuItem" activeClassName="active">ABOUT US</Link>
-            <Link to="/contact" className="menuItem" activeClassName="active">CONTACT</Link>
+              <Link to="/menus" className="menuItem" activeClassName="active">MENUS</Link>
+              <Link to="/recipies" className="menuItem" activeClassName="active">RECIPIES</Link>
+              <Link to="/about" className="menuItem" activeClassName="active">ABOUT ME</Link>
+              <Link to="/contact" className="menuItem" activeClassName="active">CONTACT</Link>
+            </div>
           </CheeseburgerMenu>
 
         </ul>

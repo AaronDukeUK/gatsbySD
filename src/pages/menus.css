@@ -1,25 +1,20 @@
 .containerMenu {
-  margin-top: 50px;
   font-size: 24px;
   font-family: 'Anton', sans-serif;
-  padding: 10px;
+  padding: 10%;
   letter-spacing: 1px;
   border-bottom: 2px solid black;
 }
 
 .containerMenu h1 {
   font-size: 2em;
-  margin: 20px 0;
 }
 
-div.menuPhoto.gatsby-image-wrapper {
-  max-height: 200px;
-}
 
 .menuLead {
   font-size: 0.8em;
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 100px 0;
   font-family: 'Playfair Display', serif;
 }
 
@@ -29,7 +24,7 @@ div.menuPhoto.gatsby-image-wrapper {
 
 .menuTitle {
   font-size: 1.2em;
-  margin: 20px 0;
+  margin: 40px 0;
   text-transform: uppercase;
 }
 

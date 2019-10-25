@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 import RecipiesLayout from './recipiesLayout';
+import Head from '../head/head';
 
-// Static Query
-// Used anywhere, doesn't accept variable, can't use context
-
-// Page Query
-// Must be used on pages
+import './layout.css'
 
 export default class postLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data;
     const { location } = this.props;
     return (
-      <RecipiesLayout location={location}>
-        <h1>{markdownRemark.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{
-          __html: markdownRemark.html,
-        }}
-        />
-      </RecipiesLayout>
+      <>
+        <Head />
+        <RecipiesLayout location={location}>
+          <h1>{markdownRemark.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{
+            __html: markdownRemark.html,
+          }}
+          />
+        </RecipiesLayout>
+      </>
     );
   }
 }

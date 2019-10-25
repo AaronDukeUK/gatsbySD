@@ -19,7 +19,7 @@ const MainLayout = styled.main`
 }
 `;
 
-const Layout = ({ children, location }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery2 {
@@ -32,7 +32,7 @@ const Layout = ({ children, location }) => (
         }
       }
     `}
-    render={(data) => (
+    render={() => (
       <>
         <Head />
         <Header />
