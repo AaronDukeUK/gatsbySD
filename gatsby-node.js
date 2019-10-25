@@ -16,17 +16,18 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }    
-    `).then(results => {
-      results.data.allMarkdownRemark.edges.forEach(({node}) => {
+    `).then((results) => {
+      results.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
-          path: `/posts${node.frontmatter.slug}`,
+          path: `/recipes${node.frontmatter.slug}`,
           component: path.resolve('./src/components/layout/postLayout.js'),
           context: {
             slug: node.frontmatter.slug,
-          }
+          },
         });
-      })
+      });
       resolve();
-    })
+    });
   });
-}
+};
+

@@ -8,7 +8,7 @@ import Header from '../header/header'
 import './layout.css'
 
 
-const RecipiesLayout = ({ children }) => (
+const RecipesLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -38,8 +38,8 @@ const RecipiesLayout = ({ children }) => (
   />
 )
 
-RecipiesLayout.propTypes = {
+RecipesLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default RecipiesLayout
+export default RecipesLayout

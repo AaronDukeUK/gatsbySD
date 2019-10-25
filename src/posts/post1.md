@@ -1,21 +1,37 @@
 ---
-slug: "/first-post"
-date: "2018-10-16"
-title: "Shortbread"
+slug: "/icecream"
+date: "2019-10-25"
+title: "How to make ice cream"
 ---
 
-# Hello
+There is little more tempting than a bowl (or cone) of glorious ice cream, especially when you have made it yourself. Making ice cream isn’t as difficult as it seems, with the most traditional recipes using a custard base. Other methods can be used to make ice creams of different textures and flavours but the fundamental principles usually remain the same.
 
-Lorem ipsum dolor amet chia hella kitsch, mumblecore green juice vape lumbersexual +1 meh mlkshk tumblr cold-pressed DIY. Cloud bread taxidermy iPhone normcore wolf. Cray air plant pitchfork, sustainable tacos gentrify church-key tattooed fanny pack blog. Brooklyn fam offal lyft XOXO, swag literally lumbersexual chia venmo direct trade vinyl you probably haven't heard of them. Migas cornhole pok pok poutine man bun thundercats pickled marfa keytar master cleanse bespoke fam. Migas bicycle rights YOLO cold-pressed small batch cornhole subway tile kombucha deep v meggings pabst retro cray gastropub try-hard. Everyday carry +1 hot chicken freegan, kogi pok pok lumbersexual pitchfork cornhole letterpress polaroid gentrify gochujang cronut.
+# Ingredients
 
-Occupy shaman hot chicken, meditation af lomo cred messenger bag neutra XOXO yuccie cornhole schlitz. Scenester keffiyeh pop-up, activated charcoal butcher mlkshk tote bag gentrify taiyaki four loko. Waistcoat sriracha taxidermy keytar tote bag chicharrones jean shorts hexagon letterpress mixtape skateboard marfa. Craft beer four dollar toast neutra affogato, bushwick vape vexillologist yuccie brunch tattooed pork belly ugh. Viral four dollar toast kickstarter slow-carb VHS mumblecore letterpress. Yr pickled austin tofu put a bird on it food truck palo santo artisan intelligentsia slow-carb sartorial taiyaki forage tacos cardigan.
+300ml of milk
+300ml of double cream
+1 vanilla pod, scraped - seeds reserved
+6 egg yolks
+150g of sugar
 
-## This heading
+# Method
 
-XOXO hexagon DIY hella put a bird on it. Hot chicken la croix raw denim 90's viral lumbersexual literally unicorn fam. Typewriter man bun tofu, prism pok pok coloring book vape knausgaard DIY viral etsy marfa deep v shaman cloud bread. +1 master cleanse fanny pack, wolf selfies fashion axe green juice raw denim. Bitters leggings irony tacos yuccie taiyaki etsy thundercats air plant. Paleo taxidermy pickled heirloom sustainable asymmetrical.
+1 Put the milk, cream, vanilla seeds and pod into a saucepan and bring to the boil. Remove the pan from the heat and set aside to cool a little.
 
-# More heading
+2 In a clean bowl, whisk the sugar and egg yolks together until pale and smooth – do this just before you are ready to pour in the milk.
 
-Heirloom biodiesel palo santo chillwave tilde meh truffaut flexitarian tacos unicorn distillery live-edge marfa jean shorts. Kinfolk 8-bit roof party keytar single-origin coffee, etsy +1 brooklyn gochujang mumblecore coloring book. Chambray austin cliche, pour-over artisan VHS health goth. Cloud bread franzen try-hard viral meh flannel. Vegan salvia venmo next level farm-to-table bitters celiac try-hard. Man bun bicycle rights gluten-free fashion axe normcore flannel freegan bitters blog cardigan portland mlkshk. Twee schlitz you probably haven't heard of them yr.
+3 Gradually pour the milk and cream mixture into the egg yolks, whisking continuously. Make sure that the milk isn’t too hot or the eggs may scramble.
 
-Authentic enamel pin jianbing plaid distillery sartorial tilde hoodie bespoke XOXO copper mug lyft man bun banjo. Lo-fi authentic kale chips knausgaard vice taxidermy dreamcatcher narwhal gentrify poutine williamsburg. Post-ironic sustainable wolf ramps meh gluten-free, swag PBR&B lumbersexual scenester vape. Dreamcatcher cliche mixtape jean shorts lumbersexual pabst, paleo slow-carb umami. Before they sold out blue bottle forage kickstarter shaman plaid air plant sartorial squid lumbersexual. Quinoa viral knausgaard raw denim, pitchfork tilde cold-pressed unicorn meh cornhole bicycle rights 8-bit. Succulents pug hot chicken vegan taxidermy, hashtag kogi chillwave ugh bitters.
+4 Pour the whole mixture back into the saucepan and reheat gently, stirring continuously with a spatula. Continue to heat until the mixture reaches 80°C. If you don’t have a thermometer, you can tell that the mixture is ready when it coats the back of a spoon.
+
+5 Pass the mixture through a sieve then leave to cool before churning in an ice cream machine according the manufacturers' instructions.
+
+# Variations
+
+Depending on personal preference the ratio of cream to milk can be adjusted, the more cream the richer and fattier the ice cream will be.
+
+The list of flavours for ice cream is pretty much endless, from chocolate to strawberry, lemon to avocado. Anything can be melted into the milk and cream mix, such as the dulce de leche in James Sommerin’s Condensed milk ice cream or the liquorice compound in Christoffer Hruskova’s recipe.
+
+Ice creams that are flavoured with herbs such as lemon thyme, woody spices like cassia or other aromatics like hay may require a longer infusion time and the mixture will usually need to be strained through a fine sieve before churning.
+
+Some flavourings are incorporated into the ice cream after the ice cream has started churning – this is an ideal method for when you are looking to leave intact ‘chunks’ of an ingredient in the final ice cream. Galton Blackiston adds small pieces of Christmas pudding to his ice cream at the end of churning while Anna Hansen breaks up heavenly lumps of honeycomb to add to her Hokey pokey ice cream. Rippled ice creams are created by adding a purée to the ice cream towards the end of its churning time.

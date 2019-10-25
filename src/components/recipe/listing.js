@@ -11,7 +11,7 @@ const LISTING_QUERY = graphql`
   }) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 100)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
@@ -26,19 +26,18 @@ const LISTING_QUERY = graphql`
 
 const Listing = () => (
   <div className="recipies">
-    <h1>RECIPIES</h1>
+    <h1>RECIPES</h1>
     <div className="recipieContainer">
     <StaticQuery
       query={LISTING_QUERY}
       render={({ allMarkdownRemark }) => (
         allMarkdownRemark.edges.map(({ node }) => (
-          
           <div className="recipieItem" key={node.frontmatter.slug}>
             <div className="recipieItemText">
             <h2>{node.frontmatter.title}</h2>
             <p>{node.frontmatter.date}</p>
             <p>{node.excerpt}</p>
-            <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>Read More</Link>
+            <Link class="read-more" to={`/recipes${node.frontmatter.slug}`}>Read More...</Link>
             </div>
           </div>
         ))

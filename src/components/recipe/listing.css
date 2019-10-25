@@ -1,0 +1,102 @@
+.recipies {
+  padding: 5%;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+  padding: 10%;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
+}
+
+.recipies h1 {
+  font-size: 2em;
+}
+
+.recipieContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipieItem {
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 50px 0;
+  font-family: 'Playfair Display', serif;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.recipieItem:nth-child(4n+1) {
+  background: url('../../images/note1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-10deg);
+}
+
+.recipieItem:nth-child(4n+2) {
+  background: url('../../images/note2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(5deg);
+}
+
+.recipieItem:nth-child(4n+3) {
+  background: url('../../images/note3.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(20deg);
+}
+
+.recipieItem:nth-child(4n+4) {
+  background: url('../../images/note4.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipieItem:nth-child(4n+4) .recipieItemText {
+  margin-top: 20px;
+}
+
+
+.recipieItemText {
+  height: 60%;
+  width: 100%;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recipieItemText h2 {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.recipieItemText p {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  /* font-family: 'Gochi Hand', cursive; */
+  letter-spacing: 0.2rem;
+  line-height: 1.4rem;
+  margin: 5px 0;
+  flex-grow: 1;
+}
+
+.recipieItemText a {
+  margin-top: 10px;
+
+  font-size: 1rem;
+}
+
+.recipieItemText a:hover {
+  color: grey;
+}
