@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Link, StaticQuery, graphql } from 'gatsby';
+
+import './listing.css'
 
 const LISTING_QUERY = graphql`
   query BlogPostListing {
@@ -23,24 +24,28 @@ const LISTING_QUERY = graphql`
 `;
 
 
-
 const Listing = () => (
-  <StaticQuery
-    query={LISTING_QUERY}
-    render={({ allMarkdownRemark }) => (
-      allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.frontmatter.slug}>
-          <Link to={`/posts${node.frontmatter.slug}`}>
+  <div className="recipies">
+    <h1>RECIPIES</h1>
+    <div className="recipieContainer">
+    <StaticQuery
+      query={LISTING_QUERY}
+      render={({ allMarkdownRemark }) => (
+        allMarkdownRemark.edges.map(({ node }) => (
+          
+          <div className="recipieItem" key={node.frontmatter.slug}>
+            <div className="recipieItemText">
             <h2>{node.frontmatter.title}</h2>
-          </Link>
-          <p>{node.frontmatter.date}</p>
-          <p>{node.excerpt}</p>
-          <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>Read More</Link>
-        </div>
-      ))
-    )}
-  />
-
+            <p>{node.frontmatter.date}</p>
+            <p>{node.excerpt}</p>
+            <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>Read More</Link>
+            </div>
+          </div>
+        ))
+      )}
+    />
+    </div>
+  </div>
 );
 
 export default Listing;

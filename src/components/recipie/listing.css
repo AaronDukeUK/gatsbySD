@@ -1,0 +1,58 @@
+.recipies {
+  padding: 5%;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+  padding: 10%;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
+}
+
+.recipies h1 {
+  font-size: 2em;
+}
+
+.recipieContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipieItem {
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 50px 0;
+  font-family: 'Playfair Display', serif;
+  width: 300px;
+  height: 300px;
+  background: url('../../images/note1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-10deg);
+}
+
+.recipieItem:nth-child(2) {
+  background: url('../../images/note2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(2deg);
+}
+
+.recipieItem:nth-child(3) {
+  background: url('../../images/note3.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(30deg);
+}
+
+.recipieItemText {
+  height: 80%;
+  width: 80%;
+}
