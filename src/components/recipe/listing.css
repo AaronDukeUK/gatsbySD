@@ -62,12 +62,8 @@
   background-position: center;
 }
 
-.recipieItem:nth-child(4n+4) .recipieItemText {
-  margin-top: 20px;
-}
-
-
 .recipieItemText {
+  font-family: 'Gochi Hand', cursive;
   height: 60%;
   width: 100%;
   padding: 5% 10%;
@@ -77,14 +73,17 @@
   align-items: center;
 }
 
+.recipieItem:nth-child(4n+4) 
+.recipieItemText {
+  margin-top: 20px;
+}
+
 .recipieItemText h2 {
   font-weight: bold;
   margin: 0 0 10px 0;
 }
 
 .recipieItemText p {
-  font-family: 'Liu Jian Mao Cao', cursive;
-  /* font-family: 'Gochi Hand', cursive; */
   letter-spacing: 0.2rem;
   line-height: 1.4rem;
   margin: 5px 0;
@@ -93,10 +92,16 @@
 
 .recipieItemText a {
   margin-top: 10px;
-
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .recipieItemText a:hover {
   color: grey;
+}
+
+.recipieItem:nth-child(4n+4) 
+.recipieItemText
+a {
+  margin-top: 0px;
 }

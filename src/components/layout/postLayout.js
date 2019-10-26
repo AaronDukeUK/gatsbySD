@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link  } from 'gatsby';
 import RecipesLayout from './recipesLayout';
-import Head from '../head/head';
 
+import './postLayout.css';
 import './layout.css'
 
 export default class postLayout extends Component {
@@ -11,13 +11,14 @@ export default class postLayout extends Component {
     const { location } = this.props;
     return (
       <>
-        <Head />
         <RecipesLayout location={location}>
-          <h1>{markdownRemark.frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{
-            __html: markdownRemark.html,
-          }}
-          />
+          <h1 className="markdownTitle">{markdownRemark.frontmatter.title}</h1>
+    
+            <div className="markdownContainer" dangerouslySetInnerHTML={{
+              __html: markdownRemark.html,
+            }}
+            />
+            <Link to='/recipes'>Go Back</Link>
         </RecipesLayout>
       </>
     );

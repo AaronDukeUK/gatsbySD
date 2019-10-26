@@ -1,21 +1,35 @@
 ---
-slug: "/second-post"
-date: "2018-10-17"
-title: "Our Second Post"
+slug: "/chocolate-truffles"
+date: "2019-10-26"
+title: "Chocolate truffles"
 ---
 
-# YO!
+Truffles make the perfect edible gift for family and friends – add a pinch of chilli to spice things up, or finely grate in some orange zest for fresh, citrussy zing!
 
-Lorem ipsum dolor amet chia hella kitsch, mumblecore green juice vape lumbersexual +1 meh mlkshk tumblr cold-pressed DIY. Cloud bread taxidermy iPhone normcore wolf. Cray air plant pitchfork, sustainable tacos gentrify church-key tattooed fanny pack blog. Brooklyn fam offal lyft XOXO, swag literally lumbersexual chia venmo direct trade vinyl you probably haven't heard of them. Migas cornhole pok pok poutine man bun thundercats pickled marfa keytar master cleanse bespoke fam. Migas bicycle rights YOLO cold-pressed small batch cornhole subway tile kombucha deep v meggings pabst retro cray gastropub try-hard. Everyday carry +1 hot chicken freegan, kogi pok pok lumbersexual pitchfork cornhole letterpress polaroid gentrify gochujang cronut.
+## Ingredients
 
-Occupy shaman hot chicken, meditation af lomo cred messenger bag neutra XOXO yuccie cornhole schlitz. Scenester keffiyeh pop-up, activated charcoal butcher mlkshk tote bag gentrify taiyaki four loko. Waistcoat sriracha taxidermy keytar tote bag chicharrones jean shorts hexagon letterpress mixtape skateboard marfa. Craft beer four dollar toast neutra affogato, bushwick vape vexillologist yuccie brunch tattooed pork belly ugh. Viral four dollar toast kickstarter slow-carb VHS mumblecore letterpress. Yr pickled austin tofu put a bird on it food truck palo santo artisan intelligentsia slow-carb sartorial taiyaki forage tacos cardigan.
+- 240 ml light coconut milk
+- 300 g dairy-free dark chocolate
+- 3 tablespoons coconut oil
+- 1 teaspoon vanilla bean paste , or vanilla extract
+- 1 handful of desiccated coconut
+- 1 handful of mixed nuts , such as pecans, hazelnuts, macadamias
+- 2 tablespoons quality cocoa powder
 
-## This heading
+## Method
 
-XOXO hexagon DIY hella put a bird on it. Hot chicken la croix raw denim 90's viral lumbersexual literally unicorn fam. Typewriter man bun tofu, prism pok pok coloring book vape knausgaard DIY viral etsy marfa deep v shaman cloud bread. +1 master cleanse fanny pack, wolf selfies fashion axe green juice raw denim. Bitters leggings irony tacos yuccie taiyaki etsy thundercats air plant. Paleo taxidermy pickled heirloom sustainable asymmetrical.
+1. Pour the coconut milk into a small pan over a low heat and heat through.
 
-# More heading
+2. Snap the chocolate into a bowl, add the coconut oil, then pour over the coconut milk and stir gently to combine – it’s important not to mix too quickly.
 
-Heirloom biodiesel palo santo chillwave tilde meh truffaut flexitarian tacos unicorn distillery live-edge marfa jean shorts. Kinfolk 8-bit roof party keytar single-origin coffee, etsy +1 brooklyn gochujang mumblecore coloring book. Chambray austin cliche, pour-over artisan VHS health goth. Cloud bread franzen try-hard viral meh flannel. Vegan salvia venmo next level farm-to-table bitters celiac try-hard. Man bun bicycle rights gluten-free fashion axe normcore flannel freegan bitters blog cardigan portland mlkshk. Twee schlitz you probably haven't heard of them yr.
+3. Stir in the vanilla, then cover the bowl with clingfilm and place in the fridge to set for at least 4 hours.
 
-Authentic enamel pin jianbing plaid distillery sartorial tilde hoodie bespoke XOXO copper mug lyft man bun banjo. Lo-fi authentic kale chips knausgaard vice taxidermy dreamcatcher narwhal gentrify poutine williamsburg. Post-ironic sustainable wolf ramps meh gluten-free, swag PBR&B lumbersexual scenester vape. Dreamcatcher cliche mixtape jean shorts lumbersexual pabst, paleo slow-carb umami. Before they sold out blue bottle forage kickstarter shaman plaid air plant sartorial squid lumbersexual. Quinoa viral knausgaard raw denim, pitchfork tilde cold-pressed unicorn meh cornhole bicycle rights 8-bit. Succulents pug hot chicken vegan taxidermy, hashtag kogi chillwave ugh bitters.
+4. When the truffle mixture is almost set, toast the desiccated coconut in a dry frying pan over a medium heat for 1 to 2 minutes, or until lightly golden, then tip onto a plate.
+
+5.  Return the pan to the heat, scatter in the nuts and toast for 2 minutes, or until golden. Leave to cool for a few minutes, then finely chop and place onto a second plate.
+
+6.  Spread the cocoa powder over a third plate.
+
+7. Using a teaspoon, scoop out little balls of the truffle mixture and roll in the palm of your hands, placing them onto a tray as you go. It’s totally up to you how you decorate them – roll the balls in the toasted coconut or chopped nuts, or for a simple finish, roll them in cocoa powder.
+
+8. Return the decorated truffles to the fridge for around 10 minutes to firm up, then serve.

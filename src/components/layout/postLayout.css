@@ -1,0 +1,60 @@
+.markdownTitle {
+  width: 80%;
+  padding: 150px 0 50px 0;
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  line-height: 6rem;
+  text-decoration: underline;
+}
+.markdownContainer {
+  min-height: 100vh;
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.markdownContainer p, 
+.markdownContainer ol, 
+.markdownContainer ul {
+  width: 80%;
+}
+
+.markdownContainer p {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+  margin: 20px 0;
+}
+
+.markdownContainer p:nth-child(1) {
+ 
+  font-style: italic;
+}
+
+.markdownContainer h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+
+.markdownContainer ul,
+.markdownContainer ol {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+}
+
+.markdownContainer ul li,
+.markdownContainer ol li {
+  margin: 40px 0;
+}
+
