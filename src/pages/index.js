@@ -36,12 +36,15 @@ const IndexPage = () => (
       <Layout>
         <div className="front">
           <h1>THE SQUIRRELS DREY</h1>
-          <Img style={{ position: 'fixed' }} className="first" fluid={data.front.childImageSharp.fluid} />
-          <Img style={{ position: 'fixed' }} className="second" fluid={data.back.childImageSharp.fluid} />
-          <Img style={{ position: 'fixed' }} className="third" fluid={data.middle.childImageSharp.fluid} />
-          <Img style={{ position: 'fixed' }} className="forth" fluid={data.front.childImageSharp.fluid} />
-          <Img style={{ position: 'fixed' }} className="fifth" fluid={data.back.childImageSharp.fluid} />
-          <div className="timer" />
+          <Img style={{ 
+            position: 'fixed',
+            width: '90vw',
+            height: '80vh',
+            overflow: 'hidden',
+            filter: 'brightness(70%)'
+            }} 
+            className="first" 
+            fluid={data.front.childImageSharp.fluid} />
         </div>
 
         <div className="lead">
