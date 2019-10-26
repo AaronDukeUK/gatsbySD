@@ -1,13 +1,13 @@
 .aboutContainer {
-  font-size: 1rem;
-  padding: 10%;
-  line-height: 45px;
-  letter-spacing: 1px;
+  min-height: 100vh;
   border-bottom: 2px solid black;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
 .aboutImgContainer {
@@ -21,15 +21,22 @@
 
 
 .aboutContainer h1 {
-  margin-top: 20px;
-  font-size: 3em;
-  text-transform: uppercase;
+  width: 80%;
+  padding: 150px 0 50px 0;
+  font-size: 3rem;
   font-family: 'Anton', sans-serif;
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  line-height: 6rem;
+  text-decoration: underline;
   
 }
 
 .aboutContainer p {
-  font-family: 'Playfair Display', serif;
-  font-size: 1em;
-  margin: 20px;
+  width: 80%;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+  margin: 20px 0;
 }
