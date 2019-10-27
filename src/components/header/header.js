@@ -25,36 +25,36 @@ class Header extends React.Component {
 
   render() {
     return (
-      <nav>
-        <ul className="menu">
 
-          <HamburgerMenu
-            isOpen={this.state.menuOpen}
-            menuClicked={this.openMenu.bind(this)}
-            width={32}
-            height={24}
-            strokeWidth={3}
-            rotate={0}
-            color="black"
-            borderRadius={0}
-            animationDuration={0.5}
-          />
-          <CheeseburgerMenu
-            isOpen={this.state.menuOpen}
-            closeCallback={this.closeMenu.bind(this)}
-          >
-            <div className="hiddenNav">
-              <Link to="/" className="menuItem" activeClassName="active">HOME</Link>
+      <ul className="menu">
 
-              <Link to="/menus" className="menuItem" activeClassName="active">MENUS</Link>
-              <Link to="/recipes" className="menuItem" activeClassName="active">RECIPES</Link>
-              <Link to="/about" className="menuItem" activeClassName="active">ABOUT ME</Link>
-              <Link to="/contact" className="menuItem" activeClassName="active">CONTACT</Link>
-            </div>
-          </CheeseburgerMenu>
+        <HamburgerMenu
+          isOpen={this.state.menuOpen}
+          menuClicked={this.openMenu.bind(this)}
+          width={32}
+          height={24}
+          strokeWidth={3}
+          rotate={0}
+          color="black"
+          borderRadius={0}
+          animationDuration={0.5}
+        />
+        <CheeseburgerMenu
+          isOpen={this.state.menuOpen}
+          closeCallback={this.closeMenu.bind(this)}
+        >
+          <div className="hiddenNav">
+            <Link to="/" className="menuItem" activeClassName="active">HOME</Link>
 
-        </ul>
-      </nav>
+            <Link to="/menus" className="menuItem" activeClassName="active">MENUS</Link>
+            <Link to="/recipes" className="menuItem" activeClassName="active">RECIPES</Link>
+            <Link to="/about" className="menuItem" activeClassName="active">ABOUT ME</Link>
+            <Link to="/contact" className="menuItem" activeClassName="active">CONTACT</Link>
+          </div>
+        </CheeseburgerMenu>
+
+      </ul>
+
 
     );
   }
