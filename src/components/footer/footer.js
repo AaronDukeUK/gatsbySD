@@ -8,8 +8,6 @@ const Footer = () => (
     <div className="footerTimes">
       <div>
         <h3>Opening Hours</h3>
-        <p>Monday: Closed</p>
-        <p>Tuesday: Closed</p>
         <p>Wednesday: 1700 - 2230</p>
         <p>Thursday: 1700 - 2230</p>
         <p>Friday: 1700 - 2330</p>
@@ -18,9 +16,6 @@ const Footer = () => (
       </div>
       <div>
         <h3>Food Hours</h3>
-        <p>Monday: Closed</p>
-        <p>Tuesday: Closed</p>
-        <p>Wednesday: Closed</p>
         <p>Thursday: 1730 - 2100</p>
         <p>Friday: 1730 - 2100</p>
         <p>Saturday: 1200 - 1500 / 1730 - 2100</p>

@@ -9,23 +9,23 @@ const IndexPage = () => (
   <StaticQuery
     query={graphql`
       query imgQuery {
-        front: file(relativePath: { regex: "/bg2/" }) {
+        hero: file(relativePath: { regex: "/indoor/" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1000, grayscale: true) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        food: file(relativePath: { regex: "/shortbreads/" }) {
+          childImageSharp {
+            fluid(grayscale: true) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        back: file(relativePath: { regex: "/basket/" }) {
+        dinig: file(relativePath: { regex: "/dining/" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        middle: file(relativePath: { regex: "/carrots/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(grayscale: true) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -46,12 +46,12 @@ const IndexPage = () => (
                   filter: 'brightness(70%)',
                 }
             }
-                fluid={data.front.childImageSharp.fluid}
+                fluid={data.hero.childImageSharp.fluid}
               />
             </div>
 
             <div className="lead">
-              <h1> WATERING HOLE & GARDEN </h1>
+              <h1> WATERING HOLE AND GARDEN </h1>
               <p> Based in Spore, near Swaffham. </p>
               <p>
                 The Squirrels Drey boasts locally sourced,
@@ -68,7 +68,7 @@ const IndexPage = () => (
 
                 <Img
                   className="infoPicture"
-                  fluid={data.front.childImageSharp.fluid}
+                  fluid={data.food.childImageSharp.fluid}
                 />
 
                 <p>Lorem ipsum dolor amet health goth synth glossier vinyl jianbing, meggings distillery wolf brunch bushwick brooklyn. Chambray succulents iceland keytar sartorial. Locavore gochujang jean shorts cred keffiyeh coloring book twee roof party squid ennui tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier tacos.</p>
@@ -78,11 +78,11 @@ const IndexPage = () => (
 
               <div className="infoRight">
 
-                <h2> SPECIALLY SELECTED </h2>
+                <h2> COMFORTABLE SURROUNDINGS </h2>
 
                 <Img
                   className="infoPicture"
-                  fluid={data.front.childImageSharp.fluid}
+                  fluid={data.dinig.childImageSharp.fluid}
                 />
 
                 <p>Lorem ipsum dolor amet health goth synth glossier vinyl jianbing, meggings distillery wolf brunch bushwick brooklyn. Chambray succulents iceland keytar sartorial. Locavore gochujang jean shorts cred keffiyeh coloring book twee roof party squid ennui tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier tacos.</p>

@@ -2,7 +2,7 @@
 /* eslint-disable react/no-danger */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import RecipesLayout from './recipesLayout';
 
 import './postLayout.css';

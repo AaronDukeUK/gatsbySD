@@ -9,10 +9,10 @@ const About = () => (
   <StaticQuery
     query={graphql`
     query aboutQuery {
-      main: file(relativePath: { regex: "/me/" }) {
+      peter: file(relativePath: { regex: "/me2/" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
@@ -23,7 +23,7 @@ const About = () => (
         <div className="aboutContainer">
           <h1>About Me</h1>
           <div className="aboutImgContainer">
-            <Img fluid={data.main.childImageSharp.fluid} />
+            <Img fluid={data.peter.childImageSharp.fluid} />
           </div>
           <p>
         I suppose it all started back in my early school years

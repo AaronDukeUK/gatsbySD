@@ -1,45 +1,25 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 import Footer from '../footer/footer';
-import { StaticQuery, graphql } from 'gatsby'
 import Head from '../head/head';
-import Header from '../header/header'
+import Header from '../header/header';
 
-import './layout.css'
+import './layout.css';
 
 
 const RecipesLayout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-        file(relativePath: { regex: "/bg2/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
-      }
-    `}
-    render={() => (
-      <>
-        <Head />
-        <Header/>
-        <div>{children}</div>
-        <Footer />
-      </>
-    )}
-  />
-)
+  <>
+    <Head />
+    <Header />
+    <div>{children}</div>
+    <Footer />
+  </>
+
+
+);
 
 RecipesLayout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default RecipesLayout
+export default RecipesLayout;
