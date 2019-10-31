@@ -1,7 +1,7 @@
 ---
 slug: "/icecream"
 date: "2019-10-25"
-title: "How to make ice cream"
+title: "Ice Cream"
 ---
 
 There is little more tempting than a bowl (or cone) of glorious ice cream, especially when you have made it yourself. Making ice cream isn’t as difficult as it seems, with the most traditional recipes using a custard base. Other methods can be used to make ice creams of different textures and flavours but the fundamental principles usually remain the same.

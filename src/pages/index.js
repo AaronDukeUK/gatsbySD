@@ -71,12 +71,7 @@ const IndexPage = () => (
                   fluid={data.front.childImageSharp.fluid}
                 />
 
-                <p>
-                    If you’ re travelling to eat at The Hand and Flowers,
-                    why not stay with us ? We have 11 individually designed bedrooms,
-                    in three different cottages in the centre of Marlow.
-                    We’ ll even cook.
-                </p>
+                <p>Lorem ipsum dolor amet health goth synth glossier vinyl jianbing, meggings distillery wolf brunch bushwick brooklyn. Chambray succulents iceland keytar sartorial. Locavore gochujang jean shorts cred keffiyeh coloring book twee roof party squid ennui tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier tacos.</p>
 
                 <Link to="./menus"> Read More </Link>
               </div>
@@ -90,13 +85,7 @@ const IndexPage = () => (
                   fluid={data.front.childImageSharp.fluid}
                 />
 
-                <p>
-                    The Shed is our intimate dining room
-                    for up to nine people,
-                    run by The Hand and Flowers team.It is the perfect space
-                    for private dining,
-                    special occasions or business meetings.hjhjkhgkglggl
-                </p>
+                <p>Lorem ipsum dolor amet health goth synth glossier vinyl jianbing, meggings distillery wolf brunch bushwick brooklyn. Chambray succulents iceland keytar sartorial. Locavore gochujang jean shorts cred keffiyeh coloring book twee roof party squid ennui tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier tacos.</p>
 
                 <Link to="./about"> Read More </Link>
               </div>

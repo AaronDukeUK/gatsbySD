@@ -1,7 +1,7 @@
 ---
 slug: "/shortbread"
 date: "2019-10-26"
-title: "How to make shortbread"
+title: "Shortbread"
 ---
 
 Shortbread biscuits fill the kitchen with a wonderful buttery freshly-baked smell. So simple and easy to flavour with your own choice of chocolate chips, nuts and fruit zest. Kids will love making them too.

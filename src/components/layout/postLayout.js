@@ -1,9 +1,12 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/no-danger */
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import { graphql, Link  } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import RecipesLayout from './recipesLayout';
 
 import './postLayout.css';
-import './layout.css'
+import './layout.css';
 
 export default class postLayout extends Component {
   render() {
@@ -13,12 +16,13 @@ export default class postLayout extends Component {
       <>
         <RecipesLayout location={location}>
           <h1 className="markdownTitle">{markdownRemark.frontmatter.title}</h1>
-    
-            <div className="markdownContainer" dangerouslySetInnerHTML={{
+
+          <div
+            className="markdownContainer"
+            dangerouslySetInnerHTML={{
               __html: markdownRemark.html,
             }}
-            />
-            <Link to='/recipes'>Go Back</Link>
+          />
         </RecipesLayout>
       </>
     );

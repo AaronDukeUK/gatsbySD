@@ -7,7 +7,6 @@
   text-transform: uppercase;
   margin: 0 auto;
   line-height: 6rem;
-  text-decoration: underline;
 }
 .markdownContainer {
   min-height: 100vh;
@@ -25,6 +24,7 @@
 .markdownContainer ol, 
 .markdownContainer ul {
   width: 80%;
+  list-style: none;
 }
 
 .markdownContainer p {
@@ -35,13 +35,13 @@
 }
 
 .markdownContainer p:nth-child(1) {
- 
   font-style: italic;
 }
 
 .markdownContainer h2 {
   font-family: 'Anton', sans-serif;
   font-size: 2.5rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   margin: 50px 0;
 }
