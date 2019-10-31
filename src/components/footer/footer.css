@@ -66,23 +66,31 @@
   padding: 20px 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1000px) {
   .logo {
     display: none;
   }
+}
 
+@media only screen and (max-width: 800px) {
   .footerTimes {
     flex-direction: column;
-    font-size: 1.5rem;
-  }
-  .footerTimes p {
-    font-size: 1.2rem;
   }
  
 }
 
 @media only screen and (max-width: 600px) {
+  .footerCopy {
+    flex-direction: column;
+  }
 
+  .footerCopy h3 {
+    margin: 20px 0;
+  }
 }
 
 

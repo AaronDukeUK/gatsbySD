@@ -1,7 +1,8 @@
 .front {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   height: 100vh;
   width: 100%;
   z-index: 0;
@@ -9,9 +10,10 @@
 }
 
 .front h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: 'Anton', sans-serif;
-  letter-spacing: 15px;
+  letter-spacing: 2rem;
+  margin: 0 0 20px 0;
   color: #F7F4F2;
   z-index: 10;
   width: 90%;
@@ -204,4 +206,71 @@
   line-height: 2rem;
   margin: 20px auto;
   width: 80%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .front h1 {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+
+  .infoLeft {
+    border-right: none;
+    border-bottom: 2px solid #222; 
+  }
+
+  .infoLeft a {
+    margin: 0 0 50px 0;
+  }
+
+  .newsMap h4 {
+    font-size: 3rem;
+    width: 90%;
+  }
+
+  .newsMiddle {
+    border-left: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .front h1 {
+    font-size: 4rem;
+    letter-spacing: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .front {
+    justify-content: center;
+  }
+  .front h1 {
+    font-size: 8rem;
+    letter-spacing: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .front h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1.2rem;
+  }
+
+  .infoPicture { 
+    height: 300px;
+    width: 100%;
+  }
+
+  #gmap_canvas {
+    height: 300px;
+    width: 100%;
+  }
+
+  .newsMap h4 {
+    font-size: 2rem;
+  }
+  .newsRight {
+    border-left: none;
+  }
 }

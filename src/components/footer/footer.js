@@ -29,7 +29,7 @@ const Footer = () => (
       <div className="logo" />
     </div>
     <div className="footerCopy">
-      <h3>Made By: Duke Design</h3>
+      <h3>Developed By - Aaron Duke</h3>
       <h3>The Little Kitchen Pantry Ltd 2019</h3>
     </div>
   </div>
