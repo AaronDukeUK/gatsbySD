@@ -25,29 +25,18 @@ const About = () => (
           <div className="aboutImgContainer">
             <Img fluid={data.peter.childImageSharp.fluid} />
           </div>
+          <p>Peter Chapman - Owner / Head Chef</p>
           <p>
-        I suppose it all started back in my early school years
-        with home economics where I come to realise my true passion and
-        flair for food come about from.
+          My career choice was sparked whilst still at school in the home economics department.
+          The passion I had developed and inspiration from our top chefs gave me the desire to always create unusual dishes.
           </p>
           <p>
-        I’ve always looked up through my career to some of the worlds
-        top chefs and aspire to push the boundaries and think outside
-        the box but still keeping that  traditional British food at the
-        back of my mind.
+          I have always wanted to use fresh local produce and high quality ingredients with a simple approach,
+          allowing the natural flavours to speak for themselves.
           </p>
           <p>
-        I’m a true believer of thinking a good food establishment should
-        bring people together were they can just relax and enjoy an honest
-        meal packet with flavours, almost like your mums cooking and have a
-        nice time with warm friendly service along the way.
-          </p>
-          <p>
-        I believe that good quality local ingredient is the key ,
-        “a chef saying goes fresh is best” so I take an honest and simple
-        approach to our dishes with nothing to complex and let the natural
-        flavours speak for themselves  with that we are also supporting local
-        small business community around Norfolk.
+          That desire developed into attempting to create an environment where people could come to socialise and enjoy good honest food,
+          in a relaxed environment, with friendly, welcoming service.
           </p>
         </div>
       </Layout>

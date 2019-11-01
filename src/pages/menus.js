@@ -22,7 +22,7 @@ const Menus = () => (
         <div className="containerMenu">
           <h1>MENU</h1>
           <p className="menuLead">
-        We Use Locally Source Produce blah blah We Use Locally Source Produce blah blah We Use Locally Source Produce blah blah
+            GF - Gluten Free on Request / V - Vegetarian
           </p>
           <div className="menuFood">
             <h2 className="menuTitle">Starters</h2>
