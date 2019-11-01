@@ -4,7 +4,10 @@
   width: 100%;
   margin: 0 auto;
   padding-bottom: 100px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerMenu h1 {
@@ -18,7 +21,6 @@
   line-height: 6rem;
 }
 
-
 .menuLead {
   font-style: italic;
   width: 80%;
@@ -26,7 +28,6 @@
   letter-spacing: 0.2rem;
   line-height: 3rem;
   margin: 20px auto;
-
 }
 
 .menuFood {
