@@ -4,6 +4,7 @@ module.exports = {
     description:
       'The Squirrels Drey boasts locally sourced, homemade food in idealic location.',
     author: '@ADuke_Design',
+    siteUrl: 'https://squirrelsdrey-aaronduke.netlify.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
