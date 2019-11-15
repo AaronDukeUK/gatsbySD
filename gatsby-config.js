@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Squiirels Drey',
-    description: 'The Squirrels Drey boasts locally sourced, homemade food in idealic location.',
-    author: 'Aaron Duke',
+    title: 'Squirrels Drey',
+    description:
+      'The Squirrels Drey boasts locally sourced, homemade food in idealic location.',
+    author: '@ADuke_Design',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -24,6 +25,18 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-offline',
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'squirrels-drey',
+        short_name: 'SD-Sporle',
+        start_url: '/',
+        background_color: '#fa9200',
+        theme_color: '#fa9200',
+        display: 'minimal-ui',
+        icon: 'src/images/sdlogo.png', // This path is relative to the root of the site.
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         // CommonMark mode (default: true)
@@ -38,9 +51,8 @@ module.exports = {
         plugins: [],
       },
     },
-    'gatsby-plugin-styled-components',
     'gatsby-image',
-    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-sitemap',
   ],
 };

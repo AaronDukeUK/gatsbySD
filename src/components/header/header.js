@@ -1,33 +1,30 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import HamburgerMenu from 'react-hamburger-menu';
-import CheeseburgerMenu from 'cheeseburger-menu';
+import React from "react";
+import { Link } from "gatsby";
+import HamburgerMenu from "react-hamburger-menu";
+import CheeseburgerMenu from "cheeseburger-menu";
 
-import './header.css';
-
+import "./header.css";
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      menuOpen: false,
+      menuOpen: false
     };
   }
 
   openMenu = () => {
     this.setState({ menuOpen: true });
-  }
+  };
 
   closeMenu = () => {
     this.setState({ menuOpen: false });
-  }
+  };
 
   render() {
     return (
-
       <ul className="menu">
-
         <HamburgerMenu
           isOpen={this.state.menuOpen}
           menuClicked={this.openMenu}
@@ -44,18 +41,31 @@ class Header extends React.Component {
           closeCallback={this.closeMenu}
         >
           <div className="hiddenNav">
-            <Link to="/" className="menuItem" activeClassName="active">HOME</Link>
-            <Link to="/menus" className="menuItem" activeClassName="active">MENU</Link>
-            <Link to="/recipes" className="menuItem" activeClassName="active">RECIPES</Link>
-            <Link to="/about" className="menuItem" activeClassName="active">ABOUT</Link>
-            <Link to="/contact" className="menuItem" activeClassName="active">CONTACT</Link>
-            <a href="https://www.facebook.com/TheSquirrelsDrey" target="_blank" className="menuItem" activeClassName="active">FACEBOOK</a>
+            <Link to="/" className="menuItem">
+              HOME
+            </Link>
+            <Link to="/menus" className="menuItem">
+              MENU
+            </Link>
+            <Link to="/recipes" className="menuItem">
+              RECIPES
+            </Link>
+            <Link to="/about" className="menuItem">
+              ABOUT
+            </Link>
+            <Link to="/contact" className="menuItem">
+              CONTACT
+            </Link>
+            <a
+              href="https://www.facebook.com/TheSquirrelsDrey"
+              target="_blank"
+              className="menuItem"
+            >
+              FACEBOOK
+            </a>
           </div>
         </CheeseburgerMenu>
-
       </ul>
-
-
     );
   }
 }
