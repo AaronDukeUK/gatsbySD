@@ -59,6 +59,7 @@ class Header extends React.Component {
             <a
               href="https://www.facebook.com/TheSquirrelsDrey"
               target="_blank"
+              rel="noopener"
               className="menuItem"
             >
               FACEBOOK
