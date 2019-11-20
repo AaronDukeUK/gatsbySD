@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Typography, Grid, Fade } from '@material-ui/core';
 
-import { withStyles } from '@material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
 const MenuPage = ({ classes }) => (

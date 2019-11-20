@@ -17,7 +17,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 
 import MenuIcon from '@material-ui/icons/Menu';
 
-import { withStyles } from '@material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 
 import styles from './styles';
 

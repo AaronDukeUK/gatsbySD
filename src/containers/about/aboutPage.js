@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 
 import { Typography, Grid, Fade } from '@material-ui/core';
 
-import { withStyles } from '@material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
 const AboutPage = ({ classes }) => (
