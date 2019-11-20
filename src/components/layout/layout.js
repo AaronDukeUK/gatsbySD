@@ -1,23 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 
-import Head from '../head/head';
-import Header from '../header/header';
-import Footer from '../footer/footer';
+import { Header, Footer } from 'components';
 
-import './layout.css';
-
-const MainLayout = styled.main`
- {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  z-index: 2;
-}
-`;
+import './style.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -34,12 +21,8 @@ const Layout = ({ children }) => (
     `}
     render={() => (
       <>
-        <Head />
         <Header />
-
-        <MainLayout>
-          {children}
-        </MainLayout>
+        <main>{children}</main>
         <Footer />
       </>
     )}

@@ -7,6 +7,24 @@ module.exports = {
     siteUrl: 'https://squirrelsdrey-aaronduke.netlify.com',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-module-resolver',
+      options: {
+        root: './src',
+        aliases: {
+          components: './components',
+          containers: './containers',
+          images: './images',
+          state: './state',
+          styles: './styles',
+          utils: './utils',
+          static: {
+            root: './public',
+            alias: './static',
+          },
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -55,5 +73,13 @@ module.exports = {
     'gatsby-image',
     'gatsby-plugin-netlify',
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-material-ui',
+      options: {
+        // stylesProvider: {
+        //   injectFirst: true,
+        // },
+      },
+    },
   ],
 };

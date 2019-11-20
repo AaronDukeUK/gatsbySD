@@ -1,7 +1,7 @@
-import muiTheme from "./muiTheme"
+import muiTheme from './muiTheme';
 
 const theme = {
   ...muiTheme,
-}
+};
 
-export default theme
+export default theme;

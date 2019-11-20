@@ -1,29 +1,53 @@
-require("typeface-roboto")
-require("typeface-reenie-beanie")
+require('typeface-roboto');
+require('typeface-anton');
+require('typeface-gochi-hand');
 
-const typography = typography => ({
+const typography = () => ({
   h1: {
-    fontFamily: "Reenie Beanie",
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.7rem',
+    textAlign: 'center',
   },
   h2: {
-    fontFamily: "Reenie Beanie",
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.7rem',
+    lineHeight: '6rem',
+    margin: '150px 0 50px 0',
   },
   h3: {
-    fontFamily: "Reenie Beanie",
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.6rem',
+    lineHeight: '4rem',
   },
   h4: {
-    fontFamily: "Reenie Beanie",
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.5rem',
+    margin: '50px 0',
+  },
+  h5: {
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.4rem',
+    margin: '20px 0',
+  },
+  h6: {
+    fontFamily: 'Anton',
+    textTransform: 'uppercase',
+    letterSpacing: '0.4rem',
   },
   body1: {
-    fontSize: typography.pxToRem(20),
-    lineHeight: 1.4,
-    fontWeight: 300,
+    fontSize: '1.8rem',
+    lineHeight: '3.6rem',
+    margin: '2rem 0',
   },
   body2: {
-    fontSize: typography.pxToRem(16),
-    lineHeight: 1.1,
-    fontWeight: 300,
+    fontSize: '1.4rem',
+    lineHeight: '2.8rem',
   },
-})
+});
 
-export default typography
+export default typography;

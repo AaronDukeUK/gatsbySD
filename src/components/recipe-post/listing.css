@@ -1,5 +1,5 @@
 .recipies {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   padding: 5%;
   letter-spacing: 1px;
   border-bottom: 2px solid black;
@@ -7,17 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.recipies h1 {
-  width: 80%;
-  padding: 50px 0 50px 0;
-  font-size: 3rem;
-  font-family: 'Anton', sans-serif;
-  letter-spacing: 0.7rem;
-  text-transform: uppercase;
-  margin: 0 auto;
-  line-height: 6rem;
 }
 
 .recipieContainer {
@@ -28,7 +17,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .recipieItem {
@@ -41,39 +29,39 @@
   align-items: top;
 }
 
-.recipieItem:nth-child(4n+1) {
-  background: url('../../images/note1.svg');
+.recipieItem:nth-child(4n + 1) {
+  background: url("../../images/note1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   transform: rotate(-5deg);
 }
 
-.recipieItem:nth-child(4n+2) {
-  background: url('../../images/note2.svg');
+.recipieItem:nth-child(4n + 2) {
+  background: url("../../images/note2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   transform: rotate(5deg);
 }
 
-.recipieItem:nth-child(4n+3) {
-  background: url('../../images/note3.svg');
+.recipieItem:nth-child(4n + 3) {
+  background: url("../../images/note3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   transform: rotate(10deg);
 }
 
-.recipieItem:nth-child(4n+4) {
-  background: url('../../images/note4.svg');
+.recipieItem:nth-child(4n + 4) {
+  background: url("../../images/note4.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .recipieItemText {
-  font-family: 'Gochi Hand', cursive;
+  font-family: "Gochi Hand", cursive;
   height: 60%;
   width: 100%;
   padding: 5% 10%;
@@ -83,37 +71,35 @@
   align-items: center;
 }
 
-.recipieItem:nth-child(4n+4) 
-.recipieItemText {
+.recipieItem:nth-child(4n + 4) .recipieItemText {
   margin-top: 20px;
 }
 
 .recipieItemText h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 
 .recipieItemText p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   letter-spacing: 0.2rem;
-  line-height: 1.4rem;
+  line-height: 1.2rem;
   margin: 5px 0;
   flex-grow: 1;
 }
 
 .recipieItemText a {
-  margin-top: 10px;
+  margin-top: 0;
   font-size: 1.4rem;
   text-transform: uppercase;
+  color: black;
 }
 
 .recipieItemText a:hover {
   color: grey;
 }
 
-.recipieItem:nth-child(4n+4) 
-.recipieItemText
-a {
+.recipieItem:nth-child(4n + 4) .recipieItemText a {
   margin-top: 0px;
 }

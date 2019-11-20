@@ -1,34 +1,56 @@
 import React from 'react';
 
-import './footer.css';
+import { withStyles } from '@material-ui/styles';
+import { Typography, Grid } from '@material-ui/core';
+import styles from './styles';
 
-const Footer = () => (
-  <div className="footer">
+const Footer = ({ classes }) => (
+  <div className={classes.root}>
+    <Grid
+      container
+      justify="center"
+      align="center"
+      className={classes.container}
+    >
+      <Grid item xs="12" lg="4">
+        <Typography variant="h4">Opening Hours</Typography>
+        <Typography variant="body2">Wednesday: 1700 - 2230</Typography>
+        <Typography variant="body2">Thursday: 1700 - 2230</Typography>
+        <Typography variant="body2">Friday: 1700 - 2330</Typography>
+        <Typography variant="body2">Saturday: 1200 - 2330</Typography>
+        <Typography variant="body2">Sunday: 1200 - 2130</Typography>
+      </Grid>
 
-    <div className="footerTimes">
-      <div>
-        <h3>Opening Hours</h3>
-        <p>Wednesday: 1700 - 2230</p>
-        <p>Thursday: 1700 - 2230</p>
-        <p>Friday: 1700 - 2330</p>
-        <p>Saturday: 1200 - 2330</p>
-        <p>Sunday: 1200 - 2130</p>
-      </div>
-      <div>
-        <h3>Food Hours</h3>
-        <p>Thursday: 1730 - 2100</p>
-        <p>Friday: 1730 - 2100</p>
-        <p>Saturday: 1200 - 1500 / 1730 - 2100</p>
-        <p>Sunday: 1200 - 1500</p>
-      </div>
-      <div className="logo" />
-    </div>
-    <div className="footerCopy">
-      <h3>Developed By - Aaron Duke</h3>
-      <h3>The Little Kitchen Pantry Ltd 2019</h3>
-    </div>
+      <Grid item xs="12" lg="4">
+        <Typography variant="h4">Food Hours</Typography>
+        <Typography variant="body2">Thursday: 1730 - 2100</Typography>
+        <Typography variant="body2">Friday: 1730 - 2100</Typography>
+        <Typography variant="body2">
+          Saturday: 1200 - 1500 / 1730 - 2100
+        </Typography>
+        <Typography variant="body2">Sunday: 1200 - 1500</Typography>
+      </Grid>
+
+      <Grid item xs="12" lg="4">
+        <div className={classes.logo} />
+      </Grid>
+    </Grid>
+
+    <Grid
+      container
+      className={(classes.container, classes.copy)}
+      justify="center"
+      align="center"
+    >
+      <Grid item xs="12" lg="6">
+        <Typography variant="h5">Developed By - Aaron Duke</Typography>
+      </Grid>
+
+      <Grid item xs="12" lg="6">
+        <Typography variant="h5">The Little Kitchen Pantry Ltd 2019</Typography>
+      </Grid>
+    </Grid>
   </div>
 );
 
-
-export default Footer;
+export default withStyles(styles)(Footer);

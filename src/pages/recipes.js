@@ -1,14 +1,14 @@
 import React from 'react';
 
-import RecipesLayout from '../components/layout/recipesLayout';
-import Listing from '../components/recipe/listing';
-import SEO from '../seo';
+import { RecipesPage } from 'containers';
+
+import { Layout, SEO } from 'components';
 
 const Recipes = ({ location }) => (
-  <RecipesLayout location={location}>
+  <Layout location={location}>
     <SEO title="Recipes" />
-    <Listing />
-  </RecipesLayout>
+    <RecipesPage />
+  </Layout>
 );
 
 export default Recipes;

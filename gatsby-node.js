@@ -1,6 +1,5 @@
 const path = require('path');
 
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
@@ -15,12 +14,12 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
-      }    
+      }
     `).then((results) => {
       results.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
           path: `/recipes${node.frontmatter.slug}`,
-          component: path.resolve('./src/components/layout/postLayout.js'),
+          component: path.resolve('./src/templates/recipePageTemplate.js'),
           context: {
             slug: node.frontmatter.slug,
           },
@@ -30,4 +29,3 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 };
-
