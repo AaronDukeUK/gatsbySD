@@ -12,21 +12,21 @@ const IndexPage = () => (
       query imgQuery {
         hero: file(relativePath: { regex: "/indoor/" }) {
           childImageSharp {
-            fluid(maxWidth: 1000, grayscale: true) {
+            fluid(maxWidth: 3000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
         food: file(relativePath: { regex: "/shortbreads/" }) {
           childImageSharp {
-            fluid(grayscale: true) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
         }
         dinig: file(relativePath: { regex: "/dining/" }) {
           childImageSharp {
-            fluid(grayscale: true) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
@@ -51,7 +51,7 @@ const IndexPage = () => (
 
         <div className="lead">
           <h1> WATERING HOLE AND GARDEN </h1>
-          <p> Based in Spore, near Swaffham. </p>
+          <p> Based in Sporle, near Swaffham. </p>
           <p>
             The Squirrels Drey boasts locally sourced, homemade food in idealic
             location.
@@ -61,7 +61,7 @@ const IndexPage = () => (
 
         <div className="info">
           <div className="infoLeft">
-            <h2> HOMEMADE FOOD </h2>
+            <h2> Homemade Food </h2>
 
             <Img
               className="infoPicture"
@@ -69,12 +69,11 @@ const IndexPage = () => (
             />
 
             <p>
-              Lorem ipsum dolor amet health goth synth glossier vinyl jianbing,
-              meggings distillery wolf brunch bushwick brooklyn. Chambray
-              succulents iceland keytar sartorial. Locavore gochujang jean
-              shorts cred keffiyeh coloring book twee roof party squid ennui
-              tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier
-              tacos.
+              We Pride ourselves on using fresh, locally source produce
+              throughout our menu. All of our dishes are made on site and we can
+              cater to any dietery requirements you may have. We can accomodate
+              large parties for any occasion, taloring your experience to
+              whatever your needs may be.
             </p>
 
             <Link to="./menus"> Read More </Link>
@@ -89,12 +88,11 @@ const IndexPage = () => (
             />
 
             <p>
-              Lorem ipsum dolor amet health goth synth glossier vinyl jianbing,
-              meggings distillery wolf brunch bushwick brooklyn. Chambray
-              succulents iceland keytar sartorial. Locavore gochujang jean
-              shorts cred keffiyeh coloring book twee roof party squid ennui
-              tousled. Migas skateboard tumblr lo-fi lomo. Deep v chia glossier
-              tacos.
+              We are a family run, tradition village Pub, situated in the quaint
+              village of Sporle. We offer a wide range of specially selected
+              beverages within relaxed, acommodating surroundings. A large open
+              fireplace to keep you warm in the colder months and a spacious
+              beer garden for everyone to enjoy in the warmer ones.
             </p>
 
             <Link to="./about"> Read More </Link>
@@ -121,43 +119,40 @@ const IndexPage = () => (
           <div className="newsContent">
             <div className="newsMiddle">
               <div className="newsItem">
-                <h4> News 1 </h4>
+                <h4> Did you Know? </h4>
                 <p>
-                  Raclette seitan kombucha bushwick, leggings chicharrones fam
-                  locavoregodard knausgaard truffaut bicycle rights. Vegan photo
-                  booth banjo pop - up, messenger bag kogi leggings venmo iPhone
-                  3 wolf moon.
+                  We use a large variety of ingredients in our dishes which is
+                  source from our very own organic allotment. It is located only
+                  a few miles away and these ingredients get sourced regulary.
                 </p>
               </div>
 
               <div className="newsItem">
-                <h4> News 2 </h4>
+                <h4> Gluten Free? </h4>
                 <p>
-                  Raclette seitan kombucha bushwick, leggings chicharrones fam
-                  locavoregodard knausgaard truffaut bicycle rights. Vegan photo
-                  booth banjo pop - up, messenger bag kogi leggings venmo iPhone
-                  3 wolf moon.
+                  Here at the squirrels drey we understand it can be hard to
+                  dine out when dietry requirements are conserned. Thats why
+                  almost all of our dishes can be adapted to suit your needs.
                 </p>
               </div>
             </div>
 
             <div className="newsRight">
               <div className="newsItem">
-                <h4> News 3 </h4>
+                <h4> Beer Garden </h4>
                 <p>
-                  Raclette seitan kombucha bushwick, leggings chicharrones fam
-                  locavoregodard knausgaard truffaut bicycle rights. Vegan photo
-                  booth banjo pop - up, messenger bag kogi leggings venmo iPhone
-                  3 wolf moon.
+                  This year we have been working hard to get a large portion of
+                  the garden suitable for you all to enjoy. In the summer of
+                  2020 this will be opened for everyone to use! Did someone say
+                  BBQ?
                 </p>
               </div>
               <div className="newsItem">
-                <h4>News 4</h4>
+                <h4>Functions</h4>
                 <p>
-                  Raclette seitan kombucha bushwick, leggings chicharrones fam
-                  locavore godard knausgaard truffaut bicycle rights. Vegan
-                  photo booth banjo pop - up, messenger bag kogi leggings venmo
-                  iPhone 3 wolf moon.
+                  Need a venue for a gathering you are organising? We can cater
+                  to a large variety of requests, please feel free to get in
+                  contact with us to discuss your ideas further.
                 </p>
               </div>
             </div>

@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'squirrels-drey',
-        short_name: 'SD-Sporle',
+        name: 'Squirrels Drey',
+        short_name: 'Squirrels Drey',
         start_url: '/',
         background_color: '#fa9200',
         theme_color: '#fa9200',
