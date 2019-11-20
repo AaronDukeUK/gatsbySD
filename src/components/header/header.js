@@ -126,14 +126,14 @@ const Header = ({ classes }) => {
           </Hidden>
 
           <Hidden mdUp>
-            <Fab
+            <Button
+              color="secondary"
               className={classes.menuButton}
-              color="primary"
               aria-label="menu"
               onClick={handleClick}
             >
               <MenuIcon />
-            </Fab>
+            </Button>
             <Menu
               className={classes.mobileMenu}
               anchorEl={anchorEl}
@@ -211,19 +211,21 @@ const Header = ({ classes }) => {
                 </Typography>
               </MenuItem>
               <Box>
-                <Fab
+                <Button
+                  style={{ margin: 0 }}
+                  color="secondary"
                   size="large"
-                  color="primary"
-                  aria-label="add"
+                  aria-label="facebook"
                   className={classes.fab}
                   href="https://www.facebook.com/TheSquirrelsDrey"
                 >
                   <FacebookIcon />
-                </Fab>
-                <Fab
+                </Button>
+                <Button
+                  style={{ margin: 0 }}
+                  color="secondary"
                   size="large"
-                  color="primary"
-                  aria-label="add"
+                  aria-label="tripadvisor"
                   className={classes.fab}
                   href="https://www.tripadvisor.co.uk/Restaurant_Review-g7176428-d15110475-Reviews-The_Squirrels_Drey-Sporle_Norfolk_East_Anglia_England.html"
                 >
@@ -255,7 +257,7 @@ const Header = ({ classes }) => {
                       fill="white"
                     />
                   </svg>
-                </Fab>
+                </Button>
               </Box>
             </Menu>
           </Hidden>

@@ -8,30 +8,15 @@ import {
 import { withStyles } from '@material-ui/core/styles';
 
 import { Waypoint } from 'react-waypoint';
-import { animated, useSpring, config } from 'react-spring';
+import { animated, useSpring } from 'react-spring';
 
 import styles from './styles';
 
-const calc = (x, y) => [
-  -(y - window.innerHeight / 2) / 20,
-  (x - window.innerWidth / 2) / 20,
-  1.1,
-];
-const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
-
 const IndexPage = ({ classes }) => {
   const [on1, toggle1] = useState(false);
-  const [on2, toggle2] = useState(false);
-  const [on3, toggle3] = useState(false);
 
   const animation1 = useSpring({
     opacity: on1 ? 1 : 0,
-  });
-  const animation2 = useSpring({
-    transform: on2 ? 1 : 0,
-  });
-  const animation3 = useSpring({
-    opacity: on3 ? 1 : 0,
   });
 
   const AnimatedGrid = animated(Grid);
@@ -92,7 +77,7 @@ const IndexPage = ({ classes }) => {
                 WATERING HOLE AND GARDEN
               </Typography>
             </Grid>
-            <Grid item m="10" sm="10">
+            <Grid item m="10" sm="10" xs="9">
               <Typography variant="body1">
                 Based in Sporle, near Swaffham.
               </Typography>
@@ -108,18 +93,12 @@ const IndexPage = ({ classes }) => {
             </Grid>
           </AnimatedGrid>
 
-          <AnimatedGrid
-            style={animation2}
+          <Grid
             container
             className={classes.container}
-            justify="space-around"
+            justify="center"
             align="center"
           >
-            <Waypoint
-              onEnter={() => {
-                if (!on2) toggle2(true);
-              }}
-            />
             <Grid item xs="11" lg="5" className={classes.leadSection}>
               <Typography variant="h3"> Homemade Food </Typography>
 
@@ -165,20 +144,14 @@ const IndexPage = ({ classes }) => {
                 </Button>
               </Link>
             </Grid>
-          </AnimatedGrid>
+          </Grid>
 
-          <AnimatedGrid
-            style={animation3}
+          <Grid
             container
-            className={classes.containerOrange}
+            className={classes.container}
             justify="center"
             align="center"
           >
-            <Waypoint
-              onEnter={() => {
-                if (!on3) toggle3(true);
-              }}
-            />
             <Grid item xs="12" lg="5" className={classes.newsItem}>
               <iframe
                 title="google maps"
@@ -229,7 +202,7 @@ const IndexPage = ({ classes }) => {
                 with us to discuss your ideas further.
               </Typography>
             </Grid>
-          </AnimatedGrid>
+          </Grid>
         </>
       )}
     />

@@ -86,7 +86,7 @@ muiTheme.overrides = {
         letterSpacing: '0.4rem',
       },
       [muiTheme.breakpoints.down('xs')]: {
-        fontSize: '1.5rem',
+        fontSize: '1.3rem',
         letterSpacing: '0.3rem',
       },
     },

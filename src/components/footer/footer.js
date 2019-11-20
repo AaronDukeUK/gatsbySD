@@ -2,6 +2,8 @@ import React from 'react';
 
 import { withStyles } from '@material-ui/core/styles';
 import { Typography, Grid } from '@material-ui/core';
+import logo from '../../images/logo.svg';
+import ad from '../../images/ad.png';
 import styles from './styles';
 
 const Footer = ({ classes }) => (
@@ -32,22 +34,27 @@ const Footer = ({ classes }) => (
       </Grid>
 
       <Grid item xs="12" lg="4">
-        <div className={classes.logo} />
+        <img className={classes.logo} src={logo} alt="Logo" />
       </Grid>
     </Grid>
 
-    <Grid
-      container
-      className={(classes.container, classes.copy)}
-      justify="center"
-      align="center"
-    >
+    <Grid container className={classes.copy} justify="center" align="center">
       <Grid item xs="12" lg="6">
-        <Typography variant="h5">Developed By - Aaron Duke</Typography>
+        <a href="https://aarondukeuk.netlify.com/">
+          <Typography
+            variant="h5"
+            style={{ width: ' 50%' }}
+            className={classes.copyText}
+          >
+            <span className={classes.aaron}>Aaron Duke</span>
+            {/* <img className={classes.ad} src={ad} alt="Logo" /> */}
+          </Typography>
+        </a>
       </Grid>
-
-      <Grid item xs="12" lg="6">
-        <Typography variant="h5">The Little Kitchen Pantry Ltd 2019</Typography>
+      <Grid item xs="11" lg="6">
+        <Typography variant="h5" className={classes.copyText}>
+          The Little Kitchen Pantry Ltd 2019 &copy;
+        </Typography>
       </Grid>
     </Grid>
   </div>

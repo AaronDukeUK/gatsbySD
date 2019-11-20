@@ -43,7 +43,8 @@
     "styled-components": "^4.4.1",
     "typeface-anton": "0.0.72",
     "typeface-gochi-hand": "0.0.72",
-    "typeface-roboto": "0.0.75"
+    "typeface-roboto": "0.0.75",
+    "typeface-rock-salt": "0.0.72"
   },
   "devDependencies": {
     "eslint": "^6.6.0",

@@ -1,6 +1,7 @@
 require('typeface-roboto');
 require('typeface-anton');
 require('typeface-gochi-hand');
+require('typeface-rock-salt');
 
 const typography = () => ({
   h1: {

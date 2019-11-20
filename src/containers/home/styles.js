@@ -14,15 +14,26 @@ const styles = (theme) => ({
     minHeight: '100vh',
     color: 'white',
     padding: '0 0 20px 0',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '3rem',
+      justifyContent: 'center',
+      lineHeight: '5rem',
+    },
   },
   container: {
     background: 'white',
     padding: '150px 0',
+    [theme.breakpoints.down('sm')]: {
+      padding: '50px 0',
+    },
     borderBottom: '2px solid black',
   },
   containerOrange: {
     background: orange[700],
     padding: '150px 0',
+    [theme.breakpoints.down('sm')]: {
+      padding: '50px 0',
+    },
     borderBottom: '2px solid black',
   },
   leadTitle: {
@@ -38,6 +49,9 @@ const styles = (theme) => ({
     height: '400px',
     width: '100%',
     margin: '100px 0',
+    [theme.breakpoints.down('sm')]: {
+      margin: '20px 0',
+    },
   },
   gmap: {
     height: '400px',
