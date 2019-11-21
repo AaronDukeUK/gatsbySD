@@ -75,6 +75,12 @@ const styles = (theme) => ({
       padding: '0',
     },
   },
+  newsItemMap: {
+    padding: '150px 40px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '0',
+    },
+  },
 });
 
 export default styles;

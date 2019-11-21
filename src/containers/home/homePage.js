@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import {
- Typography, Grid, Button, Fade 
+ Typography, Grid, Button, Fade, Paper 
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -152,7 +152,7 @@ const IndexPage = ({ classes }) => {
             justify="center"
             align="center"
           >
-            <Grid item xs="12" lg="5" className={classes.newsItem}>
+            <Grid item xs="12" lg="5" className={classes.newsItemMap}>
               <iframe
                 title="google maps"
                 className={classes.gmap}
