@@ -1,32 +1,46 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-danger */
 /* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-import { graphql } from 'gatsby';
-import { Layout } from 'components/layout';
+import React from "react";
+import { graphql } from "gatsby";
+import { Layout } from "components/layout";
 
-import './postLayout.css';
+import { Typography, Grid, Fade } from "@material-ui/core";
 
-export default class RecipePageTemplate extends Component {
-  render() {
-    const { markdownRemark } = this.props.data;
-    const { location } = this.props;
-    return (
-      <>
-        <Layout location={location}>
-          <h1 className="markdownTitle">{markdownRemark.frontmatter.title}</h1>
+import { withStyles } from "@material-ui/core/styles";
+import styles from "./styles";
 
-          <div
-            className="markdownContainer"
-            dangerouslySetInnerHTML={{
-              __html: markdownRemark.html,
-            }}
-          />
-        </Layout>
-      </>
-    );
-  }
-}
+const RecipePageTemplate = ({ data, classes, location }) => {
+  const { markdownRemark } = data;
+  return (
+    <>
+      <Layout location={location}>
+        <Grid
+          container
+          className={classes.container}
+          justify="center"
+          align="center"
+        >
+          <Grid item xs="11">
+            <Fade in timeout={2000}>
+              <Typography variant="h2" className={classes.title}>
+                {markdownRemark.frontmatter.title}
+              </Typography>
+            </Fade>
+          </Grid>
+          <Grid item xs="11" m="10" lg="8">
+            <div
+              className={classes.html}
+              dangerouslySetInnerHTML={{
+                __html: markdownRemark.html
+              }}
+            />
+          </Grid>
+        </Grid>
+      </Layout>
+    </>
+  );
+};
 
 export const query = graphql`
   query PostQuery($slug: String!) {
@@ -40,3 +54,5 @@ export const query = graphql`
     }
   }
 `;
+
+export default withStyles(styles)(RecipePageTemplate);
