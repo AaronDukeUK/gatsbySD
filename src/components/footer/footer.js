@@ -39,11 +39,11 @@ const Footer = ({ classes }) => (
 
     <Grid container className={classes.copy} justify="center" align="center">
       <Grid item xs="11" lg="5">
-        <a href="https://aarondukeuk.netlify.com/">
-          <Typography variant="h5" className={classes.copyText}>
-            Web Design By Aaron Duke
-          </Typography>
-        </a>
+        {/* <a href="#"> */}
+        <Typography variant="h5" className={classes.copyText}>
+          Web Design By Aaron Duke
+        </Typography>
+        {/* </a> */}
       </Grid>
       <Grid item xs="11" lg="5">
         <Typography variant="h5" className={classes.copyText}>
