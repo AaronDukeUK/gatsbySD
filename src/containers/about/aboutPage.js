@@ -45,7 +45,7 @@ const AboutPage = ({ classes }) => (
             Peter Chapman - Owner / Head Chef
           </Typography>
         </Grid>
-        <Grid item xs="10">
+        <Grid item xs="10" lg="6">
           <Typography variant="body2">
             My career choice was sparked whilst still at school in the home
             economics department. The passion I had developed and inspiration

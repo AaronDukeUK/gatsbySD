@@ -1,14 +1,14 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-danger */
 /* eslint-disable react/prefer-stateless-function */
-import React from "react";
-import { graphql } from "gatsby";
-import { Layout } from "components/layout";
+import React from 'react';
+import { graphql } from 'gatsby';
+import { Layout } from 'components/layout';
 
-import { Typography, Grid, Fade } from "@material-ui/core";
+import { Typography, Grid, Fade } from '@material-ui/core';
 
-import { withStyles } from "@material-ui/core/styles";
-import styles from "./styles";
+import { withStyles } from '@material-ui/core/styles';
+import styles from './styles';
 
 const RecipePageTemplate = ({ data, classes, location }) => {
   const { markdownRemark } = data;
@@ -28,11 +28,11 @@ const RecipePageTemplate = ({ data, classes, location }) => {
               </Typography>
             </Fade>
           </Grid>
-          <Grid item xs="11" m="10" lg="8">
+          <Grid item xs="11" m="10" lg="6">
             <div
               className={classes.html}
               dangerouslySetInnerHTML={{
-                __html: markdownRemark.html
+                __html: markdownRemark.html,
               }}
             />
           </Grid>
