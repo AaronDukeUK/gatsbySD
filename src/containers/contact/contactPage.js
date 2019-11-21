@@ -16,9 +16,8 @@ const ContactPage = ({ classes }) => (
     </Fade>
     <Grid item xs="10">
       <Typography variant="body2">
-        It is always advised to book a table beforehand. If you have any
-        queries, please do not hesitate to contact us. We are always happy to
-        help.
+        If you have any queries, please do not hesitate to contact us. We are
+        always happy to help.
       </Typography>
     </Grid>
     <Grid item xs="10">

@@ -20,6 +20,9 @@ const styles = (theme) => ({
   copy: {
     borderTop: '2px solid black',
     padding: '40px 0',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     [theme.breakpoints.down('sm')]: {
       fontSize: '1rem',
       lineHeight: '5rem',
@@ -27,14 +30,18 @@ const styles = (theme) => ({
   },
   copyText: {
     color: 'white',
+
     [theme.breakpoints.down('sm')]: {
-      fontSize: '1.5rem',
+      fontSize: '1.7rem',
       lineHeight: '3rem',
     },
   },
   aaron: {
-    width: '100%',
-    fontFamily: 'Rock Salt',
+    fontFamily: 'East Sea Dokdo',
+    fontSize: '2rem',
+  },
+  ad: {
+    width: '30px',
   },
 });
 

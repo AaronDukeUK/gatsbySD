@@ -55,6 +55,21 @@ const IndexPage = ({ classes }) => {
             style={{ position: 'fixed' }}
             fluid={data.hero.childImageSharp.fluid}
           />
+          <div
+            id="TA_restaurantWidgetWhite964"
+            className="TA_restaurantWidgetWhite"
+          >
+            <ul id="amHKuL2gbe" className="TA_links n8dHMDEn">
+              <li id="Fxc4Zk" className="SdrW2AS3XO5">
+                <a target="_blank" href="https://www.tripadvisor.co.uk/">
+                  <img
+                    src="https://www.tripadvisor.co.uk/img/cdsi/partner/tripadvisor_logo_117x18-24177-2.png"
+                    alt="TripAdvisor"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
           <Fade in timeout={2000}>
             <Typography className={classes.heroText} variant="h1">
               The Squirrels Drey

@@ -11,7 +11,7 @@ const styles = (theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    minHeight: '100vh',
+    minHeight: '90vh',
     color: 'white',
     padding: '0 0 20px 0',
     [theme.breakpoints.down('sm')]: {

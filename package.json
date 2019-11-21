@@ -42,9 +42,11 @@
     "react-waypoint": "^9.0.2",
     "styled-components": "^4.4.1",
     "typeface-anton": "0.0.72",
+    "typeface-east-sea-dokdo": "0.0.61",
     "typeface-gochi-hand": "0.0.72",
     "typeface-roboto": "0.0.75",
-    "typeface-rock-salt": "0.0.72"
+    "typeface-rock-salt": "0.0.72",
+    "typeface-sedgwick-ave-display": "0.0.71"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
