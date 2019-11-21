@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import {
-  Typography, Grid, Button, Fade,
+ Typography, Grid, Button, Fade 
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -108,10 +108,11 @@ const IndexPage = ({ classes }) => {
               />
 
               <Typography variant="body2">
-                We Pride ourselves on using fresh, locally source produce
-                throughout our menu. All of our dishes are made on site and we
-                can cater to any dietery requirements. We can accomodate small
-                parties for any occasion, tailored accordingly.
+                We Pride ourselves on using fresh, locally sourced produce
+                throughout our seasonal menus. All of our dishes are made on
+                site and we can cater to many dietary requirements you may have.
+                We can accommodate small parties for any occasion, tailored
+                according to your needs.
               </Typography>
 
               <Link to="./menus">
@@ -132,9 +133,9 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We are a family run, traditional village Pub, situated in the
                 quaint village of Sporle. We offer a wide range of specially
-                selected beverages within relaxed, acommodating surroundings. A
+                selected beverages within relaxed, accommodating surroundings. A
                 large open fire to keep you cosy in the cold and a spacious beer
-                garden for everyone to enjoy in the sun.
+                garden for everyone to enjoy in the sunshine.
               </Typography>
 
               <Link to="./about">
@@ -171,17 +172,17 @@ const IndexPage = ({ classes }) => {
 
               <Typography variant="body2">
                 We use a large variety of organic ingredients in our dishes,
-                which are source from our very own allotment. Located only a few
-                miles down the road from The Squirrels Drey.
+                which are sourced from our very own allotment. Located only a
+                few miles down the road from The Squirrels Drey.
               </Typography>
 
               <Typography variant="h4"> Gluten Free? </Typography>
 
               <Typography variant="body2">
                 Here at The Squirrels Drey, we understand it can sometimes be
-                difficult to dine out when you have dietry requirements. That is
-                why almost all of our dishes can be adapted to suit your needs,
-                just let us know.
+                difficult to dine out when you have dietary requirements. That
+                is why almost all of our dishes can be adapted to suit your
+                needs, just let us know.
               </Typography>
             </Grid>
 
