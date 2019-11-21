@@ -12,7 +12,7 @@ const styles = (theme) => ({
     alignItems: 'center',
   },
   logo: {
-    width: '300px',
+    width: '200px',
     [theme.breakpoints.down('md')]: {
       margin: '100px 0 0 0',
     },

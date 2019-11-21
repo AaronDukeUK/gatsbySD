@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { withStyles } from '@material-ui/core/styles';
-import { Typography, Grid, Button } from '@material-ui/core';
+import { Typography, Grid } from '@material-ui/core';
 import logo from '../../images/logo.svg';
-import ad from '../../images/ad.png';
 import styles from './styles';
 
 const Footer = ({ classes }) => (
@@ -20,11 +19,11 @@ const Footer = ({ classes }) => (
         <Typography variant="body2">Thursday: 1700 - 2230</Typography>
         <Typography variant="body2">Friday: 1700 - 2330</Typography>
         <Typography variant="body2">Saturday: 1200 - 2330</Typography>
-        <Typography variant="body2">Sunday: 1200 - 2130</Typography>
+        <Typography variant="body2">Sunday: 1200 - 1800</Typography>
       </Grid>
 
       <Grid item xs="12" lg="4">
-        <Typography variant="h4">Food Hours</Typography>
+        <Typography variant="h4">Food Served</Typography>
         <Typography variant="body2">Thursday: 1730 - 2100</Typography>
         <Typography variant="body2">Friday: 1730 - 2100</Typography>
         <Typography variant="body2">

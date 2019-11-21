@@ -55,21 +55,6 @@ const IndexPage = ({ classes }) => {
             style={{ position: 'fixed' }}
             fluid={data.hero.childImageSharp.fluid}
           />
-          <div
-            id="TA_restaurantWidgetWhite964"
-            className="TA_restaurantWidgetWhite"
-          >
-            <ul id="amHKuL2gbe" className="TA_links n8dHMDEn">
-              <li id="Fxc4Zk" className="SdrW2AS3XO5">
-                <a target="_blank" href="https://www.tripadvisor.co.uk/">
-                  <img
-                    src="https://www.tripadvisor.co.uk/img/cdsi/partner/tripadvisor_logo_117x18-24177-2.png"
-                    alt="TripAdvisor"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
           <Fade in timeout={2000}>
             <Typography className={classes.heroText} variant="h1">
               The Squirrels Drey
@@ -125,9 +110,9 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We Pride ourselves on using fresh, locally source produce
                 throughout our menu. All of our dishes are made on site and we
-                can cater to any dietery requirements you may have. We can
-                accomodate large parties for any occasion, taloring your
-                experience to whatever your needs may be.
+                can cater to any dietery requirements. We can accomodate small
+                parties for any occasion, tailored accordingly your to whatever
+                your needs may be.
               </Typography>
 
               <Link to="./menus">
@@ -146,11 +131,11 @@ const IndexPage = ({ classes }) => {
               />
 
               <Typography variant="body2">
-                We are a family run, tradition village Pub, situated in the
+                We are a family run, traditional village Pub, situated in the
                 quaint village of Sporle. We offer a wide range of specially
                 selected beverages within relaxed, acommodating surroundings. A
-                large open fireplace to keep you warm in the colder months and a
-                spacious beer garden for everyone to enjoy in the warmer ones.
+                large open fire to keep you cosy in the cold and a spacious beer
+                garden for everyone to enjoy in the sun.
               </Typography>
 
               <Link to="./about">
@@ -186,17 +171,18 @@ const IndexPage = ({ classes }) => {
               <Typography variant="h4"> Did you Know? </Typography>
 
               <Typography variant="body2">
-                We use a large variety of ingredients in our dishes which is
-                source from our very own organic allotment. It is located only a
-                few miles away and these ingredients get sourced regulary.
+                We use a large variety of organic ingredients in our dishes,
+                which are source from our very own allotment. Located only a few
+                miles down the road from The Squirrels Drey.
               </Typography>
 
               <Typography variant="h4"> Gluten Free? </Typography>
 
               <Typography variant="body2">
-                Here at the squirrels drey we understand it can be hard to dine
-                out when dietry requirements are conserned. Thats why almost all
-                of our dishes can be adapted to suit your needs.
+                Here at The Squirrels Drey, we understand it can sometimes be
+                difficult to dine out when you have dietry requirements. That is
+                why almost all of our dishes can be adapted to suit your needs,
+                just let us know.
               </Typography>
             </Grid>
 
@@ -206,14 +192,14 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 This year we have been working hard to get a large portion of
                 the garden suitable for you all to enjoy. In the summer of 2020
-                this will be opened for everyone to use! Did someone say BBQ?
+                this will be opened for everyone to use.
               </Typography>
 
               <Typography variant="h4"> Functions </Typography>
 
               <Typography variant="body2">
                 Need a venue for a gathering you are organising? We can cater to
-                a large variety of requests, please feel free to get in contact
+                a large variety of requests. Please feel free to get in contact
                 with us to discuss your ideas further.
               </Typography>
             </Grid>
