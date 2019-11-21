@@ -110,9 +110,9 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We Pride ourselves on using fresh, locally sourced produce
                 throughout our seasonal menus. All of our dishes are made on
-                site and we can cater to many dietary requirements you may have.
+                site so we can cater to any dietary requirements you may have.
                 We can accommodate small parties for any occasion, tailored
-                according to your needs.
+                accordingly to your needs.
               </Typography>
 
               <Link to="./menus">
