@@ -82,8 +82,8 @@ const IndexPage = ({ classes }) => {
                 Based in Sporle, near Swaffham.
               </Typography>
               <Typography variant="body1">
-                The Squirrels Drey boasts locally sourced, homemade food in
-                idealic location.
+                The Squirrels Drey boasts locally sourced, homemade food in an
+                idyllic location.
               </Typography>
               <Link to="/menus">
                 <Button size="large" variant="contained">
