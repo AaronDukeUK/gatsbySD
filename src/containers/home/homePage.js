@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import {
- Typography, Grid, Button, Fade 
+  Typography, Grid, Button, Fade,
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -111,8 +111,7 @@ const IndexPage = ({ classes }) => {
                 We Pride ourselves on using fresh, locally source produce
                 throughout our menu. All of our dishes are made on site and we
                 can cater to any dietery requirements. We can accomodate small
-                parties for any occasion, tailored accordingly your to whatever
-                your needs may be.
+                parties for any occasion, tailored accordingly.
               </Typography>
 
               <Link to="./menus">
