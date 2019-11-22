@@ -19,6 +19,7 @@ const MenuPage = ({ classes }) => (
       <Typography variant="body1">
         Vegan dishes available upon request
       </Typography>
+      <Typography variant="body1">Sample Options</Typography>
     </Grid>
     <Grid item xs="10" lg="6">
       <Typography variant="h4" className="menuTitle">
