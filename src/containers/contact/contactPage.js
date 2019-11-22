@@ -16,8 +16,7 @@ const ContactPage = ({ classes }) => (
     </Fade>
     <Grid item xs="10">
       <Typography variant="body2">
-        If you have any queries, please do not hesitate to contact us. We are
-        always happy to help.
+        If you have any queries, please do not hesitate to contact us.
       </Typography>
     </Grid>
     <Grid item xs="10">

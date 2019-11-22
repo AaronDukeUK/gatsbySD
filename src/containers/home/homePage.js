@@ -131,11 +131,11 @@ const IndexPage = ({ classes }) => {
               />
 
               <Typography variant="body2">
-                We are a family run, traditional village Pub, situated in the
-                quaint village of Sporle. We offer a wide range of specially
-                selected beverages within relaxed, accommodating surroundings. A
-                large open fire to keep you cosy in the cold and a spacious beer
-                garden for everyone to enjoy in the sunshine.
+                We are a welcoming and relaxed, family run traditional village
+                pub, situated in the quaint village of sporle. We provide a
+                large open fire that is sure to keep you warm in the coldest of
+                weather whilst indulging in a wide range of specially selected
+                beverages and homemade food.
               </Typography>
 
               <Link to="./about">
@@ -176,12 +176,12 @@ const IndexPage = ({ classes }) => {
                 few miles down the road from The Squirrels Drey.
               </Typography>
 
-              <Typography variant="h4"> Gluten Free? </Typography>
+              <Typography variant="h4"> Dietary Restrictions? </Typography>
 
               <Typography variant="body2">
                 Here at The Squirrels Drey, we understand it can sometimes be
                 difficult to dine out when you have dietary requirements. That
-                is why almost all of our dishes can be adapted to suit your
+                is why almost all of our dishes can be adapted according to your
                 needs, just let us know.
               </Typography>
             </Grid>

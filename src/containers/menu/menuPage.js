@@ -16,6 +16,9 @@ const MenuPage = ({ classes }) => (
       <Typography variant="body1">
         GF - Gluten Free on Request / V - Vegetarian
       </Typography>
+      <Typography variant="body1">
+        Vegan dishes available upon request
+      </Typography>
     </Grid>
     <Grid item xs="10" lg="6">
       <Typography variant="h4" className="menuTitle">

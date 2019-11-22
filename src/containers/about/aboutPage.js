@@ -48,14 +48,14 @@ const AboutPage = ({ classes }) => (
         <Grid item xs="10" lg="6">
           <Typography variant="body2">
             My career choice was sparked whilst still at school in the home
-            economics department. The passion I had developed and inspiration
-            from our top chefs gave me the desire to always create unusual
-            dishes. I have always wanted to use fresh local produce and high
-            quality ingredients with a simple approach, allowing the natural
-            flavours to speak for themselves. That desire developed into
-            attempting to create an environment where people could come to
-            socialise and enjoy good honest food, in a relaxed environment, with
-            friendly, welcoming service.
+            economics department. The passion I developed together with
+            inspiration from our top chefs gave me the desire to always create
+            unusual dishes. I have always wanted to use fresh local produce and
+            high quality ingredients with a simple approach, allowing the
+            natural flavours to speak for themselves. That desire developed into
+            the creation of an environment where people could come to socialise
+            and enjoy good honest food, in a relaxed, with friendly, welcoming
+            surroundings.
           </Typography>
         </Grid>
       </Grid>
