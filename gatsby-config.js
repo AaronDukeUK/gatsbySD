@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Squirrels Drey',
     description:
-      'The Squirrels Drey boasts locally sourced, homemade food in idealic location.',
+      'The Squirrels Drey Pub & Restaurant boasts fresh, locally sourced, homemade food in an idyllic location.',
     author: '@ADuke_Design',
     siteUrl: 'https://squirrelsdrey-aaronduke.netlify.com',
   },

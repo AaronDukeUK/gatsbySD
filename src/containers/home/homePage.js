@@ -74,20 +74,18 @@ const IndexPage = ({ classes }) => {
             />
             <Grid item m="10" sm="11">
               <Typography variant="h2" className={classes.leadTitle}>
-                WATERING HOLE AND GARDEN
+                PUB & RESTAURANT
               </Typography>
             </Grid>
             <Grid item m="10" sm="10" xs="9">
+              <Typography variant="body1">Based in Sporle, Norfolk.</Typography>
               <Typography variant="body1">
-                Based in Sporle, near Swaffham.
-              </Typography>
-              <Typography variant="body1">
-                The Squirrels Drey boasts locally sourced, homemade food in an
-                idyllic location.
+                The Squirrels Drey Pub & Restaurant boasts fresh, locally
+                sourced, homemade food in an idyllic location.
               </Typography>
               <Link to="/menus">
                 <Button size="large" variant="contained">
-                  Our Menu
+                  Our Food Menu
                 </Button>
               </Link>
             </Grid>
@@ -132,10 +130,10 @@ const IndexPage = ({ classes }) => {
 
               <Typography variant="body2">
                 We are a welcoming and relaxed, family run traditional village
-                pub, situated in the quaint village of sporle. We provide a
-                large open fire that is sure to keep you warm in the coldest of
-                weather whilst indulging in a wide range of specially selected
-                beverages and homemade food.
+                pub / restaurant, situated in the quaint village of Sporle,
+                Norfolk. We provide a large open fire that is sure to keep you
+                warm in the coldest of weather whilst indulging in a wide range
+                of specially selected beverages and homemade food.
               </Typography>
 
               <Link to="./about">
