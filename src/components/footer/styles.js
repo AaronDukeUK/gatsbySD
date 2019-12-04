@@ -32,7 +32,7 @@ const styles = (theme) => ({
     color: 'white',
 
     [theme.breakpoints.down('sm')]: {
-      fontSize: '1.7rem',
+      fontSize: '1rem',
       lineHeight: '3rem',
     },
   },
