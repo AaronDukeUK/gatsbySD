@@ -67,11 +67,11 @@ muiTheme.overrides = {
     },
     h4: {
       [muiTheme.breakpoints.down('md')]: {
-        fontSize: '3rem',
+        fontSize: '2.5rem',
         letterSpacing: '0.5rem',
       },
       [muiTheme.breakpoints.down('sm')]: {
-        fontSize: '2.5rem',
+        fontSize: '2.2rem',
         letterSpacing: '0.4rem',
       },
       [muiTheme.breakpoints.down('xs')]: {
@@ -81,12 +81,16 @@ muiTheme.overrides = {
     },
 
     h5: {
+      [muiTheme.breakpoints.down('lg')]: {
+        fontSize: '1.2rem',
+        letterSpacing: '0.4rem',
+      },
       [muiTheme.breakpoints.down('sm')]: {
-        fontSize: '2.5rem',
+        fontSize: '2rem',
         letterSpacing: '0.4rem',
       },
       [muiTheme.breakpoints.down('xs')]: {
-        fontSize: '1.3rem',
+        fontSize: '1.2rem',
         letterSpacing: '0.3rem',
       },
     },

@@ -38,7 +38,7 @@ const Header = ({ classes }) => {
           <Link to="/" style={{ color: 'white' }}>
             <Typography variant="h5">The Squirrels Drey</Typography>
           </Link>
-          <Hidden mdDown>
+          <Hidden lgDown>
             <Typography variant="h6">Local & Homemade Food</Typography>
           </Hidden>
 

@@ -16,7 +16,7 @@ const styles = (theme) => ({
     padding: '0 0 20px 0',
     [theme.breakpoints.down('sm')]: {
       fontSize: '3rem',
-      justifyContent: 'center',
+      justifyContent: 'flex-end',
       lineHeight: '5rem',
     },
   },

@@ -25,23 +25,23 @@ const IndexPage = ({ classes }) => {
     <StaticQuery
       query={graphql`
         query imgQuery {
-          hero: file(relativePath: { regex: "/indoor/" }) {
+          hero: file(relativePath: { regex: "/hero/" }) {
             childImageSharp {
               fluid(maxWidth: 3000) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
-          food: file(relativePath: { regex: "/shortbreads/" }) {
+          food: file(relativePath: { regex: "/seabass/" }) {
             childImageSharp {
-              fluid {
+              fluid(maxWidth: 3000) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
-          dinig: file(relativePath: { regex: "/dining/" }) {
+          dining: file(relativePath: { regex: "/rest/" }) {
             childImageSharp {
-              fluid {
+              fluid(maxWidth: 3000) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -127,7 +127,7 @@ const IndexPage = ({ classes }) => {
 
               <Img
                 className={classes.infoImage}
-                fluid={data.dinig.childImageSharp.fluid}
+                fluid={data.dining.childImageSharp.fluid}
               />
 
               <Typography variant="body2">
