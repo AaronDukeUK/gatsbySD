@@ -115,7 +115,7 @@ const MenuPage = ({ classes }) => (
           </Fade>
           <Grid item xs="10">
             <Typography variant="body1">
-              GF - Gluten Free on Request / V - Vegetarian
+              GF - Gluten Free on request / V - Vegetarian
             </Typography>
             <Typography variant="body1">
               Vegan dishes available upon request
@@ -126,12 +126,11 @@ const MenuPage = ({ classes }) => (
               Starters
             </Typography>
             <Typography variant="body1">
-              Rustic oven baked ciabatta bread, provencal herbed olives,
-              balsamic oil. V
+              Oven baked ciabatta bread, provencal herbed olives, balsamic oil.
+              V
             </Typography>
             <Typography variant="body1">
-              Roast chestnut and creme fraiche soup, toasted pumpkin seed,
-              smoked bacon. GF
+              Roast chestnut soup, toasted pumpkin seed, smoked bacon. GF
             </Typography>
             <Typography variant="body1">
               Deep fried crispy popcorn cockles, sweet chilli and red wine
@@ -146,44 +145,49 @@ const MenuPage = ({ classes }) => (
               onion, wilted kale, horseradish mash.
             </Typography>
             <Typography variant="body1">
-              Oven roasted Norfolk chicken, chorizo and sweet potato tagine,
-              cracked pepper parsnip crisps.
+              Norfolk lamb and rosemary burger, chunky beef dripping chips,
+              winter slaw, spiced cranberry marmalade. GF
             </Typography>
             <Typography variant="body1">
-              Almond crusted sea bream, braised leeks, broad beans, potato and
-              Thames cockle chowder. GF
+              Beer battered sustainable market fish, chunky beef dripping chips,
+              sweet green split peas. GF
             </Typography>
             <Typography variant="body1">
-              Pan seared pork tenderloin, winter pulses and lentil bonbons,
-              crushed broad beans, smoked pancetta, liquorice jus.
-            </Typography>
-            <Typography variant="body1">
-              Smoked norfolk venison and blackberry sausages, wilted kale, roast
+              Smoked Norfolk venison & blackberry sausages, wilted kale, roast
               baby potatoes, sweet port jus. GF
             </Typography>
             <Typography variant="body1">
-              Roast honey fig and goats cheese tart, poached sweet cranberry and
-              thyme polenta salad, toasted pistachio pesto. V
+              Honey roasted fig & goats cheese tart, cranberry & thyme polenta
+              salad, toasted pistachio pesto.
             </Typography>
             <Typography variant="body1">
-              Norfolk lamb and rosemary patty, toasted bap, thrice cooked chunky
-              chips, pickled winter slaw, spiced cranberry marmalade. GF
+              Almond crusted sea bream, Thai green curry, lemongrass, coconut,
+              coriander, spring onion rice noodles.
+            </Typography>
+            <Typography variant="body1">
+              Pan-seared pork loin, winter pulses and lentil bonbons, oven roast
+              nips and tatties, smoked pancetta, sweet quince jus.
+            </Typography>
+            <Typography variant="body1">
+              Oven-roasted Norfolk chicken supreme, chorizo and sweet potato
+              tagine, cracked pepper parsnip crisps.
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
-              Sweet local apple and mixed berry pie with clotted ice cream.
+              Sweet local apple and mixed berry pie, cardamom crème anglaise.
             </Typography>
             <Typography variant="body1">
-              White chocolate and raspberry creme brulee, poppy seed tuile
-              biscuit. GF
+              Walnut baked treacle tart, toasted barley ice cream, dark blossom
+              honey.
             </Typography>
             <Typography variant="body1">
-              Strawberry and elderflower Bakewell tart, vanilla creme anglaise.
+              White chocolate bread & butter pudding, brioche, spiced mandarin &
+              cranberry compote.
             </Typography>
             <Typography variant="h4">Homemade Ice Creams</Typography>
-            <Typography variant="body1">Chocolate Funfair</Typography>
-            <Typography variant="body1">Turkish Delight</Typography>
+            <Typography variant="body1">Toasted Almond & Disaronno</Typography>
+            <Typography variant="body1"> Banana & Irish Cream</Typography>
             <Typography variant="body1">Dark Spiced Rum and Raisin</Typography>
             <Typography variant="body1">Liquorice GF</Typography>
             <Typography variant="body1">Norfolk Lavender GF</Typography>
