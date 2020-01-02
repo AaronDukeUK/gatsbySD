@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import {
- Typography, Grid, Fade, Button 
+  Typography, Grid, Fade, Button,
 } from '@material-ui/core';
 
 import { withStyles } from '@material-ui/core/styles';
@@ -133,49 +133,40 @@ const MenuPage = ({ classes }) => (
               Roast chestnut soup, toasted pumpkin seed, smoked bacon. GF
             </Typography>
             <Typography variant="body1">
-              Deep fried crispy popcorn cockles, sweet chilli and red wine
-              vinegar. GF
+            Sweet duck liver and orange pate, spiced cranberry chutney, toasted brioche.
             </Typography>
             <Typography variant="body1">
-              Roast pumpkin tortellini, chestnut and sage beurre noisette. V
+            Roast portobello mushroom with rosemary and stilton crumb, smoked garlic olive oil. V
             </Typography>
             <Typography variant="h4">Mains</Typography>
             <Typography variant="body1">
-              Slow braised beef and ale pie, shortcrust pastry, caramelised
-              onion, wilted kale, horseradish mash.
+            Slow braised beef and ale pie, wilted kale, mustard seed mash.
             </Typography>
             <Typography variant="body1">
-              Norfolk lamb and rosemary burger, chunky beef dripping chips,
-              winter slaw, spiced cranberry marmalade. GF
+            Beer battered sustainable market fish, chunky beef dripping chips, crushed minted peas, caper mayo. GF
             </Typography>
             <Typography variant="body1">
-              Beer battered sustainable market fish, chunky beef dripping chips,
-              sweet green split peas. GF
+            Norfolk lamb and rosemary burger, chunky beef dripping chips, beer battered onion rings, mint mayonnaise.
             </Typography>
             <Typography variant="body1">
-              Smoked Norfolk venison & blackberry sausages, wilted kale, roast
-              baby potatoes, sweet port jus. GF
+            Smoked Norfolk venison & blackberry sausages, wilted kale, roast baby potatoes, sweet port jus. GF
             </Typography>
             <Typography variant="body1">
-              Honey roasted fig & goats cheese tart, cranberry & thyme polenta
-              salad, toasted pistachio pesto.
+            Almond crusted sea bream, Thai green curry, lemongrass, coconut, coriander, spring onion rice noodles.
             </Typography>
             <Typography variant="body1">
-              Almond crusted sea bream, Thai green curry, lemongrass, coconut,
-              coriander, spring onion rice noodles.
+            Norfolk chicken kiev, roast sweet potato, sun blushed tomato and chorizo salad.
             </Typography>
             <Typography variant="body1">
-              Pan-seared pork loin, winter pulses and lentil bonbons, oven roast
-              nips and tatties, smoked pancetta, sweet quince jus.
+            Norfolk pork and black pudding wellington, smoked bacon bubble and squeak, mustard seed mash, cider jus.
             </Typography>
             <Typography variant="body1">
-              Oven-roasted Norfolk chicken supreme, chorizo and sweet potato
-              tagine, cracked pepper parsnip crisps.
+            Moroccan spiced chickpea and broad bean falafel, toasted pitta, sun blushed tomato and thyme quinoa, mint and cucumber yoghurt. GF V Vg
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
-              Sweet local apple and mixed berry pie, cardamom crème anglaise.
+              Sweet local apple and mixed berry pie, vanilla seed custard.
             </Typography>
             <Typography variant="body1">
               Walnut baked treacle tart, toasted barley ice cream, dark blossom
@@ -187,8 +178,8 @@ const MenuPage = ({ classes }) => (
             </Typography>
             <Typography variant="h4">Homemade Ice Creams</Typography>
             <Typography variant="body1">Toasted Almond & Disaronno</Typography>
-            <Typography variant="body1"> Banana & Irish Cream</Typography>
-            <Typography variant="body1">Dark Spiced Rum and Raisin</Typography>
+            <Typography variant="body1">Banana & Irish Cream</Typography>
+            <Typography variant="body1">Whiskey & Orange Marmalade</Typography>
             <Typography variant="body1">Liquorice GF</Typography>
             <Typography variant="body1">Norfolk Lavender GF</Typography>
             <Typography variant="body1">Rhubarb and Custard Ripple</Typography>
