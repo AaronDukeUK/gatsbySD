@@ -32,6 +32,7 @@
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
+    "react-cookie-consent": "^3.0.0",
     "react-dom": "^16.10.2",
     "react-fontawesome": "^1.7.1",
     "react-gesture-gallery": "^1.1.0",
@@ -50,6 +51,7 @@
     "typeface-sedgwick-ave-display": "0.0.71"
   },
   "devDependencies": {
+    "@beyonk/gdpr-cookie-consent-banner": "^6.2.1",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",

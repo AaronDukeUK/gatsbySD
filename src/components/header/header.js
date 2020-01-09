@@ -1,41 +1,46 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 import {
   AppBar,
   Box,
   Hidden,
   Button,
-  IconButton,
   Toolbar,
   Typography,
   Menu,
   MenuItem,
-  Fab,
-} from '@material-ui/core';
+  Fab
+} from "@material-ui/core";
 
-import FacebookIcon from '@material-ui/icons/Facebook';
+import FacebookIcon from "@material-ui/icons/Facebook";
 
-import MenuIcon from '@material-ui/icons/Menu';
+import MenuIcon from "@material-ui/icons/Menu";
 
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
 
-import styles from './styles';
+import CookieConsent from "react-cookie-consent";
+
+import styles from "./styles";
 
 const Header = ({ classes }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleClick = (event) => {
+  const handleClick = event => {
     setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
     setAnchorEl(null);
   };
+
   return (
     <header>
+      <CookieConsent>
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
       <AppBar position="fixed">
-        <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Link to="/" style={{ color: 'white' }}>
+        <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
+          <Link to="/" style={{ color: "white" }}>
             <Typography variant="h5">The Squirrels Drey</Typography>
           </Link>
           <Hidden lgDown>
@@ -45,24 +50,24 @@ const Header = ({ classes }) => {
           <Hidden smDown>
             <Box>
               <Button color="inherit">
-                <Link to="/" style={{ color: 'white' }}>
+                <Link to="/" style={{ color: "white" }}>
                   <Typography variant="h5">Home</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
-                <Link to="/about" style={{ color: 'white' }}>
+                <Link to="/about" style={{ color: "white" }}>
                   <Typography variant="h5">About</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
-                <Link to="/menus" style={{ color: 'white' }}>
+                <Link to="/menus" style={{ color: "white" }}>
                   <Typography variant="h5">Menu</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
                 <Link
                   to="/recipes"
-                  style={{ textDecoration: 'none', color: 'white' }}
+                  style={{ textDecoration: "none", color: "white" }}
                 >
                   <Typography variant="h5">Recipes</Typography>
                 </Link>
@@ -70,7 +75,7 @@ const Header = ({ classes }) => {
               <Button color="inherit">
                 <Link
                   to="/contact"
-                  style={{ textDecoration: 'none', color: 'white' }}
+                  style={{ textDecoration: "none", color: "white" }}
                 >
                   <Typography variant="h5">Contact</Typography>
                 </Link>
@@ -146,8 +151,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/"
                     style={{
-                      textDecoration: 'none',
-                      color: '#FFF',
+                      textDecoration: "none",
+                      color: "#FFF"
                     }}
                   >
                     Home
@@ -160,8 +165,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/about"
                     style={{
-                      textDecoration: 'none',
-                      color: '#FFF',
+                      textDecoration: "none",
+                      color: "#FFF"
                     }}
                   >
                     About
@@ -174,8 +179,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/menus"
                     style={{
-                      textDecoration: 'none',
-                      color: '#FFF',
+                      textDecoration: "none",
+                      color: "#FFF"
                     }}
                   >
                     Menu
@@ -188,8 +193,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/contact"
                     style={{
-                      textDecoration: 'none',
-                      color: '#FFF',
+                      textDecoration: "none",
+                      color: "#FFF"
                     }}
                   >
                     Contact
@@ -202,8 +207,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/recipes"
                     style={{
-                      textDecoration: 'none',
-                      color: '#FFF',
+                      textDecoration: "none",
+                      color: "#FFF"
                     }}
                   >
                     Recipes
