@@ -191,12 +191,12 @@ const IndexPage = ({ classes }) => {
                 Pork and Homemade Nut Roasts.
               </Typography>
 
-              <Typography variant="h4"> Functions </Typography>
+              <Typography variant="h4"> Valentines </Typography>
 
               <Typography variant="body2">
-                Need a venue for a gathering you are organising? We can cater to
-                a large variety of requests. Please feel free to get in contact
-                with us to discuss your ideas further.
+                Friday 14th of February is Valentines Day. We currently still
+                have spaces available, so why not book now? Treat a loved one to
+                a homemade, locally sourced meal in idyllic surroundings.
               </Typography>
             </Grid>
           </Grid>

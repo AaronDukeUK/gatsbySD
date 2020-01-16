@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Squirrels Drey",
     description:
-      "The Squirrels Drey Pub & Restaurant boasts fresh, locally sourced, homemade food in an idyllic location. Vegan and Vegetarians, Gluten Free and Dairy Free, we can cater to any dietary requirement.",
+      "The Squirrels Drey Pub & Restaurant in Sporle, Norfolk. Boasting fresh, locally sourced, homemade food in an idyllic location. Vegan and Vegetarians, Gluten Free and Dairy Free, we can cater to any dietary requirement.",
     author: "@ADuke_Design",
     siteUrl: "https://squirrelsdrey.co.uk"
   },

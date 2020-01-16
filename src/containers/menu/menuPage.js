@@ -141,10 +141,7 @@ const MenuPage = ({ classes }) => (
           </Fade>
           <Grid item xs="10">
             <Typography variant="body1">
-              GF - Gluten Free on request / V - Vegetarian
-            </Typography>
-            <Typography variant="body1">
-              Vegan dishes available upon request
+              GF - Gluten Free on request / V - Vegetarian / Vg - Vegan
             </Typography>
           </Grid>
           <Grid item xs="10" lg="6">
@@ -159,8 +156,7 @@ const MenuPage = ({ classes }) => (
               Roast chestnut soup, toasted pumpkin seed, smoked bacon. GF
             </Typography>
             <Typography variant="body1">
-              Sweet duck liver and orange pate, spiced cranberry chutney,
-              toasted brioche.
+              Popcorn cockles, sweet chilli and red wine vinegar. GF
             </Typography>
             <Typography variant="body1">
               Roast portobello mushroom with rosemary and stilton crumb, smoked
@@ -175,29 +171,36 @@ const MenuPage = ({ classes }) => (
               crushed minted peas, caper mayo. GF
             </Typography>
             <Typography variant="body1">
-              Norfolk lamb and rosemary burger, chunky beef dripping chips, beer
-              battered onion rings, mint mayonnaise.
+              Sweet BBQ beef burger, smoked cheddar, chorizo, chunky beef
+              dripping chips, beer battered onion rings, harissa mayo.
             </Typography>
             <Typography variant="body1">
-              Smoked Norfolk venison & blackberry sausages, wilted kale, roast
+              Smoked Norfolk venison and blackberry sausages, wilted kale, roast
               baby potatoes, sweet port jus. GF
             </Typography>
             <Typography variant="body1">
-              Almond crusted sea bream, Thai green curry, lemongrass, coconut,
-              coriander, spring onion rice noodles.
+              Honey baked ham hock, crispy Norfolk duck egg, thrice cooked beef
+              dripping chips, piccalilli.
             </Typography>
             <Typography variant="body1">
-              Norfolk chicken kiev, roast sweet potato, sun blushed tomato and
-              chorizo salad.
+              Curried Norfolk chicken kiev, spinach & butternut saag aloo,
+              coriander oil.
             </Typography>
             <Typography variant="body1">
               Norfolk pork and black pudding wellington, smoked bacon bubble and
               squeak, mustard seed mash, cider jus.
             </Typography>
+            <Typography variant="h4" className="menuTitle">
+              Vegan and Vegetarian
+            </Typography>
             <Typography variant="body1">
               Moroccan spiced chickpea and broad bean falafel, toasted pitta,
               sun blushed tomato and thyme quinoa, mint and cucumber yoghurt. GF
               V Vg
+            </Typography>
+            <Typography variant="body1">
+              Indian spiced red lentil, chickpea and potato dhal pithivier,
+              crispy kale, cumin cauliflower, onion puree. V Vg
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
@@ -209,8 +212,11 @@ const MenuPage = ({ classes }) => (
               honey.
             </Typography>
             <Typography variant="body1">
-              White chocolate bread & butter pudding, brioche, spiced mandarin &
-              cranberry compote.
+              Sticky toffee and date pudding, butterscotch sauce, caramelised
+              banana.
+            </Typography>
+            <Typography variant="body1">
+              Mrs. Temples Norfolk cheddar, oatmeal biscuits, butter.
             </Typography>
             <Typography variant="h4">Homemade Ice Creams</Typography>
             <Typography variant="body1">Toasted Almond & Disaronno</Typography>
@@ -222,6 +228,9 @@ const MenuPage = ({ classes }) => (
             <Typography variant="body1">
               Whiskey and Orange Marmalade
             </Typography>
+            <Typography variant="body1">Vegan Chocolate Cookie</Typography>
+            <Typography variant="body1">Vegan Cinnamon & Toffee</Typography>
+            <Typography variant="body1">Vegan Coconut & Blueberry</Typography>
             {/* <a href="/files/decmenu.pdf">
               <Button size="large" variant="contained">
                 Download Menu
