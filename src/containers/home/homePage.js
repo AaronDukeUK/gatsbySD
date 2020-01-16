@@ -1,22 +1,20 @@
-import React, { useState } from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React, { useState } from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
-import {
- Typography, Grid, Button, Fade, Paper 
-} from '@material-ui/core';
-import { withStyles } from '@material-ui/core/styles';
+import { Typography, Grid, Button, Fade, Paper } from "@material-ui/core";
+import { withStyles } from "@material-ui/core/styles";
 
-import { Waypoint } from 'react-waypoint';
-import { animated, useSpring } from 'react-spring';
+import { Waypoint } from "react-waypoint";
+import { animated, useSpring } from "react-spring";
 
-import styles from './styles';
+import styles from "./styles";
 
 const IndexPage = ({ classes }) => {
   const [on1, toggle1] = useState(false);
 
   const animation1 = useSpring({
-    opacity: on1 ? 1 : 0,
+    opacity: on1 ? 1 : 0
   });
 
   const AnimatedGrid = animated(Grid);
@@ -48,11 +46,11 @@ const IndexPage = ({ classes }) => {
           }
         }
       `}
-      render={(data) => (
+      render={data => (
         <>
           <Img
             className={classes.backgroundImg}
-            style={{ position: 'fixed' }}
+            style={{ position: "fixed" }}
             fluid={data.hero.childImageSharp.fluid}
           />
           <Fade in timeout={2000}>
@@ -185,12 +183,12 @@ const IndexPage = ({ classes }) => {
             </Grid>
 
             <Grid item xs="11" lg="3" className={classes.newsItem}>
-              <Typography variant="h4"> Beer Garden </Typography>
+              <Typography variant="h4"> Sunday Roasts </Typography>
 
               <Typography variant="body2">
-                This year we have been working hard to get a large portion of
-                the garden suitable for you all to enjoy. In the summer of 2020
-                this will be opened for everyone to use.
+                Every Sunday we served lunches from 1200 until 1500. We have a
+                selection of dishes available, including locally sourced Beef,
+                Pork and Homemade Nut Roasts.
               </Typography>
 
               <Typography variant="h4"> Functions </Typography>

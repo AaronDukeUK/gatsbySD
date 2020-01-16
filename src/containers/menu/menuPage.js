@@ -1,19 +1,45 @@
-import React from 'react';
+import React from "react";
 
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
-import {
-  Typography, Grid, Fade, Button,
-} from '@material-ui/core';
+import { Typography, Grid, Fade, Button } from "@material-ui/core";
 
-import { withStyles } from '@material-ui/core/styles';
-import styles from './styles';
+import { withStyles } from "@material-ui/core/styles";
+import styles from "./styles";
 
 const MenuPage = ({ classes }) => (
   <StaticQuery
     query={graphql`
       query menuImgQuery {
+        jan1: file(relativePath: { regex: "/jan1/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        jan2: file(relativePath: { regex: "/jan2/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        jan3: file(relativePath: { regex: "/jan3/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        jan4: file(relativePath: { regex: "/jan4/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
         chicken: file(relativePath: { regex: "/chicken/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
@@ -100,7 +126,7 @@ const MenuPage = ({ classes }) => (
         }
       }
     `}
-    render={(data) => (
+    render={data => (
       <>
         <Grid
           container
@@ -133,35 +159,45 @@ const MenuPage = ({ classes }) => (
               Roast chestnut soup, toasted pumpkin seed, smoked bacon. GF
             </Typography>
             <Typography variant="body1">
-            Sweet duck liver and orange pate, spiced cranberry chutney, toasted brioche.
+              Sweet duck liver and orange pate, spiced cranberry chutney,
+              toasted brioche.
             </Typography>
             <Typography variant="body1">
-            Roast portobello mushroom with rosemary and stilton crumb, smoked garlic olive oil. V
+              Roast portobello mushroom with rosemary and stilton crumb, smoked
+              garlic olive oil. V
             </Typography>
             <Typography variant="h4">Mains</Typography>
             <Typography variant="body1">
-            Slow braised beef and ale pie, wilted kale, mustard seed mash.
+              Slow braised beef and ale pie, wilted kale, mustard seed mash.
             </Typography>
             <Typography variant="body1">
-            Beer battered sustainable market fish, chunky beef dripping chips, crushed minted peas, caper mayo. GF
+              Beer battered sustainable market fish, chunky beef dripping chips,
+              crushed minted peas, caper mayo. GF
             </Typography>
             <Typography variant="body1">
-            Norfolk lamb and rosemary burger, chunky beef dripping chips, beer battered onion rings, mint mayonnaise.
+              Norfolk lamb and rosemary burger, chunky beef dripping chips, beer
+              battered onion rings, mint mayonnaise.
             </Typography>
             <Typography variant="body1">
-            Smoked Norfolk venison & blackberry sausages, wilted kale, roast baby potatoes, sweet port jus. GF
+              Smoked Norfolk venison & blackberry sausages, wilted kale, roast
+              baby potatoes, sweet port jus. GF
             </Typography>
             <Typography variant="body1">
-            Almond crusted sea bream, Thai green curry, lemongrass, coconut, coriander, spring onion rice noodles.
+              Almond crusted sea bream, Thai green curry, lemongrass, coconut,
+              coriander, spring onion rice noodles.
             </Typography>
             <Typography variant="body1">
-            Norfolk chicken kiev, roast sweet potato, sun blushed tomato and chorizo salad.
+              Norfolk chicken kiev, roast sweet potato, sun blushed tomato and
+              chorizo salad.
             </Typography>
             <Typography variant="body1">
-            Norfolk pork and black pudding wellington, smoked bacon bubble and squeak, mustard seed mash, cider jus.
+              Norfolk pork and black pudding wellington, smoked bacon bubble and
+              squeak, mustard seed mash, cider jus.
             </Typography>
             <Typography variant="body1">
-            Moroccan spiced chickpea and broad bean falafel, toasted pitta, sun blushed tomato and thyme quinoa, mint and cucumber yoghurt. GF V Vg
+              Moroccan spiced chickpea and broad bean falafel, toasted pitta,
+              sun blushed tomato and thyme quinoa, mint and cucumber yoghurt. GF
+              V Vg
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
@@ -191,6 +227,46 @@ const MenuPage = ({ classes }) => (
                 Download Menu
               </Button>
             </a> */}
+          </Grid>
+          <Grid
+            container
+            className={classes.sundayContainer}
+            justify="center"
+            align="center"
+            spacing="1"
+          >
+            <Typography variant="h4">
+              Sunday Lunches served 1200 to 1500
+            </Typography>
+          </Grid>
+          <Grid
+            container
+            className={classes.imagesContainer}
+            justify="center"
+            align="center"
+            spacing="1"
+          >
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.jan1.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.jan2.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.jan3.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.jan4.childImageSharp.fluid} />
+            </Grid>
+          </Grid>
+          <Grid
+            container
+            className={classes.sloganContainer}
+            justify="center"
+            align="center"
+            spacing="1"
+          >
+            <Typography variant="h4">Homemade, locally sourced food</Typography>
           </Grid>
           <Grid
             container
