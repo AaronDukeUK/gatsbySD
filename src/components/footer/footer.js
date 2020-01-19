@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { withStyles } from '@material-ui/core/styles';
-import { Typography, Grid } from '@material-ui/core';
-import logo from '../../images/logo.svg';
-import styles from './styles';
+import { withStyles } from "@material-ui/core/styles";
+import { Typography, Grid } from "@material-ui/core";
+import logo from "../../images/logo.svg";
+import styles from "./styles";
 
 const Footer = ({ classes }) => (
   <div className={classes.root}>
@@ -15,11 +15,11 @@ const Footer = ({ classes }) => (
     >
       <Grid item xs="12" lg="4">
         <Typography variant="h4">Opening Hours</Typography>
-        <Typography variant="body2">Wednesday: 1700 - 2230</Typography>
-        <Typography variant="body2">Thursday: 1700 - 2230</Typography>
-        <Typography variant="body2">Friday: 1700 - 2330</Typography>
-        <Typography variant="body2">Saturday: 1200 - 2330</Typography>
-        <Typography variant="body2">Sunday: 1200 - 1800</Typography>
+        <Typography variant="body2">Wednesday: 1700 - CL</Typography>
+        <Typography variant="body2">Thursday: 1700 - CL</Typography>
+        <Typography variant="body2">Friday: 1700 - CL</Typography>
+        <Typography variant="body2">Saturday: 1200 - CL</Typography>
+        <Typography variant="body2">Sunday: 1200 - CL</Typography>
       </Grid>
 
       <Grid item xs="12" lg="4">
