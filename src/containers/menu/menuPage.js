@@ -153,7 +153,7 @@ const MenuPage = ({ classes }) => (
               V
             </Typography>
             <Typography variant="body1">
-              Roast chestnut soup, toasted pumpkin seed, smoked bacon. GF
+              Roast celeriac and pear soup, toasted walnuts. GF V Vg
             </Typography>
             <Typography variant="body1">
               Popcorn cockles, sweet chilli and red wine vinegar. GF
@@ -168,7 +168,7 @@ const MenuPage = ({ classes }) => (
             </Typography>
             <Typography variant="body1">
               Beer battered sustainable market fish, chunky beef dripping chips,
-              crushed minted peas, caper mayo. GF
+              crushed peas, minted mayo. GF
             </Typography>
             <Typography variant="body1">
               Sweet BBQ beef burger, smoked cheddar, chorizo, chunky beef
@@ -187,8 +187,13 @@ const MenuPage = ({ classes }) => (
               coriander oil.
             </Typography>
             <Typography variant="body1">
-              Norfolk pork and black pudding wellington, smoked bacon bubble and
-              squeak, mustard seed mash, cider jus.
+              Slow braised Norfolk beef brisket and portobello mushroom
+              wellington, smoked bacon bubble and squeak, mustard seed mash,
+              sweet madeira jus.
+            </Typography>
+            <Typography variant="body1">
+              Smoked Norfolk venison and blackberry sausages. wilted kale, roast
+              baby potatoes, sweet port jus.
             </Typography>
             <Typography variant="h4" className="menuTitle">
               Vegan and Vegetarian
@@ -205,11 +210,11 @@ const MenuPage = ({ classes }) => (
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
-              Sweet local apple and mixed berry pie, vanilla seed custard.
+              Local apple, pear and walnut crumble, lemon thyme ice cream.
             </Typography>
             <Typography variant="body1">
-              Walnut baked treacle tart, toasted barley ice cream, dark blossom
-              honey.
+              White chocolate and vanilla creme brulee, roast peach, pistachio
+              tuile.
             </Typography>
             <Typography variant="body1">
               Sticky toffee and date pudding, butterscotch sauce, caramelised
@@ -219,15 +224,18 @@ const MenuPage = ({ classes }) => (
               Mrs. Temples Norfolk cheddar, oatmeal biscuits, butter.
             </Typography>
             <Typography variant="h4">Homemade Ice Creams</Typography>
-            <Typography variant="body1">Toasted Almond & Disaronno</Typography>
-            <Typography variant="body1">Banana & Irish Cream</Typography>
-            <Typography variant="body1">Whiskey & Orange Marmalade</Typography>
-            <Typography variant="body1">Liquorice GF</Typography>
-            <Typography variant="body1">Norfolk Lavender GF</Typography>
-            <Typography variant="body1">Rhubarb and Custard Ripple</Typography>
             <Typography variant="body1">
-              Whiskey and Orange Marmalade
+              Chocolate & Hazelnut Praline{" "}
             </Typography>
+            <Typography variant="body1">Fennel & Stem Ginger </Typography>
+            <Typography variant="body1">
+              Peanut Butter & Salted Caramel
+            </Typography>
+            <Typography variant="body1">
+              Gluten-Free Norfolk Lavender{" "}
+            </Typography>
+            <Typography variant="body1">Turkish Delight </Typography>
+            <Typography variant="body1">Rhubarb and Custard Ripple</Typography>
             <Typography variant="body1">Vegan Chocolate Cookie</Typography>
             <Typography variant="body1">Vegan Cinnamon & Toffee</Typography>
             <Typography variant="body1">Vegan Coconut & Blueberry</Typography>
