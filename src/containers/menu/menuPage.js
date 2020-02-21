@@ -153,7 +153,7 @@ const MenuPage = ({ classes }) => (
               V
             </Typography>
             <Typography variant="body1">
-              Roast celeriac and pear soup, toasted walnuts. GF V Vg
+              Stem broccoli, pancetta and toasted almond soup. GF Vg
             </Typography>
             <Typography variant="body1">
               Popcorn cockles, sweet chilli and red wine vinegar. GF
@@ -164,57 +164,46 @@ const MenuPage = ({ classes }) => (
             </Typography>
             <Typography variant="h4">Mains</Typography>
             <Typography variant="body1">
-              Slow braised beef and ale pie, wilted kale, mustard seed mash.
+              Chicken, bacon and leek pie, shortcrust pastry, wilted kale,
+              mustard seed mash.
             </Typography>
             <Typography variant="body1">
-              Beer battered sustainable market fish, chunky beef dripping chips,
-              crushed peas, minted mayo. GF
+              Pan seared sea bass, celeriac and seaweed croquettes, purple stem
+              broccoli, lobster bisque. GF
             </Typography>
             <Typography variant="body1">
               Sweet BBQ beef burger, smoked cheddar, chorizo, chunky beef
               dripping chips, beer battered onion rings, harissa mayo.
             </Typography>
             <Typography variant="body1">
-              Smoked Norfolk venison and blackberry sausages, wilted kale, roast
-              baby potatoes, sweet port jus. GF
+              Honey baked ham hock, thrice cooked beef dripping chips, crispy
+              Norfolk duck egg, piccalilli. GF
             </Typography>
             <Typography variant="body1">
-              Honey baked ham hock, crispy Norfolk duck egg, thrice cooked beef
-              dripping chips, piccalilli.
+              Hand-smoked Norfolk chicken, leek and thyme arancini, stem
+              broccoli, roquefort velouté sauce. GF
             </Typography>
             <Typography variant="body1">
-              Curried Norfolk chicken kiev, spinach & butternut saag aloo,
-              coriander oil.
+              Slow braised beef brisket and portobello mushroom wellington,
+              smoked bacon bubble and squeak, mustard seed mash, sweet madeira
+              jus.
             </Typography>
             <Typography variant="body1">
-              Slow braised Norfolk beef brisket and portobello mushroom
-              wellington, smoked bacon bubble and squeak, mustard seed mash,
-              sweet madeira jus.
+              Indian spiced red lentil and chickpea dhal pithivier, crispy kale,
+              roasted cauliflower, turmeric potatoes, onion puree. Vg
             </Typography>
             <Typography variant="body1">
-              Smoked Norfolk venison and blackberry sausages. wilted kale, roast
-              baby potatoes, sweet port jus.
-            </Typography>
-            <Typography variant="h4" className="menuTitle">
-              Vegan and Vegetarian
-            </Typography>
-            <Typography variant="body1">
-              Moroccan spiced chickpea and broad bean falafel, toasted pitta,
-              sun blushed tomato and thyme quinoa, mint and cucumber yoghurt. GF
-              V Vg
-            </Typography>
-            <Typography variant="body1">
-              Indian spiced red lentil, chickpea and potato dhal pithivier,
-              crispy kale, cumin cauliflower, onion puree. V Vg
+              Harissa spiced tempura zucchini, spring greens, pickled mushrooms,
+              rice noodles, roasted red pepper broth. GF Vg
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
-              Local apple, pear and walnut crumble, lemon thyme ice cream.
+              Sweet peach, pear and walnut crumble, lemon thyme ice cream. Vg
             </Typography>
             <Typography variant="body1">
-              White chocolate and vanilla creme brulee, roast peach, pistachio
-              tuile.
+              White chocolate and vanilla creme brulee, roast rhubarb, pistachio
+              tuile. V
             </Typography>
             <Typography variant="body1">
               Sticky toffee and date pudding, butterscotch sauce, caramelised
@@ -225,17 +214,16 @@ const MenuPage = ({ classes }) => (
             </Typography>
             <Typography variant="h4">Homemade Ice Creams</Typography>
             <Typography variant="body1">
-              Chocolate & Hazelnut Praline{" "}
+              Chocolate & Hazelnut Praline
             </Typography>
             <Typography variant="body1">Fennel & Stem Ginger </Typography>
             <Typography variant="body1">
               Peanut Butter & Salted Caramel
             </Typography>
             <Typography variant="body1">
-              Gluten-Free Norfolk Lavender{" "}
+              Gluten-Free Norfolk Lavender
             </Typography>
             <Typography variant="body1">Turkish Delight </Typography>
-            <Typography variant="body1">Rhubarb and Custard Ripple</Typography>
             <Typography variant="body1">Vegan Chocolate Cookie</Typography>
             <Typography variant="body1">Vegan Cinnamon & Toffee</Typography>
             <Typography variant="body1">Vegan Coconut & Blueberry</Typography>

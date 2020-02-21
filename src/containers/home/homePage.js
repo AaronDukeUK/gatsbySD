@@ -191,12 +191,12 @@ const IndexPage = ({ classes }) => {
                 Pork and Homemade Nut Roasts.
               </Typography>
 
-              <Typography variant="h4"> Valentines </Typography>
+              <Typography variant="h4"> Mothers Day </Typography>
 
               <Typography variant="body2">
-                Friday 14th of February is Valentines Day. We currently still
-                have spaces available, so why not book now? Treat a loved one to
-                a homemade, locally sourced meal in idyllic surroundings.
+                Sunday 22nd of March is Mothering Sunday. Why not treat your mum
+                to a delicious two or three courses festive Sunday lunch. Now
+                Taking Bookings.
               </Typography>
             </Grid>
           </Grid>
