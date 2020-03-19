@@ -7,6 +7,7 @@ import { Typography, Grid, Fade, Button } from "@material-ui/core";
 
 import { withStyles } from "@material-ui/core/styles";
 import styles from "./styles";
+import TakeawayWeb from "../../files/TakeawayWeb.pdf";
 
 const TakeawayPage = ({ classes }) => (
   <StaticQuery
@@ -126,7 +127,7 @@ const TakeawayPage = ({ classes }) => (
             <Typography variant="body1">
               Norfolk cheddar, oatmeal biscuits, chutney, butter. GF £4.50
             </Typography>
-            <a href="/files/TakeawayWeb.pdf" download>
+            <a href={TakeawayWeb} download>
               <Button size="large" variant="contained">
                 Download Sample Takeaway Menu
               </Button>
