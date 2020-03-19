@@ -27,14 +27,16 @@ const TakeawayPage = ({ classes }) => (
             }
           }
         }
-        jan3: file(relativePath: { regex: "/jan3/" }) {
+        kebabtakeaway: file(relativePath: { regex: "/kebabtakeaway/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-        jan4: file(relativePath: { regex: "/jan4/" }) {
+        cheesecaketakeaway: file(
+          relativePath: { regex: "/cheesecaketakeaway/" }
+        ) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -75,7 +77,7 @@ const TakeawayPage = ({ classes }) => (
           </Grid>
           <Grid item xs="10">
             <Typography variant="body1">
-              All of our dishes are homemade, using locally sourced produce to
+              All of our dishes are homemade, using locally sourced produce, to
               help support local businesses.
             </Typography>
           </Grid>
@@ -151,7 +153,7 @@ const TakeawayPage = ({ classes }) => (
               Chocolate and Baileys torte, salted caramel sauce. £4.00
             </Typography>
             <Typography variant="body1">
-              Warm ticky toffee and date pudding, butterscotch sauce. £4.00
+              Warm sticky toffee and date pudding, butterscotch sauce. £4.00
             </Typography>
             <Typography variant="body1">
               Norfolk cheddar, oatmeal biscuits, chutney, butter. GF £4.50
@@ -185,10 +187,10 @@ const TakeawayPage = ({ classes }) => (
               <Img fluid={data.fishtakeaway.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.burgertakeaway.childImageSharp.fluid} />
+              <Img fluid={data.kebabtakeaway.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.fishtakeaway.childImageSharp.fluid} />
+              <Img fluid={data.cheesecaketakeaway.childImageSharp.fluid} />
             </Grid>
           </Grid>
           <Grid
