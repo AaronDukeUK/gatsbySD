@@ -50,11 +50,6 @@ const Header = ({ classes }) => {
           <Hidden smDown>
             <Box>
               <Button color="inherit">
-                <Link to="/" style={{ color: "white" }}>
-                  <Typography variant="h5">Home</Typography>
-                </Link>
-              </Button>
-              <Button color="inherit">
                 <Link to="/about" style={{ color: "white" }}>
                   <Typography variant="h5">About</Typography>
                 </Link>
@@ -78,6 +73,14 @@ const Header = ({ classes }) => {
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <Typography variant="h5">Contact</Typography>
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <Link
+                  to="/takeaway"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <Typography variant="h5">Takeaway</Typography>
                 </Link>
               </Button>
             </Box>
@@ -212,6 +215,19 @@ const Header = ({ classes }) => {
                     }}
                   >
                     Recipes
+                  </Link>
+                </Typography>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Typography variant="h5">
+                  <Link
+                    to="/takeaway"
+                    style={{
+                      textDecoration: "none",
+                      color: "#FFF"
+                    }}
+                  >
+                    Takeaway
                   </Link>
                 </Typography>
               </MenuItem>
