@@ -63,6 +63,17 @@ const TakeawayPage = ({ classes }) => (
             </Typography>
           </Grid>
           <Grid item xs="10">
+            <Typography variant="body1" className={classes.delivery}>
+              Free Delivery - within 3 miles
+              <br />
+              £1 per mile Delivery Charge - 3 to 10 miles
+              <br />
+              Minimum Delivery Order - £15
+              <br />
+              10% Discount for Collections
+            </Typography>
+          </Grid>
+          <Grid item xs="10">
             <Typography variant="body1">
               All of our dishes are homemade, using locally sourced produce to
               help support local businesses.

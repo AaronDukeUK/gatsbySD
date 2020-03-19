@@ -3,7 +3,7 @@ const styles = () => ({
     padding: "10px"
   },
   hours: {
-    marginTop: "-20px"
+    marginTop: "-30px"
   },
   sundayText: {
     background: "#F57C00",
