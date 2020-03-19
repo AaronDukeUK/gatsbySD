@@ -24,11 +24,9 @@ const Footer = ({ classes }) => (
 
       <Grid item xs="12" lg="4">
         <Typography variant="h4">Food Served</Typography>
-        <Typography variant="body2">Thursday: 1730 - 2100</Typography>
-        <Typography variant="body2">Friday: 1730 - 2100</Typography>
-        <Typography variant="body2">
-          Saturday: 1200 - 1500 / 1730 - 2100
-        </Typography>
+        <Typography variant="body2">Thursday: 1700 - 2100</Typography>
+        <Typography variant="body2">Friday: 1700 - 2100</Typography>
+        <Typography variant="body2">Saturday: 1700 - 2100</Typography>
         <Typography variant="body2">Sunday: 1200 - 1500</Typography>
       </Grid>
 

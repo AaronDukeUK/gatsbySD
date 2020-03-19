@@ -57,6 +57,12 @@ const TakeawayPage = ({ classes }) => (
             </Grid>
           </Fade>
           <Grid item xs="10">
+            <Typography variant="body1" className={classes.hours}>
+              Thursday to Saturday 1700 - 2200 / Sunday (Limited Menu) 1200 -
+              1600
+            </Typography>
+          </Grid>
+          <Grid item xs="10">
             <Typography variant="body1">
               All of our dishes are homemade, using locally sourced produce to
               help support local businesses.
@@ -113,6 +119,18 @@ const TakeawayPage = ({ classes }) => (
             <Typography variant="body1">
               Rustic garlic ciabatta. £3.00
             </Typography>
+            <div className={classes.sundayText}>
+              <Typography variant="h4">Sunday Takeaway</Typography>
+              <Typography variant="body1">
+                Norfolk Beef Sirloin / Norfolk Pork Loin / Fruit and Nut Roast V
+                £10.00
+              </Typography>
+              <Typography variant="body1">
+                All served with seasonal vegetables, braised red cabbage, roast
+                garlic and rosemary potatoes, Sage Yorkshire pudding, sausage
+                and apricot stuffing, homemade jus. GF
+              </Typography>
+            </div>
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
@@ -140,9 +158,7 @@ const TakeawayPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">
-              Sunday Lunch Takeaways also available
-            </Typography>
+            <Typography variant="h4">Delivery within 10 mile radius</Typography>
           </Grid>
           <Grid
             container
