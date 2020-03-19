@@ -12,14 +12,14 @@ const TakeawayPage = ({ classes }) => (
   <StaticQuery
     query={graphql`
       query takeawayImgQuery {
-        jan1: file(relativePath: { regex: "/jan1/" }) {
+        fishtakeaway: file(relativePath: { regex: "/fishtakeaway/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-        jan2: file(relativePath: { regex: "/jan2/" }) {
+        burgertakeaway: file(relativePath: { regex: "/burgertakeaway/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -40,90 +40,6 @@ const TakeawayPage = ({ classes }) => (
             }
           }
         }
-        chicken: file(relativePath: { regex: "/chicken/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
-        curry: file(relativePath: { regex: "/curry/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        icecream: file(relativePath: { regex: "/icecream/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        pasta: file(relativePath: { regex: "/pasta/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        seabass: file(relativePath: { regex: "/seabass/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        shortbreads: file(relativePath: { regex: "/shortbreads/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        tart: file(relativePath: { regex: "/tart/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        truffles: file(relativePath: { regex: "/truffles/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        wellington: file(relativePath: { regex: "/wellington/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        salmon: file(relativePath: { regex: "/salmon/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        apple: file(relativePath: { regex: "/apple/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        tort: file(relativePath: { regex: "/tort/" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     `}
     render={data => (
@@ -136,102 +52,85 @@ const TakeawayPage = ({ classes }) => (
         >
           <Fade in timeout={2000}>
             <Grid item xs="10">
-              <Typography variant="h2">Our Menu</Typography>
+              <Typography variant="h2">Homemade Takeaway Menu</Typography>
             </Grid>
           </Fade>
+          <Grid item xs="10">
+            <Typography variant="body1">
+              All of our dishes are homemade, using locally sourced produce to
+              help support local businesses.
+            </Typography>
+          </Grid>
           <Grid item xs="10">
             <Typography variant="body1">
               GF - Gluten Free on request / V - Vegetarian / Vg - Vegan
             </Typography>
           </Grid>
           <Grid item xs="10" lg="6">
-            <Typography variant="h4" className="menuTitle">
-              Starters
+            <Typography variant="h4">Main Courses</Typography>
+            <Typography variant="body1">
+              Slow braised beef and ale pie, thrice-cooked chips, purple stem
+              broccoli. £9.00
             </Typography>
             <Typography variant="body1">
-              Oven baked ciabatta bread, provencal herbed olives, balsamic oil.
-              V
+              Local beef patty, smoked cheddar, crispy bacon, thrice-cooked
+              chips, beer-battered onion rings, garlic mayo. GF £9.00
             </Typography>
             <Typography variant="body1">
-              Stem broccoli, pancetta and toasted almond soup. GF Vg
+              Hand-smoked chicken supreme, poached asparagus, sautéed pink fir
+              potatoes, rocket pesto, parma ham crisp. GF £9.50
             </Typography>
             <Typography variant="body1">
-              Popcorn cockles, sweet chilli and red wine vinegar. GF
+              Caramelised sweet onion, red wine poached pear and stilton tarte
+              tatin, pomegranate and toasted almond salad, raspberry
+              vinaigrette. V £8.00
             </Typography>
             <Typography variant="body1">
-              Roast portobello mushroom with rosemary and stilton crumb, smoked
-              garlic olive oil. V
-            </Typography>
-            <Typography variant="h4">Mains</Typography>
-            <Typography variant="body1">
-              Chicken, bacon and leek pie, shortcrust pastry, wilted kale,
-              mustard seed mash.
+              Beer-battered cod, thrice-cooked chips, minted mushy peas, lemon
+              zest and caper mayo. GF £9.00
             </Typography>
             <Typography variant="body1">
-              Pan seared sea bass, celeriac and seaweed croquettes, purple stem
-              broccoli, lobster bisque. GF
+              Honey baked ham hock, roasted pink fir potatoes, braised leeks,
+              sweet pea veloute. GF £9.50
             </Typography>
             <Typography variant="body1">
-              Sweet BBQ beef burger, smoked cheddar, chorizo, chunky beef
-              dripping chips, beer battered onion rings, harissa mayo.
+              Slow braised lamb curry with chillies and spinach, pilau rice,
+              handmade sweet onion bhaji, poppadoms. GF £10.50
             </Typography>
             <Typography variant="body1">
-              Honey baked ham hock, thrice cooked beef dripping chips, crispy
-              Norfolk duck egg, piccalilli. GF
+              Greek spiced chicken kebab, mint yoghurt, sundried tomato and
+              herbed olive salad, smoked garlic and chickpea hummus. GF £8.50
+            </Typography>
+
+            <Typography variant="h4">Sides</Typography>
+            <Typography variant="body1">
+              Thrice-cooked beef dripping chips. GF £3.00
             </Typography>
             <Typography variant="body1">
-              Hand-smoked Norfolk chicken, leek and thyme arancini, stem
-              broccoli, roquefort velouté sauce. GF
+              Beer-battered onion rings. GF £3.00
             </Typography>
             <Typography variant="body1">
-              Slow braised beef brisket and portobello mushroom wellington,
-              smoked bacon bubble and squeak, mustard seed mash, sweet madeira
-              jus.
-            </Typography>
-            <Typography variant="body1">
-              Indian spiced red lentil and chickpea dhal pithivier, crispy kale,
-              roasted cauliflower, turmeric potatoes, onion puree. Vg
-            </Typography>
-            <Typography variant="body1">
-              Harissa spiced tempura zucchini, spring greens, pickled mushrooms,
-              rice noodles, roasted red pepper broth. GF Vg
+              Rustic garlic ciabatta. £3.00
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
             <Typography variant="body1">
-              Sweet peach, pear and walnut crumble, lemon thyme ice cream. Vg
+              Sweet rhubarb and Gin cheesecake. £4.00
             </Typography>
             <Typography variant="body1">
-              White chocolate and vanilla creme brulee, roast rhubarb, pistachio
-              tuile. V
+              Chocolate and Baileys torte, salted caramel sauce. £4.00
             </Typography>
             <Typography variant="body1">
-              Sticky toffee and date pudding, butterscotch sauce, caramelised
-              banana.
+              Warm ticky toffee and date pudding, butterscotch sauce. £4.00
             </Typography>
             <Typography variant="body1">
-              Mrs. Temples Norfolk cheddar, oatmeal biscuits, butter.
+              Norfolk cheddar, oatmeal biscuits, chutney, butter. GF £4.50
             </Typography>
-            <Typography variant="h4">Homemade Ice Creams</Typography>
-            <Typography variant="body1">
-              Chocolate & Hazelnut Praline
-            </Typography>
-            <Typography variant="body1">Fennel & Stem Ginger </Typography>
-            <Typography variant="body1">
-              Peanut Butter & Salted Caramel
-            </Typography>
-            <Typography variant="body1">
-              Gluten-Free Norfolk Lavender
-            </Typography>
-            <Typography variant="body1">Turkish Delight </Typography>
-            <Typography variant="body1">Vegan Chocolate Cookie</Typography>
-            <Typography variant="body1">Vegan Cinnamon & Toffee</Typography>
-            <Typography variant="body1">Vegan Coconut & Blueberry</Typography>
-            {/* <a href="/files/decmenu.pdf">
+            <a href="/files/TakeawayWeb.pdf">
               <Button size="large" variant="contained">
-                Download Menu
+                Download Sample Menu
               </Button>
-            </a> */}
+            </a>
           </Grid>
           <Grid
             container
@@ -241,7 +140,7 @@ const TakeawayPage = ({ classes }) => (
             spacing="1"
           >
             <Typography variant="h4">
-              Sunday Lunches served 1200 to 1500
+              Sunday Lunch Takeaways also available
             </Typography>
           </Grid>
           <Grid
@@ -252,16 +151,16 @@ const TakeawayPage = ({ classes }) => (
             spacing="1"
           >
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan1.childImageSharp.fluid} />
+              <Img fluid={data.burgertakeaway.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan2.childImageSharp.fluid} />
+              <Img fluid={data.fishtakeaway.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan3.childImageSharp.fluid} />
+              <Img fluid={data.burgertakeaway.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan4.childImageSharp.fluid} />
+              <Img fluid={data.fishtakeaway.childImageSharp.fluid} />
             </Grid>
           </Grid>
           <Grid
@@ -271,51 +170,7 @@ const TakeawayPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">Homemade, locally sourced food</Typography>
-          </Grid>
-          <Grid
-            container
-            className={classes.imagesContainer}
-            justify="center"
-            align="center"
-            spacing="1"
-          >
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.chicken.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.curry.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.icecream.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.pasta.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.seabass.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.shortbreads.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.tart.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.truffles.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.wellington.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.salmon.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.apple.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.tort.childImageSharp.fluid} />
-            </Grid>
+            <Typography variant="h4">10% Discount for Collection</Typography>
           </Grid>
         </Grid>
       </>

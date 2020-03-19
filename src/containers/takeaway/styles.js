@@ -1,8 +1,4 @@
 const styles = () => ({
-  container: {
-    borderBottom: "2px solid black",
-    paddingBottom: "100px"
-  },
   imagesContainer: {
     padding: "10px"
   },
