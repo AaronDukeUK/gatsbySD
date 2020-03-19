@@ -126,9 +126,9 @@ const TakeawayPage = ({ classes }) => (
             <Typography variant="body1">
               Norfolk cheddar, oatmeal biscuits, chutney, butter. GF £4.50
             </Typography>
-            <a href="/files/TakeawayWeb.pdf">
+            <a href="/files/TakeawayWeb.pdf" download>
               <Button size="large" variant="contained">
-                Download Sample Menu
+                Download Sample Takeaway Menu
               </Button>
             </a>
           </Grid>
