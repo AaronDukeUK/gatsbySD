@@ -3,6 +3,9 @@ const styles = () => ({
     borderBottom: "2px solid black",
     paddingBottom: "100px"
   },
+  event: {
+    marginBottom: "-30px"
+  },
   imagesContainer: {
     padding: "10px"
   },

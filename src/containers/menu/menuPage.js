@@ -8,6 +8,8 @@ import { Typography, Grid, Fade, Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import styles from "./styles";
 
+import GreekNight from "../../files/greeknight.pdf";
+
 const MenuPage = ({ classes }) => (
   <StaticQuery
     query={graphql`
@@ -136,103 +138,21 @@ const MenuPage = ({ classes }) => (
         >
           <Fade in timeout={2000}>
             <Grid item xs="10">
-              <Typography variant="h2">Our Menu</Typography>
+              <Typography variant="h2">Food Event Nights</Typography>
             </Grid>
           </Fade>
-          <Grid item xs="10">
-            <Typography variant="body1">
-              GF - Gluten Free on request / V - Vegetarian / Vg - Vegan
-            </Typography>
-          </Grid>
-          <Grid item xs="10" lg="6">
-            <Typography variant="h4" className="menuTitle">
-              Starters
-            </Typography>
-            <Typography variant="body1">
-              Oven baked ciabatta bread, provencal herbed olives, balsamic oil.
-              V
-            </Typography>
-            <Typography variant="body1">
-              Stem broccoli, pancetta and toasted almond soup. GF Vg
-            </Typography>
-            <Typography variant="body1">
-              Popcorn cockles, sweet chilli and red wine vinegar. GF
-            </Typography>
-            <Typography variant="body1">
-              Roast portobello mushroom with rosemary and stilton crumb, smoked
-              garlic olive oil. V
-            </Typography>
-            <Typography variant="h4">Mains</Typography>
-            <Typography variant="body1">
-              Chicken, bacon and leek pie, shortcrust pastry, wilted kale,
-              mustard seed mash.
-            </Typography>
-            <Typography variant="body1">
-              Pan seared sea bass, celeriac and seaweed croquettes, purple stem
-              broccoli, lobster bisque. GF
-            </Typography>
-            <Typography variant="body1">
-              Sweet BBQ beef burger, smoked cheddar, chorizo, chunky beef
-              dripping chips, beer battered onion rings, harissa mayo.
-            </Typography>
-            <Typography variant="body1">
-              Honey baked ham hock, thrice cooked beef dripping chips, crispy
-              Norfolk duck egg, piccalilli. GF
-            </Typography>
-            <Typography variant="body1">
-              Hand-smoked Norfolk chicken, leek and thyme arancini, stem
-              broccoli, roquefort velouté sauce. GF
-            </Typography>
-            <Typography variant="body1">
-              Slow braised beef brisket and portobello mushroom wellington,
-              smoked bacon bubble and squeak, mustard seed mash, sweet madeira
-              jus.
-            </Typography>
-            <Typography variant="body1">
-              Indian spiced red lentil and chickpea dhal pithivier, crispy kale,
-              roasted cauliflower, turmeric potatoes, onion puree. Vg
-            </Typography>
-            <Typography variant="body1">
-              Harissa spiced tempura zucchini, spring greens, pickled mushrooms,
-              rice noodles, roasted red pepper broth. GF Vg
-            </Typography>
 
-            <Typography variant="h4">Desserts</Typography>
-            <Typography variant="body1">
-              Sweet peach, pear and walnut crumble, lemon thyme ice cream. Vg
+          <Grid item xs="10">
+            <Typography variant="body1" className={classes.event}>
+              Greek Night - 10th April
             </Typography>
-            <Typography variant="body1">
-              White chocolate and vanilla creme brulee, roast rhubarb, pistachio
-              tuile. V
-            </Typography>
-            <Typography variant="body1">
-              Sticky toffee and date pudding, butterscotch sauce, caramelised
-              banana.
-            </Typography>
-            <Typography variant="body1">
-              Mrs. Temples Norfolk cheddar, oatmeal biscuits, butter.
-            </Typography>
-            <Typography variant="h4">Homemade Ice Creams</Typography>
-            <Typography variant="body1">
-              Chocolate & Hazelnut Praline
-            </Typography>
-            <Typography variant="body1">Fennel & Stem Ginger </Typography>
-            <Typography variant="body1">
-              Peanut Butter & Salted Caramel
-            </Typography>
-            <Typography variant="body1">
-              Gluten-Free Norfolk Lavender
-            </Typography>
-            <Typography variant="body1">Turkish Delight </Typography>
-            <Typography variant="body1">Vegan Chocolate Cookie</Typography>
-            <Typography variant="body1">Vegan Cinnamon & Toffee</Typography>
-            <Typography variant="body1">Vegan Coconut & Blueberry</Typography>
-            {/* <a href="/files/decmenu.pdf">
+            <a href={GreekNight} download>
               <Button size="large" variant="contained">
-                Download Menu
+                Greek Night Menu
               </Button>
-            </a> */}
+            </a>
           </Grid>
+
           <Grid
             container
             className={classes.sundayContainer}
@@ -240,9 +160,7 @@ const MenuPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">
-              Sunday Lunches served 1200 to 1500
-            </Typography>
+            <Typography variant="h4">Delivery Within 10 mile radius</Typography>
           </Grid>
           <Grid
             container
@@ -271,7 +189,7 @@ const MenuPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">Homemade, locally sourced food</Typography>
+            <Typography variant="h4">10% Discount for collection</Typography>
           </Grid>
           <Grid
             container

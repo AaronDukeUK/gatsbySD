@@ -44,7 +44,7 @@ const Header = ({ classes }) => {
             <Typography variant="h5">The Squirrels Drey</Typography>
           </Link>
           <Hidden lgDown>
-            <Typography variant="h6">Local & Homemade Food</Typography>
+            <Typography variant="h6">Homemade Takeaway</Typography>
           </Hidden>
 
           <Hidden smDown>
@@ -56,7 +56,7 @@ const Header = ({ classes }) => {
               </Button>
               <Button color="inherit">
                 <Link to="/menus" style={{ color: "white" }}>
-                  <Typography variant="h5">Menu</Typography>
+                  <Typography variant="h5">Events</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
@@ -186,7 +186,7 @@ const Header = ({ classes }) => {
                       color: "#FFF"
                     }}
                   >
-                    Menu
+                    Events
                   </Link>
                 </Typography>
               </MenuItem>

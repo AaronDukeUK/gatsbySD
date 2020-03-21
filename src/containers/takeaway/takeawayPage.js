@@ -60,7 +60,7 @@ const TakeawayPage = ({ classes }) => (
           </Fade>
           <Grid item xs="10">
             <Typography variant="body1" className={classes.hours}>
-              Thursday to Saturday 1700 - 2200 / Sunday (Limited Menu) 1200 -
+              Wednesday to Saturday 1700 - 2200 / Sunday (Limited Menu) 1200 -
               1600
             </Typography>
           </Grid>
@@ -70,7 +70,7 @@ const TakeawayPage = ({ classes }) => (
               <br />
               £1 per mile Delivery Charge - 3 to 10 miles
               <br />
-              Minimum Delivery Order - £15
+              Minimum Delivery Order - £20
               <br />
               10% Discount for Collections
             </Typography>
