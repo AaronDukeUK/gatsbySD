@@ -14,20 +14,12 @@ const Footer = ({ classes }) => (
       className={classes.container}
     >
       <Grid item xs="12" lg="4">
-        <Typography variant="h4">Opening Hours</Typography>
-        <Typography variant="body2">Wednesday: 1700 - CL</Typography>
-        <Typography variant="body2">Thursday: 1700 - CL</Typography>
-        <Typography variant="body2">Friday: 1700 - CL</Typography>
-        <Typography variant="body2">Saturday: 1200 - CL</Typography>
-        <Typography variant="body2">Sunday: 1200 - CL</Typography>
-      </Grid>
-
-      <Grid item xs="12" lg="4">
-        <Typography variant="h4">Food Served</Typography>
-        <Typography variant="body2">Thursday: 1700 - 2100</Typography>
-        <Typography variant="body2">Friday: 1700 - 2100</Typography>
-        <Typography variant="body2">Saturday: 1700 - 2100</Typography>
-        <Typography variant="body2">Sunday: 1200 - 1500</Typography>
+        <Typography variant="h4">Takeaway Hours</Typography>
+        <Typography variant="body2">Wednesday: 1700 - 2200</Typography>
+        <Typography variant="body2">Thursday: 1700 - 2200</Typography>
+        <Typography variant="body2">Friday: 1700 - 2200</Typography>
+        <Typography variant="body2">Saturday: 1700 - 2200</Typography>
+        <Typography variant="body2">Sunday: 1200 - 1600</Typography>
       </Grid>
 
       <Grid item xs="12" lg="4">

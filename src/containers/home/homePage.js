@@ -76,14 +76,16 @@ const IndexPage = ({ classes }) => {
               </Typography>
             </Grid>
             <Grid item m="10" sm="10" xs="9">
-              <Typography variant="body1">Based in Sporle, Norfolk.</Typography>
+              <Typography variant="body1">
+                Homemade, Locally Sourced Takeaway/Delivery Service
+              </Typography>
               <Typography variant="body1">
                 The Squirrels Drey Pub & Restaurant boasts fresh, locally
-                sourced, homemade food in an idyllic location.
+                sourced, homemade food straight to your door.
               </Typography>
-              <Link to="/menus">
+              <Link to="/takeaway">
                 <Button size="large" variant="contained">
-                  Our Food Menu
+                  Our Takeaway Menu
                 </Button>
               </Link>
             </Grid>
@@ -107,11 +109,9 @@ const IndexPage = ({ classes }) => {
                 We Pride ourselves on using fresh, locally sourced produce
                 throughout our seasonal menus. All of our dishes are made on
                 site so we can cater to any dietary requirements you may have.
-                We can accommodate small parties for any occasion, tailored
-                accordingly to your needs.
               </Typography>
 
-              <Link to="./menus">
+              <Link to="./takeaway">
                 <Button size="large" variant="contained">
                   Read More
                 </Button>
@@ -119,7 +119,7 @@ const IndexPage = ({ classes }) => {
             </Grid>
 
             <Grid item xs="11" lg="5" className={classes.leadSection}>
-              <Typography variant="h3">Relaxed Dining</Typography>
+              <Typography variant="h3">Locally Sourced</Typography>
 
               <Img
                 className={classes.infoImage}
@@ -129,9 +129,7 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We are a welcoming and relaxed, family run traditional village
                 pub / restaurant, situated in the quaint village of Sporle,
-                Norfolk. We provide a large open fire that is sure to keep you
-                warm in the coldest of weather whilst indulging in a wide range
-                of specially selected beverages and homemade food.
+                Norfolk. Now offering Takeaway meals until further notice.
               </Typography>
 
               <Link to="./about">
@@ -186,17 +184,18 @@ const IndexPage = ({ classes }) => {
               <Typography variant="h4"> Sunday Roasts </Typography>
 
               <Typography variant="body2">
-                Every Sunday we served lunches from 1200 until 1500. We have a
-                selection of dishes available, including locally sourced Beef,
-                Pork and Homemade Nut Roasts.
+                Every Sunday we serve takeaway lunches from 1200 until 1600. We
+                have a selection of dishes available, including locally sourced
+                Beef, Pork and Homemade Nut Roasts.
               </Typography>
 
-              <Typography variant="h4"> Mothers Day </Typography>
+              <Typography variant="h4"> Takeaway Service </Typography>
 
               <Typography variant="body2">
-                Sunday 22nd of March is Mothering Sunday. Why not treat your mum
-                to a delicious two or three courses festive Sunday lunch. Now
-                Taking Bookings.
+                Due to all Pubs & Restaurants in the UK currently being closed
+                until further notice, we have began a homemade, locally sourced
+                takaway/delivery service. We provide deliveries within a 10 mile
+                radius, and offer a 10% discount for collections.
               </Typography>
             </Grid>
           </Grid>
