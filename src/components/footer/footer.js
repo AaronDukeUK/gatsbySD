@@ -15,10 +15,10 @@ const Footer = ({ classes }) => (
     >
       <Grid item xs="12" lg="4">
         <Typography variant="h4">Takeaway Hours</Typography>
-        <Typography variant="body2">Wednesday: 1700 - 2200</Typography>
-        <Typography variant="body2">Thursday: 1700 - 2200</Typography>
-        <Typography variant="body2">Friday: 1700 - 2200</Typography>
-        <Typography variant="body2">Saturday: 1700 - 2200</Typography>
+        <Typography variant="body2">Wednesday: 1730 - 2130</Typography>
+        <Typography variant="body2">Thursday: 1730 - 2130</Typography>
+        <Typography variant="body2">Friday: 1730 - 2130</Typography>
+        <Typography variant="body2">Saturday: 1730 - 2130</Typography>
         <Typography variant="body2">Sunday: 1200 - 1600</Typography>
       </Grid>
 
