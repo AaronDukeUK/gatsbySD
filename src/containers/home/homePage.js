@@ -23,7 +23,7 @@ const IndexPage = ({ classes }) => {
     <StaticQuery
       query={graphql`
         query imgQuery {
-          hero: file(relativePath: { regex: "/hero2/" }) {
+          hero: file(relativePath: { regex: "/hero3/" }) {
             childImageSharp {
               fluid(maxWidth: 3000) {
                 ...GatsbyImageSharpFluid_tracedSVG

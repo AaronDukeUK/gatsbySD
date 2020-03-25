@@ -1,86 +1,87 @@
-import { orange } from '@material-ui/core/colors';
+import { orange } from "@material-ui/core/colors";
 
-const styles = (theme) => ({
+const styles = theme => ({
   backgroundImg: {
-    width: '100%',
-    minHeight: '100vh',
-    zIndex: '-1',
+    width: "100%",
+    minHeight: "100vh",
+    zIndex: "-1"
   },
   heroText: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    minHeight: '100vh',
-    color: 'white',
-    padding: '0 0 20px 0',
-    [theme.breakpoints.down('sm')]: {
-      fontSize: '3rem',
-      justifyContent: 'flex-end',
-      lineHeight: '5rem',
-    },
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    minHeight: "100vh",
+    color: "white",
+    padding: "0 0 20px 0",
+    textShadow: "8px 8px 6px black",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "3rem",
+      justifyContent: "flex-end",
+      lineHeight: "5rem"
+    }
   },
   container: {
-    background: 'white',
-    padding: '150px 0',
-    [theme.breakpoints.down('sm')]: {
-      padding: '50px 0',
+    background: "white",
+    padding: "150px 0",
+    [theme.breakpoints.down("sm")]: {
+      padding: "50px 0"
     },
-    borderBottom: '2px solid black',
+    borderBottom: "2px solid black"
   },
   containerOrange: {
     background: orange[700],
-    padding: '150px 0',
-    [theme.breakpoints.down('sm')]: {
-      padding: '50px 0',
+    padding: "150px 0",
+    [theme.breakpoints.down("sm")]: {
+      padding: "50px 0"
     },
-    borderBottom: '2px solid black',
+    borderBottom: "2px solid black"
   },
   leadTitle: {
-    margin: '50px 0',
+    margin: "50px 0"
   },
   leadSection: {
-    padding: '0 40px',
-    [theme.breakpoints.down('sm')]: {
-      padding: '0',
-    },
+    padding: "0 40px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0"
+    }
   },
   infoImage: {
-    height: '400px',
-    width: '100%',
-    margin: '100px 0',
-    [theme.breakpoints.down('sm')]: {
-      margin: '20px 0',
-    },
+    height: "400px",
+    width: "100%",
+    margin: "100px 0",
+    [theme.breakpoints.down("sm")]: {
+      margin: "20px 0"
+    }
   },
   gmap: {
-    height: '400px',
-    width: '100%',
+    height: "400px",
+    width: "100%"
   },
   newsItemBorder: {
-    borderLeft: '2px solid black',
-    borderRight: '2px solid black',
-    padding: '0 40px',
-    [theme.breakpoints.down('md')]: {
-      borderLeft: 'none',
-      borderRight: 'none',
+    borderLeft: "2px solid black",
+    borderRight: "2px solid black",
+    padding: "0 40px",
+    [theme.breakpoints.down("md")]: {
+      borderLeft: "none",
+      borderRight: "none"
     },
-    [theme.breakpoints.down('sm')]: {
-      padding: '0',
-    },
+    [theme.breakpoints.down("sm")]: {
+      padding: "0"
+    }
   },
   newsItem: {
-    padding: '0 40px',
-    [theme.breakpoints.down('sm')]: {
-      padding: '0',
-    },
+    padding: "0 40px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0"
+    }
   },
   newsItemMap: {
-    padding: '150px 40px',
-    [theme.breakpoints.down('sm')]: {
-      padding: '0',
-    },
-  },
+    padding: "150px 40px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0"
+    }
+  }
 });
 
 export default styles;
