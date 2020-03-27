@@ -7,7 +7,7 @@ import { Typography, Grid, Fade, Button } from "@material-ui/core";
 
 import { withStyles } from "@material-ui/core/styles";
 import styles from "./styles";
-import TakeawayWeb from "../../files/TakeawayWeb.pdf";
+import TakeawayDrinks from "../../files/DrinksMenu.pdf";
 
 const TakeawayPage = ({ classes }) => (
   <StaticQuery
@@ -304,9 +304,13 @@ const TakeawayPage = ({ classes }) => (
               fluid={data.boxtakeaway.childImageSharp.fluid}
             />
 
-            <a href={TakeawayWeb} download>
-              <Button size="large" variant="contained">
-                Download Sample Takeaway Menu
+            <a href={TakeawayDrinks} download>
+              <Button
+                className={classes.takeawayButton}
+                size="large"
+                variant="contained"
+              >
+                Download Drinks Menu
               </Button>
             </a>
           </Grid>

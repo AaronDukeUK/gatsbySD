@@ -12,6 +12,14 @@ const styles = () => ({
   takeawayImages: {
     margin: "100px 0"
   },
+  takeawayButton: {
+    backgroundColor: "#282828",
+    "&:hover": {
+      backgroundColor: "#111"
+    },
+    padding: "20px",
+    borderRadius: 0
+  },
   sundayContainer: {
     marginTop: "150px",
     color: "white",
