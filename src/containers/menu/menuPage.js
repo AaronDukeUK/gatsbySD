@@ -1,41 +1,41 @@
-import React from "react";
+import React from 'react';
 
-import { StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import { Typography, Grid, Fade, Button } from "@material-ui/core";
+import { Typography, Grid, Fade, Button } from '@material-ui/core';
 
-import { withStyles } from "@material-ui/core/styles";
-import styles from "./styles";
+import { withStyles } from '@material-ui/core/styles';
+import styles from './styles';
 
-import GreekNight from "../../files/greeknight.pdf";
+import GreekNight from '../../files/greeknight.pdf';
 
 const MenuPage = ({ classes }) => (
   <StaticQuery
     query={graphql`
       query menuImgQuery {
-        jan1: file(relativePath: { regex: "/jan1/" }) {
+        lemonChicken: file(relativePath: { regex: "/lemonChicken/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-        jan2: file(relativePath: { regex: "/jan2/" }) {
+        mapleBurg: file(relativePath: { regex: "/mapleBurg/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-        jan3: file(relativePath: { regex: "/jan3/" }) {
+        strawbProfit: file(relativePath: { regex: "/strawbProfit/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-        jan4: file(relativePath: { regex: "/jan4/" }) {
+        banoffee: file(relativePath: { regex: "/banoffee/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -144,7 +144,7 @@ const MenuPage = ({ classes }) => (
 
           <Grid item xs="10">
             <Typography variant="body1" className={classes.event}>
-              Greek Night - 10th April
+              Greek Night - 29th August
             </Typography>
             <a href={GreekNight} download>
               <Button size="large" variant="contained">
@@ -160,7 +160,9 @@ const MenuPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">Delivery Within 10 mile radius</Typography>
+            <Typography variant="h4">
+              Sunday Lunches Served 1200 - 1500
+            </Typography>
           </Grid>
           <Grid
             container
@@ -170,16 +172,16 @@ const MenuPage = ({ classes }) => (
             spacing="1"
           >
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan1.childImageSharp.fluid} />
+              <Img fluid={data.lemonChicken.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan2.childImageSharp.fluid} />
+              <Img fluid={data.mapleBurg.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan3.childImageSharp.fluid} />
+              <Img fluid={data.strawbProfit.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.jan4.childImageSharp.fluid} />
+              <Img fluid={data.banoffee.childImageSharp.fluid} />
             </Grid>
           </Grid>
           <Grid
@@ -189,7 +191,7 @@ const MenuPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">10% Discount for collection</Typography>
+            <Typography variant="h4">Free Delivery to Local Area</Typography>
           </Grid>
           <Grid
             container

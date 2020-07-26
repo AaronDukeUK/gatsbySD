@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 import {
   AppBar,
   Box,
@@ -10,17 +10,17 @@ import {
   Menu,
   MenuItem,
   Fab
-} from "@material-ui/core";
+} from '@material-ui/core';
 
-import FacebookIcon from "@material-ui/icons/Facebook";
+import FacebookIcon from '@material-ui/icons/Facebook';
 
-import MenuIcon from "@material-ui/icons/Menu";
+import MenuIcon from '@material-ui/icons/Menu';
 
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from '@material-ui/core/styles';
 
-import CookieConsent from "react-cookie-consent";
+import CookieConsent from 'react-cookie-consent';
 
-import styles from "./styles";
+import styles from './styles';
 
 const Header = ({ classes }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -39,30 +39,30 @@ const Header = ({ classes }) => {
         This website uses cookies to enhance the user experience.
       </CookieConsent>
       <AppBar position="fixed">
-        <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
-          <Link to="/" style={{ color: "white" }}>
+        <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Link to="/" style={{ color: 'white' }}>
             <Typography variant="h5">The Squirrels Drey</Typography>
           </Link>
           <Hidden lgDown>
-            <Typography variant="h6">Homemade Takeaway</Typography>
+            <Typography variant="h6">Homemade Food</Typography>
           </Hidden>
 
           <Hidden smDown>
             <Box>
               <Button color="inherit">
-                <Link to="/about" style={{ color: "white" }}>
+                <Link to="/about" style={{ color: 'white' }}>
                   <Typography variant="h5">About</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
-                <Link to="/menus" style={{ color: "white" }}>
+                <Link to="/menus" style={{ color: 'white' }}>
                   <Typography variant="h5">Events</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
                 <Link
                   to="/recipes"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: 'none', color: 'white' }}
                 >
                   <Typography variant="h5">Recipes</Typography>
                 </Link>
@@ -70,17 +70,17 @@ const Header = ({ classes }) => {
               <Button color="inherit">
                 <Link
                   to="/contact"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: 'none', color: 'white' }}
                 >
                   <Typography variant="h5">Contact</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
                 <Link
-                  to="/takeaway"
-                  style={{ textDecoration: "none", color: "white" }}
+                  to="/food"
+                  style={{ textDecoration: 'none', color: 'white' }}
                 >
-                  <Typography variant="h5">Takeaway</Typography>
+                  <Typography variant="h5">Food</Typography>
                 </Link>
               </Button>
             </Box>
@@ -154,8 +154,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
                     Home
@@ -168,8 +168,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/about"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
                     About
@@ -182,8 +182,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/menus"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
                     Events
@@ -196,8 +196,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/contact"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
                     Contact
@@ -210,8 +210,8 @@ const Header = ({ classes }) => {
                   <Link
                     to="/recipes"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
                     Recipes
@@ -221,13 +221,13 @@ const Header = ({ classes }) => {
               <MenuItem onClick={handleClose}>
                 <Typography variant="h5">
                   <Link
-                    to="/takeaway"
+                    to="/food"
                     style={{
-                      textDecoration: "none",
-                      color: "#FFF"
+                      textDecoration: 'none',
+                      color: '#FFF'
                     }}
                   >
-                    Takeaway
+                    Food
                   </Link>
                 </Typography>
               </MenuItem>

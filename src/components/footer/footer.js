@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import { withStyles } from "@material-ui/core/styles";
-import { Typography, Grid } from "@material-ui/core";
-import logo from "../../images/logo.svg";
-import styles from "./styles";
+import { withStyles } from '@material-ui/core/styles';
+import { Typography, Grid } from '@material-ui/core';
+import logo from '../../images/logo.svg';
+import styles from './styles';
 
 const Footer = ({ classes }) => (
   <div className={classes.root}>
@@ -14,11 +14,19 @@ const Footer = ({ classes }) => (
       className={classes.container}
     >
       <Grid item xs="12" lg="4">
-        <Typography variant="h4">Takeaway Hours</Typography>
-        <Typography variant="body2">Wednesday: 1730 - 2130</Typography>
-        <Typography variant="body2">Thursday: 1730 - 2130</Typography>
-        <Typography variant="body2">Friday: 1730 - 2130</Typography>
-        <Typography variant="body2">Saturday: 1730 - 2130</Typography>
+        <Typography variant="h4">Opening Hours</Typography>
+        <Typography variant="body2">Wednesday: 1730 - CL</Typography>
+        <Typography variant="body2">Thursday: 1730 - CL</Typography>
+        <Typography variant="body2">Friday: 1730 - CL</Typography>
+        <Typography variant="body2">Saturday: 1730 - CL</Typography>
+        <Typography variant="body2">Sunday: 1200 - 1700</Typography>
+      </Grid>
+      <Grid item xs="12" lg="4">
+        <Typography variant="h4">Food Served</Typography>
+        <Typography variant="body2">Wednesday: 1730 - 2100</Typography>
+        <Typography variant="body2">Thursday: 1730 - 2100</Typography>
+        <Typography variant="body2">Friday: 1730 - 2100</Typography>
+        <Typography variant="body2">Saturday: 1730 - 2100</Typography>
         <Typography variant="body2">Sunday: 1200 - 1600</Typography>
       </Grid>
 
@@ -37,7 +45,7 @@ const Footer = ({ classes }) => (
       </Grid>
       <Grid item xs="11" lg="5">
         <Typography variant="h5" className={classes.copyText}>
-          The Little Kitchen Pantry Ltd 2019 &copy;
+          The Little Kitchen Pantry Ltd 2020 &copy;
         </Typography>
       </Grid>
     </Grid>

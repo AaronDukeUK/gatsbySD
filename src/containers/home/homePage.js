@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { Link, StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import React, { useState } from 'react';
+import { Link, StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import { Typography, Grid, Button, Fade, Paper } from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
+import { Typography, Grid, Button, Fade } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 
-import { Waypoint } from "react-waypoint";
-import { animated, useSpring } from "react-spring";
+import { Waypoint } from 'react-waypoint';
+import { animated, useSpring } from 'react-spring';
 
-import styles from "./styles";
+import styles from './styles';
 
 const IndexPage = ({ classes }) => {
   const [on1, toggle1] = useState(false);
@@ -30,7 +30,7 @@ const IndexPage = ({ classes }) => {
               }
             }
           }
-          food: file(relativePath: { regex: "/seabass/" }) {
+          food: file(relativePath: { regex: "/lemonChicken/" }) {
             childImageSharp {
               fluid(maxWidth: 3000) {
                 ...GatsbyImageSharpFluid
@@ -50,7 +50,7 @@ const IndexPage = ({ classes }) => {
         <>
           <Img
             className={classes.backgroundImg}
-            style={{ position: "fixed" }}
+            style={{ position: 'fixed' }}
             fluid={data.hero.childImageSharp.fluid}
           />
           <Fade in timeout={2000}>
@@ -72,20 +72,20 @@ const IndexPage = ({ classes }) => {
             />
             <Grid item m="10" sm="11">
               <Typography variant="h2" className={classes.leadTitle}>
-                PUB & RESTAURANT
+                Reopening 5th August
               </Typography>
             </Grid>
             <Grid item m="10" sm="10" xs="9">
               <Typography variant="body1">
-                Homemade, Locally Sourced Takeaway/Delivery Service
+                Homemade, Locally Sourced Food
               </Typography>
               <Typography variant="body1">
                 The Squirrels Drey Pub & Restaurant boasts fresh, locally
-                sourced, homemade food straight to your door.
+                sourced, homemade food.
               </Typography>
-              <Link to="/takeaway">
+              <Link to="/food">
                 <Button size="large" variant="contained">
-                  Our Takeaway Menu
+                  Our Menu
                 </Button>
               </Link>
             </Grid>
@@ -111,7 +111,7 @@ const IndexPage = ({ classes }) => {
                 site so we can cater to any dietary requirements you may have.
               </Typography>
 
-              <Link to="./takeaway">
+              <Link to="./food">
                 <Button size="large" variant="contained">
                   Read More
                 </Button>
@@ -129,7 +129,7 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We are a welcoming and relaxed, family run traditional village
                 pub / restaurant, situated in the quaint village of Sporle,
-                Norfolk. Now offering Takeaway meals until further notice.
+                Norfolk. Offering both dine in and takeaway experiences.
               </Typography>
 
               <Link to="./about">
@@ -184,18 +184,18 @@ const IndexPage = ({ classes }) => {
               <Typography variant="h4"> Sunday Roasts </Typography>
 
               <Typography variant="body2">
-                Every Sunday we serve takeaway lunches from 1200 until 1600. We
-                have a selection of dishes available, including locally sourced
-                Beef, Pork and Homemade Nut Roasts.
+                Every Sunday we serve lunches from 1200 until 1600. We have a
+                selection of dishes available, including locally sourced Beef,
+                Pork and Homemade Nut Roasts.
               </Typography>
 
               <Typography variant="h4"> Takeaway Service </Typography>
 
               <Typography variant="body2">
-                Due to all Pubs & Restaurants in the UK currently being closed
-                until further notice, we have began a homemade, locally sourced
-                takaway/delivery service. We provide deliveries within a 10 mile
-                radius, and offer a 10% discount for collections.
+                Due to current events, we understand if you would rather
+                takeaway our food. We offer a takeaway service for collection
+                and delivery to the local area. Please call the day before
+                between 1500 and 1700 to place your order.
               </Typography>
             </Grid>
           </Grid>
