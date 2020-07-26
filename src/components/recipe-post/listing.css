@@ -1,8 +1,7 @@
 .recipies {
-  font-family: "Anton", sans-serif;
+  font-family: 'Anton', sans-serif;
   padding: 5%;
   letter-spacing: 1px;
-  border-bottom: 2px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +29,7 @@
 }
 
 .recipieItem:nth-child(4n + 1) {
-  background: url("../../images/note1.svg");
+  background: url('../../images/note1.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,7 +37,7 @@
 }
 
 .recipieItem:nth-child(4n + 2) {
-  background: url("../../images/note2.svg");
+  background: url('../../images/note2.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,7 +45,7 @@
 }
 
 .recipieItem:nth-child(4n + 3) {
-  background: url("../../images/note3.svg");
+  background: url('../../images/note3.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -54,14 +53,14 @@
 }
 
 .recipieItem:nth-child(4n + 4) {
-  background: url("../../images/note4.svg");
+  background: url('../../images/note4.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .recipieItemText {
-  font-family: "Gochi Hand", cursive;
+  font-family: 'Gochi Hand', cursive;
   height: 60%;
   width: 100%;
   padding: 5% 10%;

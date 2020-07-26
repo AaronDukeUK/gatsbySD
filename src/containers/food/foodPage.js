@@ -3,11 +3,10 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import { Typography, Grid, Fade, Button } from '@material-ui/core';
+import { Typography, Grid, Fade } from '@material-ui/core';
 
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
-import TakeawayDrinks from '../../files/DrinksMenu.pdf';
 
 const FoodPage = ({ classes }) => (
   <StaticQuery
@@ -212,17 +211,9 @@ const FoodPage = ({ classes }) => (
                 and apricot stuffing, homemade jus. GF
               </Typography>
             </div>
-
-            <a href={TakeawayDrinks} download>
-              <Button
-                className={classes.takeawayButton}
-                size="large"
-                variant="contained"
-              >
-                Download Drinks Menu
-              </Button>
-            </a>
           </Grid>
+        </Grid>
+        <div className={classes.foodAddonContainer}>
           <Grid
             container
             className={classes.sundayContainer}
@@ -263,7 +254,7 @@ const FoodPage = ({ classes }) => (
           >
             <Typography variant="h4">Free Delivery to Local Area</Typography>
           </Grid>
-        </Grid>
+        </div>
       </>
     )}
   />

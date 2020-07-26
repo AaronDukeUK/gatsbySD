@@ -1,23 +1,17 @@
 const styles = () => ({
-  event: {
-    marginBottom: '-30px'
-  },
-  imagesContainer: {
-    padding: '10px'
-  },
   sundayContainer: {
     marginTop: '150px',
     color: 'white',
     background: '#F57C00',
-    padding: '10px'
+    padding: '10px 0'
   },
   sloganContainer: {
     color: 'white',
     background: '#F57C00',
-    padding: '10px'
+    padding: '10px 0'
   },
-  eventsAddonContainer: {
-    width: '100vw',
+  recipiesAddonContainer: {
+    maxWidth: '100%',
     overflow: 'hidden'
   }
 });

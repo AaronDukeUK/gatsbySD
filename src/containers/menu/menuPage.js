@@ -152,91 +152,103 @@ const MenuPage = ({ classes }) => (
               </Button>
             </a>
           </Grid>
-
-          <Grid
-            container
-            className={classes.sundayContainer}
-            justify="center"
-            align="center"
-            spacing="1"
-          >
-            <Typography variant="h4">
-              Sunday Lunches Served 1200 - 1600
-            </Typography>
-          </Grid>
-          <Grid
-            container
-            className={classes.imagesContainer}
-            justify="center"
-            align="center"
-            spacing="1"
-          >
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.lemonChicken.childImageSharp.fluid} />
+          <div className={classes.eventsAddonContainer}>
+            <Grid
+              container
+              className={classes.sundayContainer}
+              justify="center"
+              align="center"
+              spacing="1"
+            >
+              <Typography variant="h4">
+                Sunday Lunches Served 1200 - 1600
+              </Typography>
             </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.mapleBurg.childImageSharp.fluid} />
+            <Grid
+              container
+              className={classes.imagesContainer}
+              justify="center"
+              align="center"
+              spacing="1"
+            >
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.lemonChicken.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.mapleBurg.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.strawbProfit.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.banoffee.childImageSharp.fluid} />
+              </Grid>
             </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.strawbProfit.childImageSharp.fluid} />
+            <Grid
+              container
+              className={classes.sloganContainer}
+              justify="center"
+              align="center"
+              spacing="1"
+            >
+              <Typography variant="h4">Free Delivery to Local Area</Typography>
             </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.banoffee.childImageSharp.fluid} />
+            <Grid
+              container
+              className={classes.imagesContainer}
+              justify="center"
+              align="center"
+              spacing="1"
+            >
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.chicken.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.curry.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.icecream.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.pasta.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.seabass.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.shortbreads.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.tart.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.truffles.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.wellington.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.salmon.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.apple.childImageSharp.fluid} />
+              </Grid>
+              <Grid item xs="12" sm="6" md="4" xl="3">
+                <Img fluid={data.tort.childImageSharp.fluid} />
+              </Grid>
             </Grid>
-          </Grid>
-          <Grid
-            container
-            className={classes.sloganContainer}
-            justify="center"
-            align="center"
-            spacing="1"
-          >
-            <Typography variant="h4">Free Delivery to Local Area</Typography>
-          </Grid>
-          <Grid
-            container
-            className={classes.imagesContainer}
-            justify="center"
-            align="center"
-            spacing="1"
-          >
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.chicken.childImageSharp.fluid} />
+            <Grid
+              container
+              className={classes.sloganContainer}
+              justify="center"
+              align="center"
+              spacing="1"
+            >
+              <Typography variant="h4">
+                Homemade & Locally Sourced Food
+              </Typography>
             </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.curry.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.icecream.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.pasta.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.seabass.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.shortbreads.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.tart.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.truffles.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.wellington.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.salmon.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.apple.childImageSharp.fluid} />
-            </Grid>
-            <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.tort.childImageSharp.fluid} />
-            </Grid>
-          </Grid>
+          </div>
         </Grid>
       </>
     )}
