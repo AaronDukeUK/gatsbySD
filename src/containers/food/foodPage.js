@@ -231,7 +231,7 @@ const FoodPage = ({ classes }) => (
             spacing="1"
           >
             <Typography variant="h4">
-              Sunday Lunches Served 1200 - 1500
+              Sunday Lunches Served 1200 - 1600
             </Typography>
           </Grid>
           <Grid
