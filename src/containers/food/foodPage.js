@@ -33,7 +33,7 @@ const FoodPage = ({ classes }) => (
             }
           }
         }
-        banoffee: file(relativePath: { regex: "/banoffee/" }) {
+        porkRoast: file(relativePath: { regex: "/porkRoast/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -93,6 +93,90 @@ const FoodPage = ({ classes }) => (
           childImageSharp {
             fluid(grayscale: true, maxWidth: 1000, maxHeight: 500) {
               ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        chicken: file(relativePath: { regex: "/chicken/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        curry: file(relativePath: { regex: "/curry/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        icecream: file(relativePath: { regex: "/icecream/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        pasta: file(relativePath: { regex: "/pasta/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        seabass: file(relativePath: { regex: "/seabass/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        shortbreads: file(relativePath: { regex: "/shortbreads/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        tart: file(relativePath: { regex: "/tart/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        truffles: file(relativePath: { regex: "/truffles/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        wellington: file(relativePath: { regex: "/wellington/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        salmon: file(relativePath: { regex: "/salmon/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        apple: file(relativePath: { regex: "/apple/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        tort: file(relativePath: { regex: "/tort/" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -156,7 +240,7 @@ const FoodPage = ({ classes }) => (
 
             <Typography variant="body1">
               Beer battered sustainable market fish, hand cut beef dripping
-              chips, minted pea puree, lemon and caper aioli. £13 GF
+              chips, minted pea puree, lemon and caper aioli. £13.50 GF
             </Typography>
             <Typography variant="body1">
               Sweet canadian maple beef patty, smoked back bacon, norfolk
@@ -168,16 +252,16 @@ const FoodPage = ({ classes }) => (
             </Typography>
             <Typography variant="body1">
               Norfolk reared porkloin with sweet apple cider and blossom honey
-              glaze, summer green beans and spearmint pink fir poatatoes. £12 GF
+              glaze, summer green beans and spearmint pink fir poatatoes. £14 GF
             </Typography>
             <Typography variant="body1">
               Oven roast lemon and rosemary chicken, parmesan gnocchi and stem
-              broccoli. £13 GF
+              broccoli. £14 GF
             </Typography>
             <Typography variant="body1">
               Tray baked pomegrante and moroccan spiced lamb chop, roast honey
               fig,green bean salad with toasted almonds and raspberry
-              vinaigrette. £15 GF
+              vinaigrette. £16 GF
             </Typography>
             <Typography variant="body1">
               Indian cauliflower pakora, roasted butternut, sweet potato and
@@ -198,12 +282,15 @@ const FoodPage = ({ classes }) => (
               Banoffee pie with a twist, peanut butter cream and baked banana
               crisps. £6.50 GF
             </Typography>
+            <Typography variant="body1">
+              Homemade regularly changing icecreams. £2.50
+            </Typography>
 
             <div className={classes.sundayText}>
               <Typography variant="h4">Sunday Lunches</Typography>
               <Typography variant="body1">
                 Norfolk Beef Sirloin / Norfolk Pork Loin / Fruit and Nut Roast V
-                £12.00
+                £13.00
               </Typography>
               <Typography variant="body1">
                 All served with seasonal vegetables, braised red cabbage, roast
@@ -242,7 +329,7 @@ const FoodPage = ({ classes }) => (
               <Img fluid={data.strawbProfit.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.banoffee.childImageSharp.fluid} />
+              <Img fluid={data.porkRoast.childImageSharp.fluid} />
             </Grid>
           </Grid>
           <Grid
@@ -253,6 +340,62 @@ const FoodPage = ({ classes }) => (
             spacing="1"
           >
             <Typography variant="h4">Free Delivery to Local Area</Typography>
+          </Grid>
+
+          <Grid
+            container
+            className={classes.imagesContainer}
+            justify="center"
+            align="center"
+            spacing="1"
+          >
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.chicken.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.curry.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.icecream.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.pasta.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.seabass.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.shortbreads.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.tart.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.truffles.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.wellington.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.salmon.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.apple.childImageSharp.fluid} />
+            </Grid>
+            <Grid item xs="12" sm="6" md="4" xl="3">
+              <Img fluid={data.tort.childImageSharp.fluid} />
+            </Grid>
+          </Grid>
+          <Grid
+            container
+            className={classes.sloganContainer}
+            justify="center"
+            align="center"
+            spacing="1"
+          >
+            <Typography variant="h4">
+              Homemade & Locally Sourced Food
+            </Typography>
           </Grid>
         </div>
       </>

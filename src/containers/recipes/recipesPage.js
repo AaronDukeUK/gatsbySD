@@ -36,7 +36,7 @@ const RecipesPage = ({ classes }) => (
             }
           }
         }
-        banoffee: file(relativePath: { regex: "/banoffee/" }) {
+        porkRoast: file(relativePath: { regex: "/porkRoast/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -84,7 +84,7 @@ const RecipesPage = ({ classes }) => (
               <Img fluid={data.strawbProfit.childImageSharp.fluid} />
             </Grid>
             <Grid item xs="12" sm="6" md="4" xl="3">
-              <Img fluid={data.banoffee.childImageSharp.fluid} />
+              <Img fluid={data.porkRoast.childImageSharp.fluid} />
             </Grid>
           </Grid>
           <Grid
