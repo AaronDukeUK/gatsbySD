@@ -240,7 +240,7 @@ const FoodPage = ({ classes }) => (
 
             <Typography variant="body1">
               Beer battered sustainable market fish, hand cut beef dripping
-              chips, minted pea puree, lemon and caper aioli. £13.50 GF
+              chips, minted pea puree, lemon and caper aioli. (Market Price) GF
             </Typography>
             <Typography variant="body1">
               Sweet canadian maple beef patty, smoked back bacon, norfolk
