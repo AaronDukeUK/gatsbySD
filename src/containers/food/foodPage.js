@@ -208,8 +208,8 @@ const FoodPage = ({ classes }) => (
           </Grid>
           <Grid item xs="10">
             <Typography variant="body1">
-              Homemade dishes, using locally sourced produce, to help support
-              local businesses.
+              Homemade dishes, also available for takeaway, using locally
+              sourced produce, to help support local businesses.
             </Typography>
           </Grid>
           <Grid item xs="10">
@@ -245,27 +245,27 @@ const FoodPage = ({ classes }) => (
             <Typography variant="body1">
               Sweet canadian maple beef patty, smoked back bacon, norfolk
               cheddar, hand cut beef dripping chips, onion rings, barbecue
-              sauce. £12 GF
+              sauce. £13 GF
             </Typography>
             <Typography variant="body1" className={classes.additions}>
               vegan hand made patty also avaliable
             </Typography>
             <Typography variant="body1">
               Norfolk reared porkloin with sweet apple cider and blossom honey
-              glaze, summer green beans and spearmint pink fir poatatoes. £14 GF
+              glaze, summer green beans and spearmint pink fir poatatoes. £15 GF
             </Typography>
             <Typography variant="body1">
               Oven roast lemon and rosemary chicken, parmesan gnocchi and stem
-              broccoli. £14 GF
+              broccoli. £15 GF
             </Typography>
             <Typography variant="body1">
               Tray baked pomegrante and moroccan spiced lamb chop, roast honey
               fig,green bean salad with toasted almonds and raspberry
-              vinaigrette. £16 GF
+              vinaigrette. £17 GF
             </Typography>
             <Typography variant="body1">
               Indian cauliflower pakora, roasted butternut, sweet potato and
-              green bean saag aloo, cucumber and mint raita. £12 VG GF
+              green bean saag aloo, cucumber and mint raita. £14 VG GF
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
@@ -293,9 +293,9 @@ const FoodPage = ({ classes }) => (
                 £13.00
               </Typography>
               <Typography variant="body1">
-                All served with seasonal vegetables, braised red cabbage, roast
-                garlic and rosemary potatoes, Sage Yorkshire pudding, sausage
-                and apricot stuffing, homemade jus. GF
+                All served with seasonal vegetables, wilted allotment kale,
+                roast garlic and rosemary potatoes, Sage Yorkshire pudding,
+                sausage and apricot stuffing, homemade jus. GF
               </Typography>
             </div>
           </Grid>
