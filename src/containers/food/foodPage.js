@@ -243,6 +243,10 @@ const FoodPage = ({ classes }) => (
               chips, minted pea puree, lemon and caper aioli. (Market Price) GF
             </Typography>
             <Typography variant="body1">
+              Norfolk crab and lemon verbena salad, roast pink fir potatoes,
+              sweet pea and wasabi aioli. £16.50 GF
+            </Typography>
+            <Typography variant="body1">
               Sweet canadian maple beef patty, smoked back bacon, norfolk
               cheddar, hand cut beef dripping chips, onion rings, barbecue
               sauce. £13 GF
@@ -264,8 +268,8 @@ const FoodPage = ({ classes }) => (
               vinaigrette. £14 GF
             </Typography>
             <Typography variant="body1">
-              Indian cauliflower pakora, roasted butternut, sweet potato and
-              green bean saag aloo, cucumber and mint raita. £14 VG GF
+              Sweet balsamic and beetroot arancini, roast tromboncino, squash
+              and pickled walnut salad, goats cheese curd. £14 GF V Vg
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
