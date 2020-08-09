@@ -72,7 +72,7 @@ const IndexPage = ({ classes }) => {
             />
             <Grid item m="10" sm="11">
               <Typography variant="h2" className={classes.leadTitle}>
-                Reopening 5th August
+                Now Open for Dine In & Takeaway
               </Typography>
             </Grid>
             <Grid item m="10" sm="10" xs="9">

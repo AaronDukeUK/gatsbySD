@@ -287,6 +287,10 @@ const FoodPage = ({ classes }) => (
               crisps. £6.50 GF
             </Typography>
             <Typography variant="body1">
+              Norfolk cheddar, oat crackers, caramelised onion and fruit
+              chutney. £7.50 GF
+            </Typography>
+            <Typography variant="body1">
               Homemade regularly changing icecreams. £2.50
             </Typography>
 
