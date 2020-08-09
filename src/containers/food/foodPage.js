@@ -261,7 +261,7 @@ const FoodPage = ({ classes }) => (
             <Typography variant="body1">
               Tray baked pomegrante and moroccan spiced lamb chop, roast honey
               fig,green bean salad with toasted almonds and raspberry
-              vinaigrette. £17 GF
+              vinaigrette. £14 GF
             </Typography>
             <Typography variant="body1">
               Indian cauliflower pakora, roasted butternut, sweet potato and
