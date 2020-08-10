@@ -39,7 +39,8 @@ const Footer = ({ classes }) => (
       <Grid item xs="11" lg="5">
         {/* <a href="#"> */}
         <Typography variant="h5" className={classes.copyText}>
-          Web Design By Aaron Duke
+          Designed & Developed by
+          <a href="https://www.aaronduke.co.uk/"> Aaron Duke</a>
         </Typography>
         {/* </a> */}
       </Grid>
