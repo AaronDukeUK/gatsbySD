@@ -1,21 +1,21 @@
 import { orange } from '@material-ui/core/colors';
 
-const styles = (theme) => ({
+const styles = theme => ({
   root: {
-    background: orange[700],
+    background: orange[700]
   },
   container: {
     background: 'white',
     padding: '50px 0 100px 0',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   logo: {
     width: '200px',
     [theme.breakpoints.down('md')]: {
-      margin: '100px 0 0 0',
-    },
+      margin: '100px 0 0 0'
+    }
   },
   copy: {
     borderTop: '2px solid black',
@@ -25,24 +25,24 @@ const styles = (theme) => ({
     alignItems: 'center',
     [theme.breakpoints.down('sm')]: {
       fontSize: '1rem',
-      lineHeight: '5rem',
-    },
+      lineHeight: '5rem'
+    }
   },
   copyText: {
     color: 'white',
 
     [theme.breakpoints.down('sm')]: {
       fontSize: '1rem',
-      lineHeight: '3rem',
-    },
+      lineHeight: '3rem'
+    }
   },
   aaron: {
     fontFamily: 'East Sea Dokdo',
-    fontSize: '2rem',
+    fontSize: '2rem'
   },
   ad: {
-    width: '30px',
-  },
+    color: 'white'
+  }
 });
 
 export default styles;

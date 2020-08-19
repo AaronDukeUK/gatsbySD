@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Typography, Grid, Fade } from '@material-ui/core';
-
+import { SEO } from 'components';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
@@ -184,6 +184,7 @@ const FoodPage = ({ classes }) => (
     `}
     render={data => (
       <>
+        <SEO title="Menu" />
         <Grid
           container
           className={classes.container}
@@ -264,8 +265,8 @@ const FoodPage = ({ classes }) => (
             </Typography>
             <Typography variant="body1">
               Tray baked pomegrante and moroccan spiced lamb chop, roast honey
-              fig,green bean salad with toasted almonds and raspberry
-              vinaigrette. £14 GF
+              fig, green bean salad with toasted almonds and raspberry
+              vinaigrette. £16 GF
             </Typography>
             <Typography variant="body1">
               Sweet balsamic and beetroot arancini, roast tromboncino, squash

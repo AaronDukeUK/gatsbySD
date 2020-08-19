@@ -40,7 +40,10 @@ const Footer = ({ classes }) => (
         {/* <a href="#"> */}
         <Typography variant="h5" className={classes.copyText}>
           Designed & Developed by
-          <a href="https://www.aaronduke.co.uk/"> Aaron Duke</a>
+          <a href="https://www.aaronduke.co.uk/" className={classes.ad}>
+            {' '}
+            Aaron Duke
+          </a>
         </Typography>
         {/* </a> */}
       </Grid>

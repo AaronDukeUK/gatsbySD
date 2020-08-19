@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Typography, Grid, Fade, Button } from '@material-ui/core';
-
+import { SEO } from 'components';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
@@ -46,6 +46,7 @@ const MenuPage = ({ classes }) => (
     `}
     render={data => (
       <>
+        <SEO title="Events" />
         <Grid
           container
           className={classes.container}

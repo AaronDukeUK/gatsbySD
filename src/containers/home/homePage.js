@@ -8,6 +8,8 @@ import { withStyles } from '@material-ui/core/styles';
 import { Waypoint } from 'react-waypoint';
 import { animated, useSpring } from 'react-spring';
 
+import { SEO } from 'components';
+
 import styles from './styles';
 
 const IndexPage = ({ classes }) => {
@@ -48,6 +50,7 @@ const IndexPage = ({ classes }) => {
       `}
       render={data => (
         <>
+          <SEO title="Home" />
           <Img
             className={classes.backgroundImg}
             style={{ position: 'fixed' }}

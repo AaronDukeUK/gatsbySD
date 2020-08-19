@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Typography, Grid, Button, Fade } from '@material-ui/core';
+import { Typography, Grid, Fade } from '@material-ui/core';
 
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
-
+import { SEO } from 'components';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Img from 'gatsby-image';
@@ -45,6 +45,7 @@ const ContactPage = ({ classes }) => (
     `}
     render={data => (
       <>
+        <SEO title="Contact" />
         <Grid
           container
           className={classes.container}
@@ -58,23 +59,12 @@ const ContactPage = ({ classes }) => (
           </Fade>
           <Grid item xs="10">
             <Typography variant="body2">
-              If you have any queries, please do not hesitate to contact us.
+              For bookings and general enquiries, please call us on:
             </Typography>
           </Grid>
           <Grid item xs="10">
             <Typography variant="h4">Phone</Typography>
             <Typography variant="body1">01760 788101</Typography>
-          </Grid>
-          <Grid item xs="10">
-            <Typography variant="h4">Email</Typography>
-            <Typography variant="body1">info@squirrelsdrey.co.uk</Typography>
-            <Button
-              size="large"
-              variant="contained"
-              href="mailto: info@squirrelsdrey.co.uk"
-            >
-              Click To Email
-            </Button>
           </Grid>
           <Grid item xs="10">
             <Typography variant="h4">Address</Typography>

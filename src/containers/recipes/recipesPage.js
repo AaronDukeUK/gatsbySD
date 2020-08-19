@@ -5,7 +5,7 @@ import { Typography, Grid, Fade } from '@material-ui/core';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Img from 'gatsby-image';
-
+import { SEO } from 'components';
 import { RecipePost } from 'components';
 
 import { withStyles } from '@material-ui/core/styles';
@@ -47,6 +47,7 @@ const RecipesPage = ({ classes }) => (
     `}
     render={data => (
       <>
+        <SEO title="Recipies" />
         <div className="recipies">
           <Fade in timeout={2000}>
             <Typography variant="h2">RECIPES</Typography>
