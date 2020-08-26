@@ -244,10 +244,6 @@ const FoodPage = ({ classes }) => (
               chips, minted pea puree, lemon and caper aioli. (Market Price) GF
             </Typography>
             <Typography variant="body1">
-              Norfolk crab and lemon verbena salad, roast pink fir potatoes,
-              sweet pea and wasabi aioli. £16.50 GF
-            </Typography>
-            <Typography variant="body1">
               Sweet canadian maple beef patty, smoked back bacon, norfolk
               cheddar, hand cut beef dripping chips, onion rings, barbecue
               sauce. £13 GF
@@ -318,7 +314,7 @@ const FoodPage = ({ classes }) => (
             spacing="1"
           >
             <Typography variant="h4">
-              Sunday Lunches Served 1200 - 1600
+              Sunday Lunches Served 1200 - 1500
             </Typography>
           </Grid>
           <Grid

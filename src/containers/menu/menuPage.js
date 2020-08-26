@@ -78,7 +78,7 @@ const MenuPage = ({ classes }) => (
               spacing="1"
             >
               <Typography variant="h4">
-                Sunday Lunches Served 1200 - 1600
+                Sunday Lunches Served 1200 - 1500
               </Typography>
             </Grid>
             <Grid

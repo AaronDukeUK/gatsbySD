@@ -187,7 +187,7 @@ const IndexPage = ({ classes }) => {
               <Typography variant="h4"> Sunday Roasts </Typography>
 
               <Typography variant="body2">
-                Every Sunday we serve lunches from 1200 until 1600. We have a
+                Every Sunday we serve lunches from 1200 until 1500. We have a
                 selection of dishes available, including locally sourced Beef,
                 Pork and Homemade Nut Roasts.
               </Typography>

@@ -19,7 +19,7 @@ const Footer = ({ classes }) => (
         <Typography variant="body2">Thursday: 1730 - CL</Typography>
         <Typography variant="body2">Friday: 1730 - CL</Typography>
         <Typography variant="body2">Saturday: 1730 - CL</Typography>
-        <Typography variant="body2">Sunday: 1200 - 1700</Typography>
+        <Typography variant="body2">Sunday: 1200 - CL</Typography>
       </Grid>
       <Grid item xs="12" lg="4">
         <Typography variant="h4">Food Served</Typography>
@@ -27,7 +27,7 @@ const Footer = ({ classes }) => (
         <Typography variant="body2">Thursday: 1730 - 2100</Typography>
         <Typography variant="body2">Friday: 1730 - 2100</Typography>
         <Typography variant="body2">Saturday: 1730 - 2100</Typography>
-        <Typography variant="body2">Sunday: 1200 - 1600</Typography>
+        <Typography variant="body2">Sunday: 1200 - 1500</Typography>
       </Grid>
 
       <Grid item xs="12" lg="4">
