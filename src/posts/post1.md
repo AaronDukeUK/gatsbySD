@@ -1,7 +1,7 @@
 ---
-slug: "/icecream"
-date: "2019-10-25"
-title: "Ice Cream"
+slug: '/icecream'
+date: '2019-10-25'
+title: 'Ice Cream'
 ---
 
 There is little more tempting than a bowl (or cone) of glorious ice cream, especially when you have made it yourself. Making ice cream isn’t as difficult as it seems, with the most traditional recipes using a custard base. Other methods can be used to make ice creams of different textures and flavours but the fundamental principles usually remain the same.
@@ -30,8 +30,4 @@ There is little more tempting than a bowl (or cone) of glorious ice cream, espec
 
 Depending on personal preference the ratio of cream to milk can be adjusted, the more cream the richer and fattier the ice cream will be.
 
-The list of flavours for ice cream is pretty much endless, from chocolate to strawberry, lemon to avocado. Anything can be melted into the milk and cream mix, such as the dulce de leche in James Sommerin’s Condensed milk ice cream or the liquorice compound in Christoffer Hruskova’s recipe.
-
-Ice creams that are flavoured with herbs such as lemon thyme, woody spices like cassia or other aromatics like hay may require a longer infusion time and the mixture will usually need to be strained through a fine sieve before churning.
-
-Some flavourings are incorporated into the ice cream after the ice cream has started churning – this is an ideal method for when you are looking to leave intact ‘chunks’ of an ingredient in the final ice cream. Galton Blackiston adds small pieces of Christmas pudding to his ice cream at the end of churning while Anna Hansen breaks up heavenly lumps of honeycomb to add to her Hokey pokey ice cream. Rippled ice creams are created by adding a purée to the ice cream towards the end of its churning time.
+The list of flavours for ice cream is pretty much endless, from chocolate to strawberry, lemon to avocado. Anything can be melted into the milk and cream mix.

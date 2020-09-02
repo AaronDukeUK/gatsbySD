@@ -75,17 +75,14 @@ const IndexPage = ({ classes }) => {
             />
             <Grid item m="10" sm="11">
               <Typography variant="h2" className={classes.leadTitle}>
-                Now Open for Dine In & Takeaway
+                Now Open for Dine In & Collection
               </Typography>
             </Grid>
             <Grid item m="10" sm="10" xs="9">
               <Typography variant="body1">
                 Homemade, Locally Sourced Food
               </Typography>
-              <Typography variant="body1">
-                The Squirrels Drey Pub & Restaurant boasts fresh, locally
-                sourced, homemade food.
-              </Typography>
+              <Typography variant="body1">Pub & Restaurant</Typography>
               <Link to="/food">
                 <Button size="large" variant="contained">
                   Our Menu
@@ -132,7 +129,7 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body2">
                 We are a welcoming and relaxed, family run traditional village
                 pub / restaurant, situated in the quaint village of Sporle,
-                Norfolk. Offering both dine in and takeaway experiences.
+                Norfolk. Offering both dine in and collection.
               </Typography>
 
               <Link to="./about">
@@ -192,13 +189,12 @@ const IndexPage = ({ classes }) => {
                 Pork and Homemade Nut Roasts.
               </Typography>
 
-              <Typography variant="h4"> Takeaway Service </Typography>
+              <Typography variant="h4"> Collection Service </Typography>
 
               <Typography variant="body2">
                 Due to current events, we understand if you would rather
-                takeaway our food. We offer a takeaway service for collection
-                and delivery to the local area. Please call the day before
-                between 1500 and 1700 to place your order.
+                takeaway our food, so collection is also available. Please call
+                the day before between 1500 and 1700 to place your order.
               </Typography>
             </Grid>
           </Grid>

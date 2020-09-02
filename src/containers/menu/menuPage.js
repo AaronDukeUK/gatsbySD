@@ -8,7 +8,7 @@ import { SEO } from 'components';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
-import GreekNight from '../../files/greeknight.pdf';
+import PC from '../../files/PCMENU.pdf';
 
 const MenuPage = ({ classes }) => (
   <StaticQuery
@@ -61,11 +61,11 @@ const MenuPage = ({ classes }) => (
 
           <Grid item xs="10">
             <Typography variant="body1" className={classes.event}>
-              Greek Night - 29th August
+              Pudding Club - 25/09/20
             </Typography>
-            <a href={GreekNight} download>
+            <a href={PC} download>
               <Button size="large" variant="contained">
-                Greek Night Menu
+                Pudding Club Menu
               </Button>
             </a>
           </Grid>
@@ -110,7 +110,7 @@ const MenuPage = ({ classes }) => (
               spacing="1"
             >
               <Typography variant="h4">
-                Homemade & Local Sourced Food
+                Homemade & Locally Sourced Food
               </Typography>
             </Grid>
           </div>

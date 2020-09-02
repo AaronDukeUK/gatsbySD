@@ -197,19 +197,13 @@ const FoodPage = ({ classes }) => (
             </Grid>
           </Fade>
           <Grid item xs="10">
-            <Typography variant="body1" className={classes.hours}>
-              For takeaway orders, please order the day before between 1500 and
-              1700.
-            </Typography>
-          </Grid>
-          <Grid item xs="10">
             <Typography variant="body1" className={classes.delivery}>
-              Free Delivery to the local area
+              Collection Also Available
             </Typography>
           </Grid>
           <Grid item xs="10">
             <Typography variant="body1">
-              Homemade dishes, also available for takeaway, using locally
+              Homemade dishes, also available for collection, using locally
               sourced produce, to help support local businesses.
             </Typography>
           </Grid>
@@ -223,79 +217,71 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
-              Honey blossom and gin cured salmon, sweet pickled cucumber and
-              kohlrabi salad, watercress pesto. £7 GF DF
+              Rolled oat mackerel, thyme potato scone, roast beetroot, citrus
+              creme fraiche GF
             </Typography>
             <Typography variant="body1">
               Norfolk gammon hock and cider jelly terrine, caper berries and
-              gherkin salad, summer fruit and caramelized onion chutney. £6.75
+              gherkin salad, summer fruit and caramelized onion chutney. GF DF
               GF DF
             </Typography>
             <Typography variant="body1">
-              Chargrilled confit peppers with chilli oil, thyme blushed
-              tomatoes, oak smoked halloumi, hand baked rosemary bread. £6.75 GF
-              V
+              Spiced parsnip soup, toasted almonds, creme fraiche GF
             </Typography>
 
             <Typography variant="h4">Mains</Typography>
 
             <Typography variant="body1">
-              Beer battered sustainable market fish, hand cut beef dripping
-              chips, minted pea puree, lemon and caper aioli. (Market Price) GF
-            </Typography>
-            <Typography variant="body1">
-              Sweet canadian maple beef patty, smoked back bacon, norfolk
-              cheddar, hand cut beef dripping chips, onion rings, barbecue
-              sauce. £13 GF
+              Sweet spiced Norfolk venison burger, toasted beetroot bun, thrice
+              cooked beef dripping chips, bramble chutney
             </Typography>
             <Typography variant="body1" className={classes.additions}>
               vegan hand made patty also avaliable
             </Typography>
             <Typography variant="body1">
-              Norfolk reared porkloin with sweet apple cider and blossom honey
-              glaze, summer green beans and spearmint pink fir poatatoes. £15 GF
+              Pan-seared fillet of bass, chard leeks, roast pink fir potatoes,
+              brown shrimp butter GF
             </Typography>
             <Typography variant="body1">
-              Oven roast lemon and rosemary chicken, parmesan gnocchi and stem
-              broccoli. £15 GF
+              Slow-braised Norfolk chicken and chestnut mushroom pie, sauteed
+              allotment beans and bacon, smoked mash
             </Typography>
             <Typography variant="body1">
-              Tray baked pomegrante and moroccan spiced lamb chop, roast honey
-              fig, green bean salad with toasted almonds and raspberry
-              vinaigrette. £16 GF
+              Two-way local rabbit braised and fried, roast cobnut and wilted
+              kale, fondant potato, bramble and port jus
             </Typography>
             <Typography variant="body1">
-              Sweet balsamic and beetroot arancini, roast tromboncino, squash
-              and pickled walnut salad, goats cheese curd. £14 GF V Vg
+              Honey blossom baked ham hock, thrice cooked beef dripping chips,
+              panko crispy duck egg, marrow pickle GF
+            </Typography>
+            <Typography variant="body1">
+              Roast butternut, caramelised onion and gruyere tart, autumn leaf
+              salad, pink fir potatoes, walnut pesto V
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Home grown allotment strawberrys and lavender chantilly cream
-              choux buns with light dusting of icing sugar to finish. £6.50
+              Autumn allotment apple and berry oat crumble, cinnamon icecream
             </Typography>
             <Typography variant="body1">
-              Refreshing summertime lime zest and basil cheesecake with lemon
-              and gin coulis. £6.50 GF
+              17th-century queen of pudding, allotment strawberry jam, baked
+              meringue
             </Typography>
             <Typography variant="body1">
-              Banoffee pie with a twist, peanut butter cream and baked banana
-              crisps. £6.50 GF
+              Chocolate and allotment lavender ganache, stem ginger shortbread
             </Typography>
             <Typography variant="body1">
-              Norfolk cheddar, oat crackers, caramelised onion and fruit
-              chutney. £7.50 GF
+              Norfolk cheddar, oat crackers, caramelised onion and fruit chutney
             </Typography>
             <Typography variant="body1">
-              Homemade regularly changing icecreams. £2.50
+              Homemade regularly changing icecreams.
             </Typography>
 
             <div className={classes.sundayText}>
               <Typography variant="h4">Sunday Lunches</Typography>
               <Typography variant="body1">
                 Norfolk Beef Sirloin / Norfolk Pork Loin / Fruit and Nut Roast V
-                £13.00
               </Typography>
               <Typography variant="body1">
                 All served with seasonal vegetables, wilted allotment kale,
@@ -344,7 +330,7 @@ const FoodPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">Free Delivery to Local Area</Typography>
+            <Typography variant="h4">Collection Also Available</Typography>
           </Grid>
 
           <Grid

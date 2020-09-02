@@ -114,7 +114,7 @@ const ContactPage = ({ classes }) => (
             align="center"
             spacing="1"
           >
-            <Typography variant="h4">Free Delivery to Local Area</Typography>
+            <Typography variant="h4">Collection Also Available</Typography>
           </Grid>
         </div>
       </>
