@@ -110,7 +110,7 @@ const MenuPage = ({ classes }) => (
               spacing="1"
             >
               <Typography variant="h4">
-                Homemade & Locally Sourced Food
+                Homemade & Local Sourced Food
               </Typography>
             </Grid>
           </div>
