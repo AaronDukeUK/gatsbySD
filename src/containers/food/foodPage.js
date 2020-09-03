@@ -223,7 +223,6 @@ const FoodPage = ({ classes }) => (
             <Typography variant="body1">
               Norfolk gammon hock and cider jelly terrine, caper berries and
               gherkin salad, summer fruit and caramelized onion chutney. GF DF
-              GF DF
             </Typography>
             <Typography variant="body1">
               Spiced parsnip soup, toasted almonds, creme fraiche GF
