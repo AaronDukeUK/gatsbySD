@@ -9,6 +9,8 @@ import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
 import PC from '../../files/PCMENU.pdf';
+import PCOct from '../../files/PCOCT.pdf';
+import XMAS from '../../files/Xmas.pdf';
 
 const MenuPage = ({ classes }) => (
   <StaticQuery
@@ -55,7 +57,9 @@ const MenuPage = ({ classes }) => (
         >
           <Fade in timeout={2000}>
             <Grid item xs="10">
-              <Typography variant="h2">Food Event Nights</Typography>
+              <Typography variant="h2">
+                Pudding Club & <br /> December Menus
+              </Typography>
             </Grid>
           </Fade>
 
@@ -65,7 +69,27 @@ const MenuPage = ({ classes }) => (
             </Typography>
             <a href={PC} download>
               <Button size="large" variant="contained">
-                Pudding Club Menu
+                September Menu
+              </Button>
+            </a>
+          </Grid>
+          <Grid item xs="10">
+            <Typography variant="body1" className={classes.event}>
+              Pudding Club - 30/10/20
+            </Typography>
+            <a href={PCOct} download>
+              <Button size="large" variant="contained">
+                October Menu
+              </Button>
+            </a>
+          </Grid>
+          <Grid item xs="10">
+            <Typography variant="body1" className={classes.event}>
+              December Menu
+            </Typography>
+            <a href={XMAS} download>
+              <Button size="large" variant="contained">
+                December Menu
               </Button>
             </a>
           </Grid>

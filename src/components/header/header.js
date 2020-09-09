@@ -56,7 +56,7 @@ const Header = ({ classes }) => {
               </Button>
               <Button color="inherit">
                 <Link to="/menus" style={{ color: 'white' }}>
-                  <Typography variant="h5">Events</Typography>
+                  <Typography variant="h5">Menus</Typography>
                 </Link>
               </Button>
               <Button color="inherit">
@@ -186,7 +186,7 @@ const Header = ({ classes }) => {
                       color: '#FFF'
                     }}
                   >
-                    Events
+                    Menus
                   </Link>
                 </Typography>
               </MenuItem>

@@ -238,7 +238,7 @@ const FoodPage = ({ classes }) => (
               vegan hand made patty also avaliable
             </Typography>
             <Typography variant="body1">
-              Pan-seared fillet of bass, chard leeks, roast pink fir potatoes,
+              Pan-seared fillet of bass, charred leeks, roast pink fir potatoes,
               brown shrimp butter GF
             </Typography>
             <Typography variant="body1">
