@@ -217,33 +217,30 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
-              Rolled oat mackerel, thyme potato scone, roast beetroot, citrus
-              creme fraiche GF
+              Norfolk wood pigeon, fried pink fir potatoes, bloack pudding, liquorice jus
             </Typography>
             <Typography variant="body1">
-              Norfolk gammon hock and cider jelly terrine, caper berries and
-              gherkin salad, summer fruit and caramelized onion chutney. GF DF
+              Rolled oat mackerel, thyme potato scone, roast beet, creme fraiche GF
             </Typography>
             <Typography variant="body1">
-              Spiced parsnip soup, toasted almonds, creme fraiche GF
+              Honey roasted carrot & thyme soup, toasted pumpkin seeds GF V
             </Typography>
 
             <Typography variant="h4">Mains</Typography>
 
             <Typography variant="body1">
-              Sweet spiced Norfolk venison burger, toasted beetroot bun, thrice
-              cooked beef dripping chips, bramble chutney
+              Sweet cinnamon Norfolk venison burger, toasted beetroot bun, thrice
+              cooked beef dripping chips, bramble chutney GF
             </Typography>
             <Typography variant="body1" className={classes.additions}>
               vegan hand made patty also avaliable
             </Typography>
             <Typography variant="body1">
               Pan-seared fillet of bass, charred leeks, roast pink fir potatoes,
-              brown shrimp butter GF
+              tomato consomme GF
             </Typography>
             <Typography variant="body1">
-              Slow-braised Norfolk chicken and chestnut mushroom pie, sauteed
-              allotment beans and bacon, smoked mash
+              Slow-braised Norfolk beef and ale pie, sauteed colcannon, french beans
             </Typography>
             <Typography variant="body1">
               Two-way local rabbit braised and fried, roast cobnut and wilted
@@ -261,17 +258,17 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Autumn allotment apple and berry oat crumble, cinnamon icecream
+              Autumn allotment apple and berry oat crumble, cinnamon icecream GF V
             </Typography>
             <Typography variant="body1">
               17th-century queen of pudding, allotment strawberry jam, baked
-              meringue
+              meringue V
             </Typography>
             <Typography variant="body1">
-              Chocolate and allotment lavender ganache, stem ginger shortbread
+              Chocolate and allotment lavender ganache, stem ginger shortbread GF
             </Typography>
             <Typography variant="body1">
-              Norfolk cheddar, oat crackers, caramelised onion and fruit chutney
+              Norfolk cheddar, oat crackers, caramelised onion and fruit chutney GF
             </Typography>
             <Typography variant="body1">
               Homemade regularly changing icecreams.
@@ -280,7 +277,7 @@ const FoodPage = ({ classes }) => (
             <div className={classes.sundayText}>
               <Typography variant="h4">Sunday Lunches</Typography>
               <Typography variant="body1">
-                Norfolk Beef Sirloin / Norfolk Pork Loin / Fruit and Nut Roast V
+                Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
               </Typography>
               <Typography variant="body1">
                 All served with seasonal vegetables, wilted allotment kale,
