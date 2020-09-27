@@ -217,7 +217,8 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
-              Norfolk wood pigeon, fried pink fir potatoes, bloack pudding, liquorice jus
+              Pork belly bonbons, cider apple puree, candied chicory, crab apple jelly
+
             </Typography>
             <Typography variant="body1">
               Rolled oat mackerel, thyme potato scone, roast beet, creme fraiche GF
@@ -229,46 +230,34 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Mains</Typography>
 
             <Typography variant="body1">
-              Sweet cinnamon Norfolk venison burger, toasted beetroot bun, thrice
-              cooked beef dripping chips, bramble chutney GF
-            </Typography>
-            <Typography variant="body1" className={classes.additions}>
-              vegan hand made patty also avaliable
+              Lamb and quince sausages, braised red cabbage with nutmeg, fondant potato, port jus
             </Typography>
             <Typography variant="body1">
-              Pan-seared fillet of bass, charred leeks, roast pink fir potatoes,
-              tomato consomme GF
+              Pan-seared grey mullet, mediterranean puy lentils, serrano ham crisp, oregano oil
             </Typography>
             <Typography variant="body1">
-              Slow-braised Norfolk beef and ale pie, sauteed colcannon, french beans
+              Slow-braised Norfolk beef and ale pie, sauteed colcannon
             </Typography>
             <Typography variant="body1">
-              Two-way local rabbit braised and fried, roast cobnut and wilted
-              kale, fondant potato, bramble and port jus
+              Hay baked quail, honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree
             </Typography>
             <Typography variant="body1">
-              Honey blossom baked ham hock, thrice cooked beef dripping chips,
-              panko crispy duck egg, marrow pickle GF
-            </Typography>
-            <Typography variant="body1">
-              Roast butternut, caramelised onion and gruyere tart, autumn leaf
-              salad, pink fir potatoes, walnut pesto V
+              Treacle baked pork belly, baked honey and thyme plum, celeriac puree, red chicory, jus GF
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Autumn allotment apple and berry oat crumble, cinnamon icecream GF V
+              Allotment apple and berry oat crumble, cardamon creme anglaise GF V
             </Typography>
             <Typography variant="body1">
-              17th-century queen of pudding, allotment strawberry jam, baked
-              meringue V
+              Sticky date pudding, butterscotch sauce, toasted hazelnut and banana ice cream V
             </Typography>
             <Typography variant="body1">
-              Chocolate and allotment lavender ganache, stem ginger shortbread GF
+              Calvados and apple creme brulee, sesame seed tuile buscuit V
             </Typography>
             <Typography variant="body1">
-              Norfolk cheddar, oat crackers, caramelised onion and fruit chutney GF
+              Norfolk cheddar, oat crackers, quince jelly GF V
             </Typography>
             <Typography variant="body1">
               Homemade regularly changing icecreams.
