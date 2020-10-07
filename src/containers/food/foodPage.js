@@ -218,10 +218,9 @@ const FoodPage = ({ classes }) => (
 
             <Typography variant="body1">
               Pork belly bonbons, cider apple puree, candied chicory, crab apple jelly
-
             </Typography>
             <Typography variant="body1">
-              Rolled oat mackerel, thyme potato scone, roast beet, creme fraiche GF
+              Orange and fennel pickled herrings, Red chicory, treacle rye bread GF
             </Typography>
             <Typography variant="body1">
               Honey roasted carrot & thyme soup, toasted pumpkin seeds GF V
