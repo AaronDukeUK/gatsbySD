@@ -217,10 +217,10 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
-              Pork belly bonbons, cider apple puree, candied chicory, crab apple jelly
+              Confit duck bonbons, Spiced plum puree, cherry brandy jelly
             </Typography>
             <Typography variant="body1">
-              Orange and fennel pickled herrings, Red chicory, treacle rye bread GF
+              Popcorn cockles ,smoked garlic and sweet chilli vinegar GF
             </Typography>
             <Typography variant="body1">
               Honey roasted carrot & thyme soup, toasted pumpkin seeds GF V
@@ -229,16 +229,16 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Mains</Typography>
 
             <Typography variant="body1">
-              Lamb and quince sausages, braised red cabbage with nutmeg, fondant potato, port jus
+              Slow-braised Norfolk beef and ale pie, Sauteed hispi greens, pink fir potatoes
             </Typography>
             <Typography variant="body1">
-              Pan-seared grey mullet, mediterranean puy lentils, serrano ham crisp, oregano oil
+              Lamb and quince sausages, Fried hispi greens and pancetta, smoked garlic mash, port jus
             </Typography>
             <Typography variant="body1">
-              Slow-braised Norfolk beef and ale pie, sauteed colcannon
+              Naturally smoked haddock fishcakes, braised leeks, charred baby cucumber, poached duck egg, hollandaise sauce
             </Typography>
             <Typography variant="body1">
-              Hay baked quail, honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree
+              Hay baked quail, Honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree
             </Typography>
             <Typography variant="body1">
               Treacle baked pork belly, baked honey and thyme plum, celeriac puree, red chicory, jus GF
@@ -247,13 +247,13 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Allotment apple and berry oat crumble, cardamon creme anglaise GF V
+              Allotment apple and berry oat crumble, vanilla creme anglaise GF V
             </Typography>
             <Typography variant="body1">
-              Sticky date pudding, butterscotch sauce, toasted hazelnut and banana ice cream V
+              Blueberry Bakewell tart, clotted ice cream V
             </Typography>
             <Typography variant="body1">
-              Calvados and apple creme brulee, sesame seed tuile buscuit V
+              White chocolate and cranberry brioche pudding, winter Cointreau poached fruits V
             </Typography>
             <Typography variant="body1">
               Norfolk cheddar, oat crackers, quince jelly GF V
