@@ -268,9 +268,8 @@ const FoodPage = ({ classes }) => (
                 Norfolk Beef Sirloin / Norfolk Leg of Lamb / Fruit and Nut Roast V
               </Typography>
               <Typography variant="body1">
-                All served with seasonal vegetables, wilted allotment kale,
-                roast garlic and rosemary potatoes, Sage Yorkshire pudding,
-                sausage and apricot stuffing, homemade jus. GF
+                All served with seasonal vegetables, braised red cabbage, roast garlic and rosemary potatoes, Sage Yorkshire pudding, sausage
+                and apricot stuffing, homemade jus. GF
               </Typography>
             </div>
           </Grid>
