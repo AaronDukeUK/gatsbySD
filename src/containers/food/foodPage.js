@@ -217,7 +217,7 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
-              Confit duck bonbons, Spiced plum puree, cherry brandy jelly
+              Smoked partridge, barley bonbon, roast nips, bramble jus
             </Typography>
             <Typography variant="body1">
               Popcorn cockles ,smoked garlic and sweet chilli vinegar GF
@@ -232,16 +232,19 @@ const FoodPage = ({ classes }) => (
               Slow-braised Norfolk beef and ale pie, Sauteed hispi greens, pink fir potatoes
             </Typography>
             <Typography variant="body1">
-              Lamb and quince sausages, Fried hispi greens and pancetta, smoked garlic mash, port jus
+              Lamb sausage toad in the hole, fried hispi greens, smoked garlic mash, port jus
             </Typography>
             <Typography variant="body1">
-              Naturally smoked haddock fishcakes, braised leeks, charred baby cucumber, poached duck egg, hollandaise sauce
+              Naturally smoked haddock fishcake, creamed leeks, poached duck egg, Norfolk cheddar veloute
             </Typography>
             <Typography variant="body1">
-              Hay baked quail, Honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree
+              Hay baked quail, Honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree GF
             </Typography>
             <Typography variant="body1">
-              Treacle baked pork belly, baked honey and thyme plum, celeriac puree, red chicory, jus GF
+              Norfolk pork tongue and cheek, apple thyme hash, roast shallots, hispi cabbage, calvados cream GF
+            </Typography>
+            <Typography variant="body1">
+              Wormegay aged Sirloin, Thrice cooked chunky chips, binham blue roast mushrooms, bordelaise sauce GF
             </Typography>
 
             <Typography variant="h4">Desserts</Typography>
