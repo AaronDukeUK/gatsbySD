@@ -8,8 +8,7 @@ import { SEO } from 'components';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './styles';
 
-import PC from '../../files/PCMENU.pdf';
-import PCOct from '../../files/PCOCT.pdf';
+import NYE from '../../files/NYE.pdf';
 import XMAS from '../../files/Xmas.pdf';
 
 const MenuPage = ({ classes }) => (
@@ -58,38 +57,28 @@ const MenuPage = ({ classes }) => (
           <Fade in timeout={2000}>
             <Grid item xs="10">
               <Typography variant="h2">
-                Pudding Club & <br /> December Menus
+                Xmas & NYE Menus
               </Typography>
             </Grid>
           </Fade>
 
           <Grid item xs="10">
             <Typography variant="body1" className={classes.event}>
-              Pudding Club - 25/09/20
-            </Typography>
-            <a href={PC} download>
-              <Button size="large" variant="contained">
-                September Menu
-              </Button>
-            </a>
-          </Grid>
-          <Grid item xs="10">
-            <Typography variant="body1" className={classes.event}>
-              Pudding Club - 30/10/20
-            </Typography>
-            <a href={PCOct} download>
-              <Button size="large" variant="contained">
-                October Menu
-              </Button>
-            </a>
-          </Grid>
-          <Grid item xs="10">
-            <Typography variant="body1" className={classes.event}>
-              December Menu
+              Christmas Day
             </Typography>
             <a href={XMAS} download>
               <Button size="large" variant="contained">
-                December Menu
+                Christmas Day
+              </Button>
+            </a>
+          </Grid>
+          <Grid item xs="10">
+            <Typography variant="body1" className={classes.event}>
+              New Years Eve
+            </Typography>
+            <a href={NYE} download>
+              <Button size="large" variant="contained">
+                New Years Eve
               </Button>
             </a>
           </Grid>

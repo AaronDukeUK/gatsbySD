@@ -217,31 +217,28 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Starters</Typography>
 
             <Typography variant="body1">
+              Roast chestnut soup, pancetta crisp, truffle oil GF V
+            </Typography>
+            <Typography variant="body1">
+              Popcorn cockles, smoked garlic and sweet chilli vinegar GF
+            </Typography>
+            <Typography variant="body1">
               Smoked partridge, barley bonbon, roast nips, bramble jus
-            </Typography>
-            <Typography variant="body1">
-              Popcorn cockles ,smoked garlic and sweet chilli vinegar GF
-            </Typography>
-            <Typography variant="body1">
-              Honey roasted carrot & thyme soup, toasted pumpkin seeds GF V
             </Typography>
 
             <Typography variant="h4">Mains</Typography>
 
             <Typography variant="body1">
-              Slow-braised Norfolk beef and ale pie, Sauteed hispi greens, pink fir potatoes
+              Slow-braised Norfolk beef and ale pie, sauteed hispi cabbage & pink fir potatoes colcannon
             </Typography>
             <Typography variant="body1">
-              Lamb sausage toad in the hole, fried hispi greens, smoked garlic mash, port jus
+              Deep-fried crispy Norfolk chicken, smoked kale crisps, sweet potato and rosemary fries, charred corn cob, sweet chilli & bacon jam GF
             </Typography>
             <Typography variant="body1">
-              Naturally smoked haddock fishcake, creamed leeks, poached duck egg, Norfolk cheddar veloute
+              Roast monkfish, pancetta and thyme scone, toasted fennel seed and hispi greens, lemon verbena créme
             </Typography>
             <Typography variant="body1">
-              Hay baked quail, Honey roast heritage carrots, walnut and celeriac croquettes, spiced pear puree GF
-            </Typography>
-            <Typography variant="body1">
-              Norfolk pork tongue and cheek, apple thyme hash, roast shallots, hispi cabbage, calvados cream GF
+              Slow-roasted maple pork belly, star anise heritage carrots, sweet potato, goat curd and pecan croquettes, calvados apple puree
             </Typography>
             <Typography variant="body1">
               Wormegay aged Sirloin, Thrice cooked chunky chips, binham blue roast mushrooms, bordelaise sauce GF
@@ -250,16 +247,16 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Allotment apple and berry oat crumble, vanilla creme anglaise GF V
+              Allotment Pear and chestnut tart, honeycomb ice cream V
             </Typography>
             <Typography variant="body1">
-              Blueberry Bakewell tart, clotted ice cream V
+              Gingerbread and eggnog tiramisu, pumpkin biscotti crumb
             </Typography>
             <Typography variant="body1">
-              White chocolate and cranberry brioche pudding, winter Cointreau poached fruits V
+              Cinnamon spiced apple fritters, Canadian maple, pecan praline ice cream V
             </Typography>
             <Typography variant="body1">
-              Norfolk cheddar, oat crackers, quince jelly GF V
+              Norfolk cheddar, oat crackers, grapes, quince jelly GF V
             </Typography>
             <Typography variant="body1">
               Homemade regularly changing icecreams.
