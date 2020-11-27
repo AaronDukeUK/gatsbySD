@@ -82,7 +82,7 @@ const IndexPage = ({ classes }) => {
               <Typography variant="body1">
                 Homemade, Locally Sourced Food
               </Typography>
-              <Typography variant="body1">Pub & Restaurant</Typography>
+              <Typography variant="body1">Now taking reservations for Christmas Day & New Years Eve</Typography>
               <Link to="/food">
                 <Button size="large" variant="contained">
                   Our Menu
