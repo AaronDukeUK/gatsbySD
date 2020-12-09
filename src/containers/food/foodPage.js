@@ -223,7 +223,7 @@ const FoodPage = ({ classes }) => (
               Popcorn cockles, smoked garlic and sweet chilli vinegar GF
             </Typography>
             <Typography variant="body1">
-              Smoked partridge, barley bonbon, roast nips, bramble jus
+              Smoked partridge, haggis bonbon, roast nips, bramble jus
             </Typography>
 
             <Typography variant="h4">Mains</Typography>
@@ -235,10 +235,10 @@ const FoodPage = ({ classes }) => (
               Deep-fried crispy Norfolk chicken, smoked kale crisps, sweet potato and rosemary fries, charred corn cob, sweet chilli & bacon jam GF
             </Typography>
             <Typography variant="body1">
-              Roast monkfish, pancetta and thyme scone, toasted fennel seed and hispi greens, lemon verbena créme
+              Baked coconut monkfish, Indian kedgeree risotto,  roast pumpkin, poached hens egg GF
             </Typography>
             <Typography variant="body1">
-              Slow-roasted maple pork belly, star anise heritage carrots, sweet potato, goat curd and pecan croquettes, calvados apple puree
+              Slow-roasted maple pork belly, star anise heritage carrots, sweet potato, goat curd and pecan croquettes, calvados apple puree GF
             </Typography>
             <Typography variant="body1">
               Wormegay aged Sirloin, Thrice cooked chunky chips, binham blue roast mushrooms, bordelaise sauce GF
@@ -247,13 +247,13 @@ const FoodPage = ({ classes }) => (
             <Typography variant="h4">Desserts</Typography>
 
             <Typography variant="body1">
-              Allotment Pear and chestnut tart, honeycomb ice cream V
+              Blueberry Bakewell tart, clotted ice cream V
             </Typography>
             <Typography variant="body1">
-              Gingerbread and eggnog tiramisu, pumpkin biscotti crumb
+              Gingerbread and eggnog tiramisu, pumpkin biscotti crumb V
             </Typography>
             <Typography variant="body1">
-              Cinnamon spiced apple fritters, Canadian maple, pecan praline ice cream V
+              Cinnamon spiced apple fritters, Canadian maple, pecan praline ice cream V GF
             </Typography>
             <Typography variant="body1">
               Norfolk cheddar, oat crackers, grapes, quince jelly GF V
