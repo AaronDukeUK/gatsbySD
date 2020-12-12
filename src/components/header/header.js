@@ -54,11 +54,14 @@ const Header = ({ classes }) => {
                   <Typography variant="h5">About</Typography>
                 </Link>
               </Button>
+              {/*
               <Button color="inherit">
                 <Link to="/menus" style={{ color: 'white' }}>
                   <Typography variant="h5">Menus</Typography>
                 </Link>
               </Button>
+              */}
+
               <Button color="inherit">
                 <Link
                   to="/recipes"
@@ -177,6 +180,7 @@ const Header = ({ classes }) => {
                 </Typography>
               </MenuItem>
 
+              {/*
               <MenuItem onClick={handleClose}>
                 <Typography variant="h5">
                   <Link
@@ -190,6 +194,7 @@ const Header = ({ classes }) => {
                   </Link>
                 </Typography>
               </MenuItem>
+              */}
 
               <MenuItem onClick={handleClose}>
                 <Typography variant="h5">
